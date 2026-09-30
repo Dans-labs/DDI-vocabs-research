@@ -1,0 +1,134 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/022e3d5> a skos:Concept ;
+    skos:definition "The individual's native status is unknown/unspecified; s/he has good structural accuracy, vocabulary and comprehension."@en,
+        "Individets språktilhørighet er ukjent/uspesifisert; hen har god strukturell nøyaktighet, godt ordforråd og forståelse."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "NativeStatusUnspecified.Good"@en ;
+    skos:prefLabel "Unspecified native status: Good"@en,
+        "Uspesifisert språktilhørighet: Bra"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/19770b6> a skos:Concept ;
+    skos:definition "The individual is a non-native user of the language with limited vocabulary, use of grammar and comprehension."@en,
+        "Individet har språket som andrespråk, men er begrenset i ordforrådet, grammatikk og forståelse."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "NonNative.Basic"@en ;
+    skos:prefLabel "Non-native: Basic"@en,
+        "Andrespråk: Grunnleggende"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/223dee0> a skos:Concept ;
+    skos:definition "The individual is a non-native user of the language whose level of proficiency is unknown/unspecified."@en,
+        "Individet har språket som andrespråk, men ferdighetene i språket er ukjent eller uspesifisert."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/19770b6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/bdbc6ed>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/cf189a2> ;
+    skos:notation "NonNative"@en ;
+    skos:prefLabel "Non-native"@en,
+        "Andrespråk"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/28b7b7d> a skos:Concept ;
+    skos:definition "The individual is a native user with excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar."@en,
+        "Individet har språket som morsmål og har en utmerket mestring av det, inkludert inngående kjennskap til uttrykk, et bredt ordforråd og trygg kontroll over grammatikken."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "Native.Fluent"@en ;
+    skos:prefLabel "Native: Fluent"@en,
+        "Morsmål: Flytende"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/4d30d3a> a skos:Concept ;
+    skos:definition "The individual is a native user of the language with limited vocabulary, use of grammar and comprehension."@en,
+        "Individet har språket som morsmål, men er begrenset i ordforrådet, grammatikk og forståelse."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "Native.Basic"@en ;
+    skos:prefLabel "Native: Basic"@en,
+        "Morsmål: Grunnleggende"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/5c65d4e> a skos:Concept ;
+    skos:definition "The individual's native status is unknown/unspecified; s/he has limited vocabulary, use of grammar, and comprehension."@en,
+        "Individets språktilhørighet er ukjent/uspesifisert; hen har begrensninger i ordforråd, grammatikk og forståelse."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "NativeStatusUnspecified.Basic"@en ;
+    skos:prefLabel "Unspecified native status: Basic"@en,
+        "Uspesifisert språktilhørighet: Grunnleggende"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/6279308> a skos:Concept ;
+    skos:definition "The individual's native status and her/his level of proficiency are both unknown, or not specified."@en,
+        "Individets språktilhørighet og hen sine ferdigheter er begge ukjent, eller ikke spesifisert."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/022e3d5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/5c65d4e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/6b5f366> ;
+    skos:notation "NativeStatusUnspecified"@en ;
+    skos:prefLabel "Unspecified native status"@en,
+        "Uspesifisert språktilhørighet"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/6311ae1> a skos:Concept ;
+    skos:definition "Use if level of proficiency is known, but not found in the list. It is recommended that any new entry combine information about the individual's native/non-native status and his/her level of proficiency, following the format [native status].[proficiency level] as shown in the entries above."@en,
+        "Bruk hvis språkferdigheter er kjent, men ikke er å finne på listen. Det er anbefalt at enhver ny oppføring kombinerer informasjon om individets morsmål/andrespråk status og hen sitt ferdighetsnivå i formatet [morsmål/andrespråk/annet]. [ferdighetsnivå] som vist ovenfor."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Annet"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/6b5f366> a skos:Concept ;
+    skos:definition "The individual's native status is unknown/unspecified; s/he has excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar."@en,
+        "Individets språktilhørighet er ukjent/uspesifisert; hen har utmerket mestring av språket, inkludert inngående kjennskap til uttrykk, et bredt ordforråd og trygg kontroll over grammatikken."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "NativeStatusUnspecified.Fluent"@en ;
+    skos:prefLabel "Unspecified native status: Fluent"@en,
+        "Uspesifisert språktilhørighet: Flytende"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/823f0d0> a skos:Concept ;
+    skos:definition "The individual is a native user of the language with good structural accuracy, vocabulary and comprehension."@en,
+        "Individet har språket som morsmål og behersker det med god strukturell nøyaktighet, godt ordforråd og forståelse."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "Native.Good"@en ;
+    skos:prefLabel "Native: Good"@en,
+        "Morsmål: Bra"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/925641e> a skos:Concept ;
+    skos:definition "The individual is a native user of the language whose level of proficiency is unknown/unspecified."@en,
+        "Individet har språket som morsmål, men ferdighetene i språken er ukjent eller uspesifisert."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/28b7b7d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/4d30d3a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/823f0d0> ;
+    skos:notation "Native"@en ;
+    skos:prefLabel "Native"@en,
+        "Morsmål"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/bdbc6ed> a skos:Concept ;
+    skos:definition "The individual is a non-native user with excellent mastery of the language, including breadth of vocabulary and idiom, and confident command of the grammar."@en,
+        "Individet har språket som andrespråk og har en utmerket mestring av det, inkludert inngående kjennskap til uttrykk, et bredt ordforråd og trygg kontroll over grammatikken."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "NonNative.Fluent"@en ;
+    skos:prefLabel "Non-native: Fluent"@en,
+        "Andre språk: Flytende"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/cf189a2> a skos:Concept ;
+    skos:definition "The individual is a non-native user of the language with good structural accuracy, vocabulary and comprehension."@en,
+        "Individet har språket som andrespråk og behersker det med god strukturell nøyaktighet, godt ordforråd og forståelse."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> ;
+    skos:notation "NonNative.Good"@en ;
+    skos:prefLabel "Non-native: Good"@en,
+        "Andrespråk: Bra"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/> a skos:ConceptScheme ;
+    dcterms:description "Describes the level of proficiency of an individual in a natural language."@en,
+        "Beskriver ferdighetene et individ har i et naturlig språk."@no ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Language Proficiency"@en,
+        "Språkferdigheter"@no ;
+    owl:versionInfo "1.0.2" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/223dee0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/6279308>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/LanguageProficiency/1.0.2/925641e> ;
+    skos:notation "LanguageProficiency"@en ;
+    skos:prefLabel "Language Proficiency"@en,
+        "Språkferdigheter"@no .
+

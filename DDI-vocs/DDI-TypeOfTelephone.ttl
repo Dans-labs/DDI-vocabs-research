@@ -1,0 +1,84 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/30ba591> a skos:Concept ;
+    skos:definition "A fixed telephone of an organization, institution or business, or the work telephone of a person employed by the organization."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Fixed.OrganizationBusiness"@en ;
+    skos:prefLabel "Fixed telephone: Organization/Business"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/3ca0762> a skos:Concept ;
+    skos:definition "A fixed telephone belonging to a private person, usually located in a home or a private dwelling unit."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Fixed.PersonalPrivate"@en ;
+    skos:prefLabel "Fixed telephone: Personal/Private"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/40a4f9e> a skos:Concept ;
+    skos:definition "The fax of an organization, institution or business, or the work fax of a person employed by the organization."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Fax.OrganizationBusiness"@en ;
+    skos:prefLabel "Fax: Organization/Business"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/4457d44> a skos:Concept ;
+    skos:definition "A telephone that transmits signals converted from audio data through physical media, such as wire or fiber optic cable; also known as landline."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/30ba591>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/3ca0762> ;
+    skos:notation "Fixed"@en ;
+    skos:prefLabel "Fixed telephone"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/6311ae1> a skos:Concept ;
+    skos:definition "Use when the type of telephone is known, but not found in the list."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/87d17f4> a skos:Concept ;
+    skos:definition "A portable telephone connected to a wireless communications network through radio waves or satellite transmissions; includes phones known as cellular (or cell) phones, hand phones, as well as satellite phones."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/d2278ff>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/f932b45> ;
+    skos:notation "Mobile"@en ;
+    skos:prefLabel "Mobile telephone"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/9810aa2> a skos:Concept ;
+    skos:definition "A fax (short for facsimile) is a device used for the telephonic transmission of scanned-in printed material (text or images), usually to a telephone number associated with a printer or other output device; also known as telecopying."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/40a4f9e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/b46b400> ;
+    skos:notation "Fax"@en ;
+    skos:prefLabel "Fax"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/b46b400> a skos:Concept ;
+    skos:definition "A fax belonging to a private person."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Fax.PersonalPrivate"@en ;
+    skos:prefLabel "Fax: Personal/Private"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/d2278ff> a skos:Concept ;
+    skos:definition "A mobile telephone of an organization, institution or business, or the mobile work telephone of a person employed by the organization."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Mobile.OrganizationBusiness"@en ;
+    skos:prefLabel "Mobile telephone: Organization/Business"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/f932b45> a skos:Concept ;
+    skos:definition "A mobile telephone belonging to a private person."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> ;
+    skos:notation "Mobile.PersonalPrivate"@en ;
+    skos:prefLabel "Mobile telephone: Personal/Private"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/> a skos:ConceptScheme ;
+    dcterms:description "Identifies the type of telephone entered as contact information for an individual or an organization."@en ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Type of Telephone"@en ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/4457d44>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/87d17f4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTelephone/1.0.0/9810aa2> ;
+    skos:notation "TypeOfTelephone"@en ;
+    skos:prefLabel "Type of Telephone"@en .
+

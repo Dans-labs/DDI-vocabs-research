@@ -1,0 +1,105 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/100bf39> a skos:Concept ;
+    skos:definition "A single translator produces one translation. Use this broader term if the translator makes the decisions about the final version, if it is not known who makes the final decisions, or if the review process is not explained in either of the narrower terms."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/bdd4b48>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/d0fd2ac> ;
+    skos:notation "SingleTranslation"@en ;
+    skos:prefLabel "Single translation"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/199a35c> a skos:Concept ;
+    skos:definition "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. A committee, possibly including the translators, reviews the whole translation and approves the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "SplitTranslation.CommitteeReview"@en ;
+    skos:prefLabel "Split translation: Committee review"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/3305b85> a skos:Concept ;
+    skos:definition "Two or more translators each produce a separate, independent  translation of a whole text. A committee, possibly including the translators, reviews all the translations, and makes decisions on the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "ParallelTranslations.CommitteeReview"@en ;
+    skos:prefLabel "Parallel translations: Committee review"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/61c9399> a skos:Concept ;
+    skos:definition "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. An individual reviews the whole translation, possibly in consultation with the translators. There may be more than one review round and different individual reviewers in each round. An adjudicator (possibly a reviewer) approves the final version."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "SplitTranslation.IndividualReview"@en ;
+    skos:prefLabel "Split translation: Individual review"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/6311ae1> a skos:Concept ;
+    skos:definition "The translation method is known but not in the list. If needed, use the free-text element for a more extensive description."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/6cc8949> a skos:Concept ;
+    skos:definition "Two or more countries or regions sharing the same language cooperate in the translation process, producing a commonly agreed translation which each country or region can then modify to account for linguistic, cultural, socio-economic or political differences. If needed, this term may be used alongside other relevant terms from this list."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "SameLanguageHarmonization"@en ;
+    skos:prefLabel "Same language harmonization"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/873e3e3> a skos:Concept ;
+    skos:definition "It is not known what kind of translation method has been used."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "TranslationMethodUnspecified"@en ;
+    skos:prefLabel "Translation method unspecified"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/a403736> a skos:Concept ;
+    skos:definition "Two or more translators each produce a separate,  independent  translation of a whole text. Use this broader term if the  translators decide on a final version amongst themselves, if it is not known who makes the final decisions or if the review process is not described in either of the narrower terms."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/3305b85>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/d2cd6a9> ;
+    skos:notation "ParallelTranslations"@en ;
+    skos:prefLabel "Parallel translations"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/a6285c5> a skos:Concept ;
+    skos:definition "Two or more translators produce one translation by splitting up a source text (for example, a questionnaire) into subsections and each translating a subsection. Use this broader term if the translators decide on the final version amongst themselves, if it is not known who makes the final decisions or if the review process is not explained in either of the narrower terms."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/199a35c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/61c9399> ;
+    skos:notation "SplitTranslation"@en ;
+    skos:prefLabel "Split translation"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/bdd4b48> a skos:Concept ;
+    skos:definition "A single translator produces one translation. A committee, possibly including the translator, reviews it and approves the final version. There may be more than one review round. In survey translation, the committee may include survey, domain and language experts."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "SingleTranslation.CommitteeReview"@en ;
+    skos:prefLabel "Single translation: Committee review"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/d0fd2ac> a skos:Concept ;
+    skos:definition "A single translator produces one translation. Another individual reviews the translation, possibly in consultation with the translator. There may be more than one review round and different individual reviewers in each round.  An  adjudicator (possibly a reviewer) approves the final version."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "SingleTranslation.IndividualReview"@en ;
+    skos:prefLabel "Single translation: Individual review"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/d2cd6a9> a skos:Concept ;
+    skos:definition "Two or more translators each produce a separate,  independent  translation of a whole text. An individual reviews all the translations and makes decisions on the final version, possibly in consultation with the translators. There may be more than one review round and different individual reviewers in each round. An adjudicator (possibly a reviewer) approves the final version."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "ParallelTranslations.IndividualReview"@en ;
+    skos:prefLabel "Parallel translations: Individual review"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/fc988a3> a skos:Concept ;
+    skos:definition "A country or region uses the final translation of another country or region sharing the same language as the basis for their own translation. Some of the content of the original translation is modified to reflect linguistic, cultural, socio-economic or political differences. If needed, this term may be used alongside other relevant terms from this list."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> ;
+    skos:notation "SameLanguageAdaptation"@en ;
+    skos:prefLabel "Same language adaptation"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/> a skos:ConceptScheme ;
+    dcterms:description "A typology of methods used to translate data collection instruments, including questionnaires, individual questions, measurements, data capture flows, etc."@en ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2022" ;
+    dcterms:title "Type of Translation Method"@en ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/100bf39>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/6cc8949>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/873e3e3>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/a403736>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/a6285c5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfTranslationMethod/1.0.0/fc988a3> ;
+    skos:notation "TypeOfTranslationMethod"@en ;
+    skos:prefLabel "Type of Translation Method"@en .
+

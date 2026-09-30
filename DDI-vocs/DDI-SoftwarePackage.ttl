@@ -1,0 +1,449 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/0f84b92> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "DBase"@en ;
+    skos:prefLabel "DBase"@en,
+        "DBase"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/105e491> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "RATS"@en ;
+    skos:prefLabel "RATS"@en,
+        "RATS"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/152b9af> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "JMP"@en ;
+    skos:prefLabel "JMP"@en,
+        "JMP"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/1732126> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "OpenEpi"@en ;
+    skos:prefLabel "OpenEpi"@en,
+        "OpenEpi"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/213d73a> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "RCommander"@en ;
+    skos:prefLabel "R Commander"@en,
+        " R Commander"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/24599f1> a skos:Concept ;
+    skos:definition "Data interchange format suitable for use in Excel."@en,
+        "Duomenų mainų formatas, tinkamas naudoti „Excel“."@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "DIF"@en ;
+    skos:prefLabel "DIF"@en,
+        "DIF"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/259a54d> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Stata"@en ;
+    skos:prefLabel "Stata"@en,
+        "Stata"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/29f76ef> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "EasyReg"@en ;
+    skos:prefLabel "EasyReg"@en,
+        "EasyReg"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/2db46c6> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "SAS"@en ;
+    skos:prefLabel "SAS"@en,
+        "SAS"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/35b2fe9> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "SUDAAN"@en ;
+    skos:prefLabel "SUDAAN"@en,
+        "SUDAAN"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/37a2f93> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "GAUSS"@en ;
+    skos:prefLabel "GAUSS"@en,
+        "GAUSS"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/39c4046> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Gretl"@en ;
+    skos:prefLabel "gretl"@en,
+        "gretl"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/3e827b5> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "ADaMSoft"@en ;
+    skos:prefLabel "ADaMSoft"@en,
+        "ADaMSoft"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/3edf8ca> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Origin"@en ;
+    skos:prefLabel "Origin"@en,
+        "Origin"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/4004507> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Maple"@en ;
+    skos:prefLabel "Maple"@en,
+        "Maple"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/487b304> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Statistica"@en ;
+    skos:prefLabel "Statistica"@en,
+        "Statistica"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/48d4282> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Dataplot"@en ;
+    skos:prefLabel "Dataplot"@en,
+        "Dataplot"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/542c20a> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "MacAnova"@en ;
+    skos:prefLabel "MacAnova"@en,
+        "MacAnova"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/6311ae1> a skos:Concept ;
+    skos:definition "Use if the software package is known, but not found in the list."@en,
+        "Naudoti, jei programinės įrangos paketas yra žinomas, bet jo nėra sąraše."@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Kita"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/6460fde> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "EpiInfo"@en ;
+    skos:prefLabel "Epi Info"@en,
+        " Epi Info"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/7180929> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "MedCalc"@en ;
+    skos:prefLabel "MedCalc"@en,
+        "MedCalc"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/739e087> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "SPSS"@en ;
+    skos:prefLabel "SPSS"@en,
+        "SPSS"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/74d7359> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "AnalyseIt"@en ;
+    skos:prefLabel "Analyse-it"@en,
+        "Analyse-it"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/76723e4> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "ModelQED"@en ;
+    skos:prefLabel "modelQED"@en,
+        "modelQED"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/791fe51> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Limdep"@en ;
+    skos:prefLabel "Limdep"@en,
+        "Limdep"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/7e41f63> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "GraphPadPrism"@en ;
+    skos:prefLabel "GraphPad Prism"@en,
+        " GraphPad Prism"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/8262313> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "RKWard"@en ;
+    skos:prefLabel "RKWard"@en,
+        "RKWard"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/8914678> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Partek"@en ;
+    skos:prefLabel "Partek"@en,
+        "Partek"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/98b74cc> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "EViews"@en ;
+    skos:prefLabel "EViews"@en,
+        "EViews"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/9b791dc> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "SOCR"@en ;
+    skos:prefLabel "SOCR"@en,
+        "SOCR"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/9c53618> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Shazam"@en ;
+    skos:prefLabel "Shazam"@en,
+        "Shazam"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/9eb48fa> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "BMDP"@en ;
+    skos:prefLabel "BMDP"@en,
+        "BMDP"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a29b2e9> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "BrightStat"@en ;
+    skos:prefLabel "BrightStat"@en,
+        "BrightStat"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a566e46> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "SPlus"@en ;
+    skos:prefLabel "SPlus"@en,
+        "SPlus"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a71e699> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "NSDStat"@en ;
+    skos:prefLabel "NSDStat"@en,
+        "NSDStat"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a98f622> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Auguri"@en ;
+    skos:prefLabel "Auguri"@en,
+        "Auguri"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/abc691c> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "BioStat"@en ;
+    skos:prefLabel "BioStat"@en,
+        "BioStat"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/bb988f8> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "PSPP"@en ;
+    skos:prefLabel "PSPP"@en,
+        "PSPP"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/bc15a72> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "MatLab"@en ;
+    skos:prefLabel "MatLab"@en,
+        "MatLab"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/cd02fb2> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "NCSS"@en ;
+    skos:prefLabel "NCSS"@en,
+        "NCSS"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/ce5dcee> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Mathematica"@en ;
+    skos:prefLabel "Mathematica"@en,
+        "Mathematica"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/dd152b9> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Primer"@en ;
+    skos:prefLabel "Primer"@en,
+        "Primer"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/e1e1d3d> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "R"@en ;
+    skos:prefLabel "R"@en,
+        " R"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/e902a36> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "TSP"@en ;
+    skos:prefLabel "TSP"@en,
+        "TSP"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/eeb9e1f> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "AcaStat"@en ;
+    skos:prefLabel "AcaStat"@en,
+        "AcaStat"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/f4136bd> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "SalStat"@en ;
+    skos:prefLabel "SalStat"@en,
+        "SalStat"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/fb974e8> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "GoldenHelix"@en ;
+    skos:prefLabel "Golden Helix"@en,
+        "Golden Helix"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/feabb59> a skos:Concept ;
+    skos:definition ""@en,
+        ""@lt ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> ;
+    skos:notation "Minitab"@en ;
+    skos:prefLabel "Minitab"@en,
+        "Minitab"@lt .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/> a skos:ConceptScheme ;
+    dcterms:description "Indicates the statistical software package used in the production/processing/dissemination of the data. Data collection software is not covered in this list."@en,
+        "Nurodo statistinės programinės įrangos paketus, naudojamus duomenims kurti, apdoroti ar platinti. Šis sąrašas neapima duomenų rinkimo programinės įrangos."@lt ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2025" ;
+    dcterms:title "Software Package"@en,
+        "Programinės įrangos paketai"@lt ;
+    owl:versionInfo "1.0.1" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/0f84b92>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/105e491>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/152b9af>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/1732126>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/213d73a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/24599f1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/259a54d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/29f76ef>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/2db46c6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/35b2fe9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/37a2f93>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/39c4046>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/3e827b5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/3edf8ca>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/4004507>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/487b304>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/48d4282>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/542c20a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/6460fde>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/7180929>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/739e087>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/74d7359>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/76723e4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/791fe51>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/7e41f63>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/8262313>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/8914678>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/98b74cc>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/9b791dc>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/9c53618>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/9eb48fa>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a29b2e9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a566e46>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a71e699>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/a98f622>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/abc691c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/bb988f8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/bc15a72>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/cd02fb2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/ce5dcee>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/dd152b9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/e1e1d3d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/e902a36>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/eeb9e1f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/f4136bd>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/fb974e8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SoftwarePackage/1.0.1/feabb59> ;
+    skos:notation "SoftwarePackage"@en ;
+    skos:prefLabel "Software Package"@en,
+        "Programinės įrangos paketai"@lt .
+

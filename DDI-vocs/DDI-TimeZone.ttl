@@ -1,0 +1,294 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/07e4597> a skos:Concept ;
+    skos:definition "Pakistan Lahore Time (PLT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+05:00"@en ;
+    skos:prefLabel "UTC + 05:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/0e1e6b3> a skos:Concept ;
+    skos:definition "Bangladesh Standard Time (BST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+06:00"@en ;
+    skos:prefLabel "UTC + 06:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/14233a5> a skos:Concept ;
+    skos:definition "Line Islands Time (LINT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+14:00"@en ;
+    skos:prefLabel "UTC + 14:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/1ccbe8f> a skos:Concept ;
+    skos:definition "Pacific Standard Time (PST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-08:00"@en ;
+    skos:prefLabel "UTC- 08:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/213d5fc> a skos:Concept ;
+    skos:definition "Venezuelan Standard Time (VET)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-04:30"@en ;
+    skos:prefLabel "UTC- 04:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/2af4c06> a skos:Concept ;
+    skos:definition "Atlantic Standard Time (North America, Caribbean) (AST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-04:00"@en ;
+    skos:prefLabel "UTC- 04:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/2c7613d> a skos:Concept ;
+    skos:definition "Eastern Standard Time (North and Central Americas, Caribbean) (EST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-05:00"@en ;
+    skos:prefLabel "UTC- 05:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/2eef475> a skos:Concept ;
+    skos:definition "Chatham Island Standard Time (CHAST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+12:45"@en ;
+    skos:prefLabel "UTC + 12:45"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/315d268> a skos:Concept ;
+    skos:definition "Alaska Standard Time (AKST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-09:00"@en ;
+    skos:prefLabel "UTC- 09:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/39e1f1a> a skos:Concept ;
+    skos:definition "Hawaii Standard Time (HST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-10:00"@en ;
+    skos:prefLabel "UTC- 10:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/3d8bb56> a skos:Concept ;
+    skos:definition "Vietnam Standard Time (VST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+07:00"@en ;
+    skos:prefLabel "UTC + 07:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/5175e06> a skos:Concept ;
+    skos:definition "Solomon Standard Time (SST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+11:00"@en ;
+    skos:prefLabel "UTC + 11:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/53d299c> a skos:Concept ;
+    skos:definition "Middle East Time (MET)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+03:30"@en ;
+    skos:prefLabel "UTC + 03:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/54745a7> a skos:Concept ;
+    skos:definition "Samoa Standard Time (SST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-11:00"@en ;
+    skos:prefLabel "UTC- 11:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/54a30f5> a skos:Concept ;
+    skos:definition "Fernando de Noronha Time (FNT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-02:00"@en ;
+    skos:prefLabel "UTC- 02:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/5e29d97> a skos:Concept ;
+    skos:definition "New Zealand Standard Time (NZST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+12:00"@en ;
+    skos:prefLabel "UTC + 12:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/6311ae1> a skos:Concept ;
+    skos:definition "Use if Time Zone is known, but not found in the list; enter new code in the same format used in this list, i.e., ±xx:xx as an offset from UTC."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/69ee933> a skos:Concept ;
+    skos:definition "Marquesas Time (MART)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-09:30"@en ;
+    skos:prefLabel "UTC- 09:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/7074e59> a skos:Concept ;
+    skos:definition "Australia Eastern Time (AET)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+10:00"@en ;
+    skos:prefLabel "UTC + 10:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/718d4f2> a skos:Concept ;
+    skos:definition "Newfoundland Standard Time (NST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-03:30"@en ;
+    skos:prefLabel "UTC- 03:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/7bf7e84> a skos:Concept ;
+    skos:definition "Universal Coordinated Time (UTC) / Greenwich Mean Time (GMT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "00:00"@en ;
+    skos:prefLabel "UTC"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/925236a> a skos:Concept ;
+    skos:definition "Afganistan Time (AFT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+04:30"@en ;
+    skos:prefLabel "UTC + 04:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/938ba69> a skos:Concept ;
+    skos:definition "Nepal Time (NPT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+05:45"@en ;
+    skos:prefLabel "UTC + 05:45"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/989974d> a skos:Concept ;
+    skos:definition "Norfolk Time (Australia) (NFT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+11:30"@en ;
+    skos:prefLabel "UTC + 11:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/98cffe9> a skos:Concept ;
+    skos:definition "Central Standard Time (North and Central Americas) (CST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-06:00"@en ;
+    skos:prefLabel "UTC- 06:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/99f8ddd> a skos:Concept ;
+    skos:definition "West Greenland Time (WGT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-03:00"@en ;
+    skos:prefLabel "UTC- 03:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/a3bafce> a skos:Concept ;
+    skos:definition "Lord Howe Standard Time (LHST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+10:30"@en ;
+    skos:prefLabel "UTC + 10:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/ae0e26d> a skos:Concept ;
+    skos:definition "West Samoa Time (WST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+13:00"@en ;
+    skos:prefLabel "UTC + 13:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/b4a86e9> a skos:Concept ;
+    skos:definition "Eastern European Time (EET), (Arabic) Egypt Standard Time (ART)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+02:00"@en ;
+    skos:prefLabel "UTC + 02:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/b5b8cf5> a skos:Concept ;
+    skos:definition "Mountain Standard Time (North America) (MST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-07:00"@en ;
+    skos:prefLabel "UTC- 07:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/bbe4e01> a skos:Concept ;
+    skos:definition "Baker Island, Howland Island (both uninhabited)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-12:00"@en ;
+    skos:prefLabel "UTC- 12:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/bd467b6> a skos:Concept ;
+    skos:definition "Near East Time (NET)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+04:00"@en ;
+    skos:prefLabel "UTC + 04:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/c60dd0f> a skos:Concept ;
+    skos:definition "China Taiwan Time (CTT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+08:00"@en ;
+    skos:prefLabel "UTC + 08:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/d216ae0> a skos:Concept ;
+    skos:definition "Eastern African Time (EAT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+03:00"@en ;
+    skos:prefLabel "UTC + 03:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/d6164b5> a skos:Concept ;
+    skos:definition "India Standard Time (IST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+05:30"@en ;
+    skos:prefLabel "UTC + 05:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/d739ff8> a skos:Concept ;
+    skos:definition "Central African Time (CAT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "-01:00"@en ;
+    skos:prefLabel "UTC- 01:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/e1e215c> a skos:Concept ;
+    skos:definition "European Central Time (ECT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+01:00"@en ;
+    skos:prefLabel "UTC + 01:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/e6ca851> a skos:Concept ;
+    skos:definition "Japan Standard Time (JST)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+09:00"@en ;
+    skos:prefLabel "UTC + 09:00"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/f609276> a skos:Concept ;
+    skos:definition "Australia Central Time (ACT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+09:30"@en ;
+    skos:prefLabel "UTC + 09:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/fddc96f> a skos:Concept ;
+    skos:definition "Cocos Islands Time (CCT)"@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> ;
+    skos:notation "+06:30"@en ;
+    skos:prefLabel "UTC + 06:30"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/> a skos:ConceptScheme ;
+    dcterms:description "Time zone specification as an offset from UTC (Coordinated Universal Time) in terms of hours and minutes."@en ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Time Zone"@en ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/07e4597>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/0e1e6b3>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/14233a5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/1ccbe8f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/213d5fc>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/2af4c06>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/2c7613d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/2eef475>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/315d268>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/39e1f1a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/3d8bb56>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/5175e06>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/53d299c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/54745a7>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/54a30f5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/5e29d97>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/69ee933>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/7074e59>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/718d4f2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/7bf7e84>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/925236a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/938ba69>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/989974d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/98cffe9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/99f8ddd>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/a3bafce>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/ae0e26d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/b4a86e9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/b5b8cf5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/bbe4e01>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/bd467b6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/c60dd0f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/d216ae0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/d6164b5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/d739ff8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/e1e215c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/e6ca851>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/f609276>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TimeZone/1.0.0/fddc96f> ;
+    skos:notation "TimeZone"@en ;
+    skos:prefLabel "Time Zone"@en .
+

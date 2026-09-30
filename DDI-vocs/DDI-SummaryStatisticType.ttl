@@ -1,0 +1,1050 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/015ce0a> a skos:Concept ;
+    skos:definition "The average of the absolute differences between each value and the overall mean. Measure of statistical dispersion around the mean, alternative to Standard Deviation."@en,
+        "Kunkin yksittäisen arvon ja kaikkien arvojen keskiarvon välisten poikkeamien keskiarvo. Hajontaluku, joka kuvaa arvojen vaihtelua keskiarvon ympärillä. Vaihtoehto keskihajonnalle."@fi,
+        "La media delle differenze assolute tra ciascun valore e la media complessiva. Misura la dispersione statistica attorno alla media, alternativa alla deviazione standard."@it,
+        ""@nl,
+        "Gjennomsnittet av de absolutte forskjellene mellom hver verdi og gjennomsnittet. Måling av statistisk spredning rundt gjennomsnittet, alternativ til standardavvik."@no,
+        "A média das diferenças absolutas entre cada valor e a média geral. Medida de dispersão estatística em torno da média, alternativa ao desvio padrão."@pt,
+        "Povprečje absolutnih razlik med posamezno vrednostjo in aritmetično sredino. Mera statistične razpršenosti okrog aritmetične sredine, alternativa standardnemu odklonu."@sl,
+        "Prosek apsolutnih razlika između svake vrednosti i ukupne srednje vrednosti. Meri statističku disperziju oko srednje vrednosti, alternativa je standardnoj devijaciji."@sr,
+        "Medelvärdet av de absoluta skillnaderna mellan varje värde och det totala medelvärdet. Mått på den statistiska spridningen kring medelvärdet, ett alternativ till standardavvikelsen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "AverageAbsoluteDeviation"@en ;
+    skos:prefLabel "Average absolute deviation"@en,
+        "Absoluuttinen keskipoikkeama"@fi,
+        "Deviazione media assoluta"@it,
+        "Gemiddelde absolute afwijking"@nl,
+        "Gjennomsnittlig absoluttavvik"@no,
+        "Desvio absoluto médio"@pt,
+        "Povprečni absolutni odklon (AAD)"@sl,
+        "Prosečna apsolutna devijacija"@sr,
+        "Genomsnittlig absolut avvikelse"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/01aac65> a skos:Concept ;
+    skos:definition "A measure for the \"peakedness\" of a probability distribution of a variable."@en,
+        "Muuttujan todennäköisyysjakauman huipukkuutta kuvaava käsite."@fi,
+        "Una misura del \"picco\" di una distribuzione di probabilità di una variabile."@it,
+        ""@nl,
+        "Et mål for 'spissheten' av en sannsynlighetsfordeling til en variabel."@no,
+        "Medida para o \"pico\" da distribuição das frequências de uma variável."@pt,
+        "Mera 'koničanosti' verjetnostne porazdelitve spremenljivke."@sl,
+        "\"Kurtosis\" meri da li su podaci oštrije ili spljoštenije raspoređeni u odnosu na normalnu raspodelu."@sr,
+        "Ett mått för \"spetsigheten\" på en variabels sannolikhetsfördelning."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Beta2"@en ;
+    skos:prefLabel "Kurtosis"@en,
+        "Huipukkuus"@fi,
+        "Curtosi"@it,
+        "Kurtosis"@nl,
+        "Kurtose"@no,
+        "Curtose (ou achatamento)"@pt,
+        "Sploščenost"@sl,
+        "Spljoštenost / zašiljenost"@sr,
+        "Kurtosis"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/03dbd00> a skos:Concept ;
+    skos:definition "The eighth of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Kahdeksas yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "L'ottavo dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den åttende av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O oitavo dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Osma od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Osma od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det åttonde av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "EighthDecile"@en ;
+    skos:prefLabel "Eighth decile"@en,
+        "Kahdeksas desiili"@fi,
+        "Ottavo decile"@it,
+        "Achste deciel"@nl,
+        "Åttende desil"@no,
+        "Oitavo decil"@pt,
+        "Osmi decil"@sl,
+        "Osmi decil"@sr,
+        "Åttonde decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/17ff276> a skos:Concept ;
+    skos:definition "The (arithmetic) mean calculated after discarding given parts of observations at the high and low end (e.g., interquartile mean when the lowest 25% and the highest 25% are discarded, and the mean of the remaining values is calculated)."@en,
+        "(Aritmeettinen) keskiarvo, joka lasketaan sen jälkeen, kun tietty osa havaintoarvoista on jätetty pois (leikattu) (esim. kvartiilivälin keskiarvo, jossa ylä- ja alakvartiileille eli ylimpään ja alimpaan 25 %:iin asettuvat havaintoarvot jätetään pois ja jäljelle jäävistä arvoista lasketaan keskiarvo)."@fi,
+        "La media (aritmetica) calcolata senza considerare parte delle osservazioni che nella sequenza ordinata si trovano  all'estremità  superiore e inferiore (ad esempio, la media interquartile è calcolata sulle osservazioni centrali della distribuzione ordinata eludendo il  25% di quelle più basse ed il 25% di quelle più alte)."@it,
+        ""@nl,
+        "Det (aritmetiske) gjennomsnittet beregnet etter å ha fjernet deler av observasjonene ved den høye og den lave enden (f.eks. interkvartilgjennomsnittet når de laveste 25% og de høyeste 25% fjernes, og gjennomsnittet av de gjenværende verdier beregnes)."@no,
+        "A média (aritmética) calculada após excluir determinada percentagem dos valores mais altos e mais baixos (por exemplo, a média interquartil quando os 25% mais baixos e os 25% mais altos são descartados e a média dos valores restantes é calculada)."@pt,
+        "(Aritmetična) sredina, izračunana po odstranitvi najvišjih in najnižjih vrednosti opazovanj (npr. interkvartilna sredina, kjer odstranimo najnižjih 25% in najvišjih 25% vrednosti, nato pa izračunamo aritmetično sredino preostalih vrednosti)."@sl,
+        "(Aritmetička) srednja vrednost izračunata nakon odbacivanja ekstremnih vrednosti u skupu ili uzorku, tzv. autlajera (npr. Interkvartilna srednja vrednost kada se odbace najniža 25% i najviša 25%, a izračunava se srednja vrednost preostalih vrednosti)."@sr,
+        "Det aritmetiska medelvärdet beräknat efter att man tagit bort givna delar av de höga och låga observationerna (t.ex. medelvärdet för kvartilavståndet, när de lägsta 25 % och de högsta 25 % räknats bort och medelvärdet av de återstående värdena beräknas)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "TrimmedMean"@en ;
+    skos:prefLabel "Trimmed mean"@en,
+        "Leikattu keskiarvo"@fi,
+        "Media troncata"@it,
+        "Getrimd gemiddelde"@nl,
+        "Trimmet gjennomsnitt"@no,
+        "Média aparada"@pt,
+        "Modificirana aritemtična sredina"@sl,
+        "Skraćena srednja vrednosti"@sr,
+        "Trunkerat medelvärde"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/2381913> a skos:Concept ;
+    skos:definition "The fourth of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Neljäs yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il quarto dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den fjerde av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O quarto dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Četrta od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Četvrta od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det fjärde av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "FourthDecile"@en ;
+    skos:prefLabel "Fourth decile"@en,
+        "Neljäs desiili"@fi,
+        "Quarto decile"@it,
+        "Vierde deciel"@nl,
+        "Fjerde desil"@no,
+        "Quarto decil"@pt,
+        "Četrti decil"@sl,
+        "Četvrti decil"@sr,
+        "Fjärde decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/26ad7e5> a skos:Concept ;
+    skos:definition "The range between the first and ninth decile values."@en,
+        "Väli ensimmäisestä desiilistä yhdeksänteen desiiliin."@fi,
+        "L'intervallo tra il primo e il nono decile."@it,
+        ""@nl,
+        "Intervallet mellom første og niende desilverdi."@no,
+        "O intervalo entre os valores do primeiro e do nono decil."@pt,
+        "Razpon med vrednostima prvega in devetega decila."@sl,
+        "Raspon između prvog i devetog decila."@sr,
+        "Intervallet mellan första och nionde decilen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "InterdecileRange"@en ;
+    skos:prefLabel "Interdecile range"@en,
+        "Desiiliväli"@fi,
+        "Ampiezza interdecile"@it,
+        "Interdicielafstand"@nl,
+        "Desilbredde"@no,
+        "Amplitude interdecil"@pt,
+        "Decilni razmik"@sl,
+        "Međudecilni raspon"@sr,
+        "Decilavstånd"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/2c03973> a skos:Concept ;
+    skos:definition "Provides an estimate of how much the sample mean differs from the actual mean of the population."@en,
+        "Antaa arvion siitä, kuinka paljon otoksesta saatu keskiarvo poikkeaa väestön tosiasiallisesta keskiarvosta."@fi,
+        "Fornisce una stima di quanto la media campionaria differisce dalla media effettiva della popolazione."@it,
+        ""@nl,
+        "Gir et estimat av hvor mye utvalgets gjennomsnitt varierer fra det faktiske populasjonsgjennomsnittet."@no,
+        "Fornece uma estimativa de quanto a média da amostra difere da média real da população."@pt,
+        "Standardna napaka (aritmetične) sredine."@sl,
+        "Daje procenu koliko se prosečna vrednost uzorka razlikuje od stvarne prosečne vrednosti populacije."@sr,
+        "Ger en uppskattning av hur mycket medelvärdet för ett urval avviker från medelvärdet för hela populationen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "StandardErrorOfMean"@en ;
+    skos:prefLabel "Standard error of the mean"@en,
+        "Keskiarvon keskivirhe"@fi,
+        "Errore standard della media"@it,
+        "Standaardfout"@nl,
+        "Standardfeil for gjennomsnittet"@no,
+        "Erro padrão da média"@pt,
+        "Standardna napaka aritmetične sredine"@sl,
+        "Standardna greška srednje vrednosti"@sr,
+        "Standardfel för medelvärdet"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/3279fce> a skos:Concept ;
+    skos:definition "Standard deviation divided by the mean."@en,
+        "Keskihajonta jaettuna keskiarvolla."@fi,
+        "Deviazione standard divisa per la media."@it,
+        ""@nl,
+        "Standardavviket delt på gjennomsnittet."@no,
+        "Desvio padrão dividido pela média."@pt,
+        "Standardni odklon, deljen z aritmetično sredino."@sl,
+        "Standardna devijacija podeljena sa srednjom vrednošću."@sr,
+        "Standardavvikelsen dividerad med medelvärdet."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "CoefficientOfVariation"@en ;
+    skos:prefLabel "Coefficient of variation"@en,
+        "Variaatiokerroin"@fi,
+        "Coefficiente di variazione"@it,
+        "Variatiecoëfficiënt"@nl,
+        "Variasjonskoeffisienten"@no,
+        "Coeficiente de variação"@pt,
+        "Koeficient variacije (CV)"@sl,
+        "Koeficijent varijacije"@sr,
+        "Variationskoefficient"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/350c70a> a skos:Concept ;
+    skos:definition "The first of three values which separate the total frequency of a distribution into four equal parts."@en,
+        "Alakvartiili. Ensimmäinen kolmesta arvosta, jotka jakavat jakauman neljään yhtä suureen osaan. Jakauman arvoista 25 % on siis pienempiä tai yhtä suuria kuin ensimmäinen kvartiili."@fi,
+        "Il primo dei tre valori che suddividono la frequenza totale di una distribuzione in quattro parti uguali."@it,
+        ""@nl,
+        "Den første av tre verdier som separerer den totale frekvensen av en fordeling i fire like store deler."@no,
+        "O primeiro dos três valores que separam a frequência total de uma distribuição em quatro partes iguais."@pt,
+        "Prva od treh vrednosti, ki razdelijo celotno frekvenčno porazdelitev na štiri enake dele."@sl,
+        "Prva od tri vrednosti koja razdvaja ukupnu frekvenciju distribucije u četiri jednaka dela."@sr,
+        "Det första av tre värden som separerar den totala frekvensen av en fördelning i fyra lika stora delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "FirstQuartile"@en ;
+    skos:prefLabel "First quartile"@en,
+        "Ensimmäinen kvartiili"@fi,
+        "Primo quartile"@it,
+        "Eerste kwartiel"@nl,
+        "Første kvartil"@no,
+        "Primeiro quartil"@pt,
+        "Prvi kvartil"@sl,
+        "Prvi kvartil"@sr,
+        "Första kvartilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/3713b65> a skos:Concept ;
+    skos:definition "A measure for the asymmetry of a probability distribution of a variable."@en,
+        "Muuttujan todennäköisyysjakauman epäsymmetrisyyttä kuvaava käsite."@fi,
+        "Una misura dell'asimmetria di una distribuzione di probabilità di una variabile."@it,
+        ""@nl,
+        "Et mål for asymmetri av en sannsynlighetsfordeling til en variabel."@no,
+        "Medida de assimetria da distribuição das frequências de uma variável."@pt,
+        "Mera asimetrije verjetnostne porazdelitve spremenljivke."@sl,
+        "„Skewness“ je mera simetrije ili preciznije, nedostatak simetrije. Distribucija skupa podataka je simetrična ako izgleda isto levo i desno u odnosu na centralnu vrednost.&nbsp;"@sr,
+        "Ett mått för asymmetrin av en variabels sannolikhetsfördelning."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Beta1"@en ;
+    skos:prefLabel "Skewness"@en,
+        "Vinous"@fi,
+        "Indice di asimmetria"@it,
+        "Scheefheid"@nl,
+        "Skjevhet"@no,
+        "Obliquidade (ou assimetria)"@pt,
+        "Asimetrija"@sl,
+        "Simetrija / zakrivljenost"@sr,
+        "Skevhet"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/380846d> a skos:Concept ;
+    skos:definition "The sixth of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Kuudes yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il sesto dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den sjette av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O sexto dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Šesta od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Šesta od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det sjätte av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "SixthDecile"@en ;
+    skos:prefLabel "Sixth decile"@en,
+        "Kuudes desiili"@fi,
+        "Sesto decile"@it,
+        "Zesde deciel"@nl,
+        "Sjette desil"@no,
+        "Sexto decil"@pt,
+        "Šesti decil"@sl,
+        "Šesti decil"@sr,
+        "Sjätte decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/3ca7a64> a skos:Concept ;
+    skos:definition "The second of four values which separate the total frequency of a distribution into five equal parts."@en,
+        "Toinen neljästä arvosta, jotka jakavat jakauman viiteen yhtä suureen osaan."@fi,
+        "Il secondo dei quattro valori che suddividono la frequenza totale di una distribuzione in cinque parti uguali."@it,
+        ""@nl,
+        "Den andre av fire verdier som separerer den totale frekvensen av en fordeling i fem like deler."@no,
+        "O segundo dos quatro valores que separam a frequência total de uma distribuição em cinco partes iguais."@pt,
+        "Druga od štirih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na pet enakih delov."@sl,
+        "Druga od četiri vrednosti koja razdvaja ukupnu frekvenciju distribucije na pet jednakih delova."@sr,
+        "Det andra av fyra värden som separerar den totala frekvensen av en fördelning i fem lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "SecondQuintile"@en ;
+    skos:prefLabel "Second quintile"@en,
+        "Toinen kvintiili"@fi,
+        "Secondo quintile"@it,
+        "Tweede kwintiel"@nl,
+        "Andre kvintil"@no,
+        "Segundo quintil"@pt,
+        "Drugi kvintil"@sl,
+        "Drugi kvintil"@sr,
+        "Andra kvintilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/5dc5781> a skos:Concept ;
+    skos:definition "The median absolute deviation from the median. Measure of statistical dispersion around the median."@en,
+        "Keskipoikkeama mediaanista. Hajontaluku, joka kuvaa arvojen vaihtelua mediaanin ympärillä."@fi,
+        "La deviazione mediana assoluta dalla mediana. Misura la dispersione statistica intorno alla mediana."@it,
+        ""@nl,
+        "Median absoluttavvik fra medianen. Måling av statistisk spredning rundt medianen."@no,
+        "O desvio absoluto mediano da mediana. Medida de dispersão estatística em torno da mediana."@pt,
+        "Mediana absolutnega odklona od mediane. Mera statistične razpršenosti okrog mediane."@sl,
+        "Mera statističke disperzije oko medijane."@sr,
+        "Median absolut avvikelsen från medianen. Mått på spridningen runt medianen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "MedianAbsoluteDeviation"@en ;
+    skos:prefLabel "Median absolute deviation"@en,
+        "Mediaanin absoluuttinen keskipoikkeama"@fi,
+        "Deviazione mediana assoluta"@it,
+        "Mediaan absolute afwijking"@nl,
+        "Median absoluttavvik"@no,
+        "Desvio absoluto mediano"@pt,
+        "Mediana absolutnega odklona od mediane (MAD)"@sl,
+        "Medijana apsolutne devijacije"@sr,
+        "Median absolut avvikelse"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/6311ae1> a skos:Concept ;
+    skos:definition "Use if the summary statistic type is known, but not found in the list."@en,
+        "Käytä, mikäli tilastollisen tunnusluvun tyyppi on tiedossa, mutta ei listassa."@fi,
+        "Utilizzare se il tipo di statistica riassuntiva è conosciuto, ma non è presente nell'elenco."@it,
+        ""@nl,
+        "Bruk dersom typen summeringsstatistikk er kjent, men mangler i listen."@no,
+        "Usar se o tipo de estatística sumária for conhecido, mas não se encontrar na lista."@pt,
+        "Uporabite, če je zbirna statistika znana, a je ne najdete na seznamu."@sl,
+        "Koristite ukoliko je statistički tip poznat, ali se ne nalazi na listi."@sr,
+        "Använd om typ av sammanfattande statistik är känd men saknas i listan."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Muu tunnusluku"@fi,
+        "Altro"@it,
+        "Anders"@nl,
+        "Annet"@no,
+        "Outro"@pt,
+        "Drugo"@sl,
+        "Ostalo"@sr,
+        "Övrigt"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/6459c62> a skos:Concept ;
+    skos:definition "Cases which are considered/defined as \"missing\" (e.g., not ascertained, not applicable, etc.), usually excluded from calculation."@en,
+        "Havainnot, joiden katsotaan olevan puuttuvia (esim. tyhjäksi jätetty vastaus, näppäilyvirhe jne.) ja jotka yleensä jätetään huomioimatta analyyseissä."@fi,
+        "Valori non considerati ammissibili per lo studio (ad esempio, non accertati, non applicabili, ecc.) e che pertanto vengono esclusi  nelle analisi dei dati."@it,
+        ""@nl,
+        "Observerte tilfeller som er ansett/definert som 'missing' (f.eks. ikke konstantert, ikke aktuelle etc.), vanligvis fjernet fra beregningene."@no,
+        "Casos considerados ou definidos como \"missing values\" (por exemplo, dados não apurados, não aplicáveis, etc.), geralmente excluídos dos cálculos."@pt,
+        "Enote, ki jih obravnavamo/opredelimo kot 'manjkajoče' (npr. niso določene, se ne uporabljajo, itd.), običajno so izključene iz analiz."@sl,
+        "Slučajevi koji se smatraju / definišu kao \"nedostajući\" (npr. nisu utvrđeni, nisu primenljivi, itd.), najčešće se isključuju iz analize."@sr,
+        "Fall som betraktas/definieras som \"saknade\" (t.ex. inte fastställda, inte tillämpliga osv.), vanligtvis uteslutna ur beräkningar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "InvalidCases"@en ;
+    skos:prefLabel "Invalid cases"@en,
+        "Puuttuvat havainnot"@fi,
+        "Casi non validi"@it,
+        "Ongeldige gevallen"@nl,
+        "Ugyldige tilfeller"@no,
+        "Casos inválidos"@pt,
+        "Neveljavne enote"@sl,
+        "Neispravni (nevalidni) slučajevi"@sr,
+        "Ogiltiga fall"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/650be61> a skos:Concept ;
+    skos:definition "The most frequently observed data value (Statistics Canada)."@en,
+        "Moodi ilmoittaa, mikä on muuttujan jakauman huippukohta eli eniten tapauksia sisältävä luokka (Tilastokeskus)."@fi,
+        "Valore a cui corrisponde la massima frequenza."@it,
+        ""@nl,
+        "Verdien som er observert flest ganger."@no,
+        "O valor observado com mais frequência num conjunto de dados."@pt,
+        "Najpogosteje izmerjena vrednost podatkov (Statistics Canada)."@sl,
+        "Vrednost koja se u skupu ili uzorku najčešće pojavljuje."@sr,
+        "Det mest frekvent observerade datavärdet."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Mode"@en ;
+    skos:prefLabel "Mode"@en,
+        "Moodi"@fi,
+        "Moda"@it,
+        "Modus"@nl,
+        "Modus"@no,
+        "Moda"@pt,
+        "Modus (Mo)"@sl,
+        "Modus"@sr,
+        "Typvärde"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/66851a3> a skos:Concept ;
+    skos:definition "The middle value in a set of values arranged in ascending order. Half of the values fall below the median, and half above it. If the set has an even number of values, the median will be the average of the two middle ones."@en,
+        "Jakauman keskimmäinen havaintoarvo, kun havainnot on järjestetty suuruusjärjestykseen (Tilastokeskus). Puolet jakauman arvoista sijoittuu mediaanin alle ja puolet sen ylle."@fi,
+        "Il valore medio di un insieme di valori disposti in ordine crescente. Metà dei valori si trova al di sotto della mediana e metà al di sopra di essa. Se l'insieme ha un numero pari di valori, la mediana sarà pari alla media dei due valori centrali."@it,
+        ""@nl,
+        "Midtverdien i et sett av verdier arrangert i stigende rekkefølge. Halvparten av verdiene er under medianen og halvparten over den. Hvis antallet verdier i settet er et partall vil medianen være gjennomsnittet av de to midterste verdiene."@no,
+        "O valor do meio de um conjunto de dados organizado por ordem ascendente. Metade dos valores estão abaixo da mediana e a outra metade acima. Se o conjunto tiver um número par de valores, a mediana será a média dos dois valores do meio."@pt,
+        "Vrednosti, pod katerimi in nad katerimi je polovica vrednosti porazdelitve (50. percentil)."@sl,
+        "Medijana razdvaja gornju polovinu skupa ili uzorka, od donje polovine, pri čemu vrednosti moraju biti raspoređene u rastućem nizu. Ukoliko skup ima parni broj vrednosti, središnja vrednost (medijana) će biti prosek dve središnje vrednosti."@sr,
+        "Värdena som ligger mellan övre och undre hälften av värdena i en fördelning (50: e percentilen)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Median"@en ;
+    skos:prefLabel "Median"@en,
+        "Mediaani"@fi,
+        "Mediana"@it,
+        "Mediaan"@nl,
+        "Median"@no,
+        "Mediana"@pt,
+        "Mediana (Mdn)"@sl,
+        "Medijana"@sr,
+        "Median"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/690ab50> a skos:Concept ;
+    skos:definition "Indicates the degree to which individuals within the sample differ from the sample mean."@en,
+        "Luku, joka mittaa missä määrin otoksen yksiköiden arvot eroavat koko otoksen keskiarvosta."@fi,
+        "Indica il grado in cui gli individui all'interno del campione differiscono dalla media campionaria."@it,
+        ""@nl,
+        "Indikerer graden av hvorvidt individer i utvalget er forskjellige fra utvalgsgjennomsnittet."@no,
+        "Indica em que medida os indivíduos de uma amostra diferem da média da mesma."@pt,
+        "Pozitivni kvadratni koren variance. Najpogosteje uporabljena mera razpršenosti frekvenčne porazdelitve."@sl,
+        "Apsolutna mera disperzije u osnovnom skupu. Ona nam govori koliko u proseku elementi skupa odstupaju od aritmetičke sredine skupa."@sr,
+        "Den positiva kvadratroten ur variansen. Det mest använda måttet på spridningen av en frekvensfördelning."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "StandardDeviation"@en ;
+    skos:prefLabel "Standard deviation"@en,
+        "Keskihajonta"@fi,
+        "Deviazione standard"@it,
+        "Standaardafwijking"@nl,
+        "Standardavvik"@no,
+        "Desvio padrão"@pt,
+        "Standardni odklon (s)"@sl,
+        "Standardna devijacija"@sr,
+        "Standardavvikelse"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/699a82e> a skos:Concept ;
+    skos:definition "Normality test statistics."@en,
+        "Eräs jakauman normaaliuden testeistä."@fi,
+        "Test di normalità statistica."@it,
+        ""@nl,
+        "Statistisk normalitetstest."@no,
+        "Teste de normalidade estatística."@pt,
+        "Test normalnosti porazdelitve."@sl,
+        "Šapiro-Vilk je test normalnosti koji se preporučuje za uzorke čiji obim nije veći od 2000 elemenata."@sr,
+        "Test som visar i vilken mån datamaterialet inte är normalfördelat."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "ShapiroWilk"@en ;
+    skos:prefLabel "Shapiro-Wilk"@en,
+        "Shapiron–Wilkin testi"@fi,
+        "Test di Shapiro-Wilk"@it,
+        "Shapiro-Wilk"@nl,
+        "Shapiro-Wilk"@no,
+        "Shapiro-Wilk"@pt,
+        "Shapiro-Wilkov test normalnosti porazdelitve"@sl,
+        "Šapiro-Vilk"@sr,
+        "Shapiro-Wilk"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/700bc90> a skos:Concept ;
+    skos:definition "The variance is the mean square deviation of the variable around the average value. It reflects the dispersion of a frequency distribution around its mean (OECD Glossary of Statistics)."@en,
+        "Varianssi ilmoittaa miten suuria keskimäärin ovat neliöidyt poikkeamat keskiarvosta (Tilastokeskus). Varianssi kuvaa jakauman hajontaa odotusarvon ympärillä."@fi,
+        "La varianza di una variabile è lo scarto quadratico medio dal valore medio. Riflette la dispersione di una distribuzione di frequenza attorno alla sua media."@it,
+        ""@nl,
+        "Variansen er det gjennomsnittlige kvadratiske avvik av variabelen rundt gjennomsnittsverdien. Det gjenspeiler spredning rundt dets gjennomsnitt."@no,
+        "A variância é a média dos quadrados dos desvios de uma variável em torno do seu valor médio. Ela reflete a dispersão de uma distribuição de frequências em torno da sua média (OECD Glossary of Statistics)."@pt,
+        "Varianca je srednji kvadratni odklon spremenljivke okoli povprečne vrednosti. Odraža razpršenost frekvenčne porazdelitve okoli aritmetične sredine (OECD Glossary of Statistics)."@sl,
+        "Varijansa je srednje kvadratno odstupanje vrednosti promenljive oko njene prosečne vrednosti. Ukazuje na raspodelu frekvencije oko srednje vrednosti (OECD-ov Statistički rečnik)."@sr,
+        "Variansen är genomsnittet för en variabels kvadrerade avvikelser från sitt medelvärde. Det återspeglar spridningen av en frekvensfördelning runt medelvärdet."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Variance"@en ;
+    skos:prefLabel "Variance"@en,
+        "Varianssi"@fi,
+        "Varianza"@it,
+        "Variantie"@nl,
+        "Varians"@no,
+        "Variância"@pt,
+        "Varianca (s2)"@sl,
+        "Varijansa"@sr,
+        "Varians"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/71996c9> a skos:Concept ;
+    skos:definition "Average value of all data if calculating the reciprocal of the arithmetic mean of the reciprocal of values. Rarely used in social sciences."@en,
+        "Keskiluku, jossa lasketaan arvojen käänteislukujen aritmeettisen keskiarvon käänteisluku. Käytetään harvoin yhteiskuntatieteissä."@fi,
+        "Valore medio di tutti i dati se si calcola il reciproco della media aritmetica del reciproco dei valori. Utilizzata raramente nelle scienze sociali."@it,
+        ""@nl,
+        "Gjennomsnittsverdi av alle data hvis man beregener det tilsvarende av det aritmetiske gjennomsnittet av tilsvarende verdier. Sjelden brukt i samfunnsvitenskap."@no,
+        "Valor médio de todos os dados calculado como a razão entre o número de elementos e a soma do inverso desses elementos, ou seja, como a recíproca da média aritmética dos recíprocos dos valores. Raramente é usada nas ciências sociais."@pt,
+        "Povprečna vrednost vseh podatkov, če izračunamo obratno vrednost aritmetične sredine obratnih vrednosti. V družboslovju se redko uporablja."@sl,
+        "Harmonijska sredina je recipročna vrednost aritmetičke sredine recipročnih vrednosti skupa elemenata."@sr,
+        "Medelvärdet av samtliga värden som fås genom att beräkna det inverterade aritmetiska medelvärdet av summan av alla inverterade värden. Används sällan inom samhällsvetenskap."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "HarmonicMean"@en ;
+    skos:prefLabel "Harmonic mean"@en,
+        "Harmoninen keskiarvo"@fi,
+        "Media armonica"@it,
+        "Harmonisch gemiddelde"@nl,
+        "Harmonisk gjennomsnitt"@no,
+        "Média harmónica (ou média subcontrária)"@pt,
+        "Harmonična sredina"@sl,
+        "Harmonijska sredina"@sr,
+        "Harmoniskt medelvärde"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/7975ed0> a skos:Concept ;
+    skos:definition "Mathematical average of a set of values. The mean is calculated by adding up two or more values and dividing the total by their number. In social/political science, it is usually the sum of the measurements divided by the number of subjects, or cases."@en,
+        "Arvojen matemaattinen keskiarvo. Keskiarvo lasketaan laskemalla kaksi tai useampi arvo yhteen ja jakamalla saatu summa arvojen määrällä. Yhteiskuntatieteissä keskiarvo on yleensä mittaustulosten summa jaettuna vastaajien/tapausten määrällä."@fi,
+        "Media matematica di un insieme di valori. La media è calcolata sommando tutti i  valori e dividendo la somma per il loro numero. Nell'ambito delle scienze sociali/politiche identifica il valore medio della misura (ad esempio la somma dei punteggi diviso il numero di unità per cui il punteggio è disponibile)."@it,
+        ""@nl,
+        "Matematisk gjennomsnitt av et sett av verdier. Gjennomsnittet beregnes ved å legge sammen to eller flere verdier, og dele summen på antallet verdier. I samfunns-/statsvitenskap er det vanligvis summen av målingene delt på antall enheter eller tilfeller."@no,
+        "Média matemática de um conjunto de valores. A média é calculada por meio da soma de dois ou mais valores, dividindo o total pelo seu número. Nas ciências sociais e políticas, geralmente é a soma das observações dividida pelo número de sujeitos, ou casos."@pt,
+        "Matematično povprečje množice vrednosti. Aritmetična sredina se izračuna tako, da se vsota dveh ali več vrednosti deli s številom vrednosti. V družbslovju/ politiologiji je običajno vsota meritev, deljena s številom udeležencev oziroma enot."@sl,
+        "Aritmetička sredina, srednja vrednost ili prosek je mera centralne tendencija skupa ili uzorka. Srednja vrednost izračunava se sabiranjem dve ili više vrednosti i deljenjem dobijenog zbira sa brojem elemenata u skupu ili uzorku. U društvenim naukama to je obično zbir mera (npr. visina plate ili visina učenika) podeljen sa brojem predmeta ili slučajeva (npr. broj zaposlenih, broj učenika)."@sr,
+        "Det matematiska medelvärdet av en uppsättning värden. Medelvärdet beräknas genom att addera två eller flera värden och dividera summan med antalet värden. I samhällsvetenskap är det oftast summan av mätningarna dividerat med antalet subjekt eller fall."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "ArithmeticMean"@en ;
+    skos:prefLabel "Arithmetic mean"@en,
+        "Aritmeettinen keskiarvo"@fi,
+        "Media aritmetica"@it,
+        "Rekenkundig gemiddelde"@nl,
+        "Aritmetisk gjennomsnitt"@no,
+        "Média aritmética"@pt,
+        "Aritmetična sredina"@sl,
+        "Aritmetička sredina"@sr,
+        "Aritmetiskt medelvärde"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/8321e79> a skos:Concept ;
+    skos:definition "The highest valid value in a variable."@en,
+        "Ylin validi muuttujan arvo."@fi,
+        "Il valore valido più alto assunto da una variabile."@it,
+        ""@nl,
+        "Den høyeste gyldige verdien i en variabel."@no,
+        "O maior valor válido de uma variável."@pt,
+        "Najvišja veljavna vrednost spremenljivke."@sl,
+        "Najviša ispravna vrednost promenljive."@sr,
+        "Det högsta giltiga värdet i en variabel."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Maximum"@en ;
+    skos:prefLabel "Maximum"@en,
+        "Maksimi"@fi,
+        "Massimo"@it,
+        "Maximum"@nl,
+        "Maksimum"@no,
+        "Máximo"@pt,
+        "Maksimum"@sl,
+        "Maksimum"@sr,
+        "Maximum"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/85cba81> a skos:Concept ;
+    skos:definition "The third of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Kolmas yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il terzo dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den tredje av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O terceiro dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Tretja od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Treća od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det tredje av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "ThirdDecile"@en ;
+    skos:prefLabel "Third decile"@en,
+        "Kolmas desiili"@fi,
+        "Terzo decile"@it,
+        "Derde deciel"@nl,
+        "Tredje desil"@no,
+        "Terceiro decil"@pt,
+        "Tretji decil"@sl,
+        "Treći decil"@sr,
+        "Tredje decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/87ba2ec> a skos:Concept ;
+    skos:definition "The range of valid values, i.e., all values that fall between the lowest and highest valid values."@en,
+        "Validien arvojen vaihteluväli, eli alimman ja ylimmän arvon väliin asettuvat arvot, ts. muuttujan suurimman ja pienimmän arvon välimatka."@fi,
+        "L'intervallo di valori validi, ossia tutti i valori compresi tra il più basso e il più alto dei valori validi."@it,
+        ""@nl,
+        "Variasjonsbredden av gyldige verdier, dvs. alle verdier som befinner seg mellom den høyeste og laveste gyldige verdien."@no,
+        "O intervalo de valores válidos, ou seja, todos os valores que se encontram entre os valores válidos mais baixo e mais alto."@pt,
+        "Razpon veljavnih vrednosti, to je vseh vrednosti med najnižjo in najvišjo veljavno vrednostjo."@sl,
+        "Raspon ispravnih vrednosti, tj. razlika između najviše i najniže vrednosti u skupu ili uzorku."@sr,
+        "Variationsvidden av giltiga värden, dvs. alla värden som faller mellan det lägsta och det högsta giltiga värdet."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Range"@en ;
+    skos:prefLabel "Range"@en,
+        "Vaihteluväli"@fi,
+        "Intervallo"@it,
+        "Bereik"@nl,
+        "Variasjonsbredde"@no,
+        "Intervalo"@pt,
+        "Rang"@sl,
+        "Raspon / opseg"@sr,
+        "Variationsvidd"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/93d51e9> a skos:Concept ;
+    skos:definition "The second of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Toinen yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il secondo dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den andre av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O segundo dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Druga od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Druga od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det andra av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "SecondDecile"@en ;
+    skos:prefLabel "Second decile"@en,
+        "Toinen desiili"@fi,
+        "Secondo decile"@it,
+        "Tweede deciel"@nl,
+        "Andre desil"@no,
+        "Segundo decil"@pt,
+        "Drugi decil"@sl,
+        "Drugi decil"@sr,
+        "Andra decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/9947048> a skos:Concept ;
+    skos:definition "A percentile not covered by any of the other percentile terms."@en,
+        "Persentiili, joka ei sovi muihin fraktiilitermeihin."@fi,
+        "Un percentile non coperto da nessuno degli altri percentili indicati."@it,
+        ""@nl,
+        "En persentil som ikke inngår i noen av de andre persentilbegrepene."@no,
+        "Um percentil não abrangido por nenhum outro termo relacionado com os percentis."@pt,
+        "Percentil, ki ni zajet v katerem drugem percentilnem izrazu."@sl,
+        "Perceptil koji nije obuhvaćen nijednim procentnim izrazom."@sr,
+        "En percentil som inte omfattas av någon av de andra percentiltermerna."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "OtherPercentile"@en ;
+    skos:prefLabel "Other percentile"@en,
+        "Muu persentiili"@fi,
+        "Altri percentili"@it,
+        "Ander percentiel"@nl,
+        "Annen persentil"@no,
+        "Outro percentil"@pt,
+        "Drugi percentili"@sl,
+        "Ostali percentili"@sr,
+        "Annan percentil"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/9dea4c0> a skos:Concept ;
+    skos:definition "The ninth of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Yhdeksäs yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il nono dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den niende av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O nono dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Deveta od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Deveta od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det nionde av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "NinthDecile"@en ;
+    skos:prefLabel "Ninth decile"@en,
+        "Yhdeksäs desiili"@fi,
+        "Nono decile"@it,
+        "Negende deciel"@nl,
+        "Niende desil"@no,
+        "Nono decil"@pt,
+        "Deveti decil"@sl,
+        "Deveti decil"@sr,
+        "Nionde decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/9eb1ff9> a skos:Concept ;
+    skos:definition "The fifth of nine values which separate the total frequency of a distribution into ten equal parts (= median)."@en,
+        "Viides yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il quinto dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali (= mediana)."@it,
+        ""@nl,
+        "Den femte av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O quinto dos nove valores que separam a frequência total de uma distribuição em dez partes iguais. (= mediana)."@pt,
+        "Peta od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov (= mediana)."@sl,
+        "Peta od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det femte av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar (= median)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "FifthDecile"@en ;
+    skos:prefLabel "Fifth decile"@en,
+        "Viides desiili"@fi,
+        "Quinto decile"@it,
+        "Vijfde deciel"@nl,
+        "Femte desil"@no,
+        "Quinto decil"@pt,
+        "Peti decil"@sl,
+        "Peti decil"@sr,
+        "Femte decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/a0ec870> a skos:Concept ;
+    skos:definition "The sum or total of the values, across all valid cases."@en,
+        "Kaikkien validien havaintojen arvojen summa."@fi,
+        "La somma o il totale dei valori di tutti i casi validi."@it,
+        ""@nl,
+        "Summen eller totalen av verdiene på tvers av alle gyldige tilfeller."@no,
+        "A soma ou o total dos valores, considerando os casos válidos."@pt,
+        "Vsota vrednosti na vseh veljavnih enotah."@sl,
+        "Zbir ili ukupna vrednost svih vrednosti ispravnih (validnih) elemenata skupa ili uzroka."@sr,
+        "Summan av värden för alla giltiga fall."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Sum"@en ;
+    skos:prefLabel "Sum"@en,
+        "Summa"@fi,
+        "Somma"@it,
+        "Som"@nl,
+        "Sum"@no,
+        "Soma"@pt,
+        "Vsota"@sl,
+        "Zbir"@sr,
+        "Summa"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/a1d0ec6> a skos:Concept ;
+    skos:definition "The lowest valid value in a variable."@en,
+        "Alin validi muuttujan arvo."@fi,
+        "Il valore valido più basso assunto da una variabile."@it,
+        ""@nl,
+        "Den laveste gyldige verdien i en variabel."@no,
+        "O menor valor válido de uma variável."@pt,
+        "Najnižja veljavna vrednost spremenljivke."@sl,
+        "Najniža ispravna vrednost promenljive."@sr,
+        "Det lägsta giltiga värdet i en variabel."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "Minimum"@en ;
+    skos:prefLabel "Minimum"@en,
+        "Minimi"@fi,
+        "Minimo"@it,
+        "Minimum"@nl,
+        "Minimum"@no,
+        "Mínimo"@pt,
+        "Minimum"@sl,
+        "Minimum"@sr,
+        "Minimum"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/a7f7339> a skos:Concept ;
+    skos:definition "The range between the first and third quartile values."@en,
+        "Väli alakvartiilista (ensimmäinen kvartiili) yläkvartiiliin (kolmas kvartiili)."@fi,
+        "L'intervallo tra il primo e il terzo quartile."@it,
+        ""@nl,
+        "Differansen mellom den første og den tredje kvartilverdien."@no,
+        "O intervalo entre os valores do primeiro e do terceiro quartil."@pt,
+        "Razpon med vrednostjo prvega in tretjega kvartila."@sl,
+        "Raspon između prvog i trećeg kvartila."@sr,
+        "Intervallet mellan första och tredje kvartilen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "InterquartileRange"@en ;
+    skos:prefLabel "Interquartile range"@en,
+        "Kvartiiliväli"@fi,
+        "Differenza interquartile"@it,
+        "Interkwartielafstand"@nl,
+        "Kvartilbredde"@no,
+        "Amplitude interquartil"@pt,
+        "Kvartilni razmik"@sl,
+        "Međukvartilni raspon"@sr,
+        "Kvartilavstånd"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ac62c25> a skos:Concept ;
+    skos:definition "The first of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Ensimmäinen yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan. Jakauman arvoista 10 % on siis pienempiä tai yhtä suuria kuin ensimmäinen desiili."@fi,
+        "Il primo dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den første av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O primeiro dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Prva od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Prva od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det första av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "FirstDecile"@en ;
+    skos:prefLabel "First decile"@en,
+        "Ensimmäinen desiili"@fi,
+        "Primo decile"@it,
+        "Eerste deciel"@nl,
+        "Første desil"@no,
+        "Primeiro decil"@pt,
+        "Prvi decil"@sl,
+        "Prvi decil"@sr,
+        "Första decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/b3ab24e> a skos:Concept ;
+    skos:definition "The range between the first and fourth quintile values."@en,
+        "Väli ensimmäisestä kvintiilistä neljänteen kvintiiliin."@fi,
+        "L'intervallo tra il primo e il quarto quintile."@it,
+        ""@nl,
+        "Intervallet mellom første og fjerde kvintil."@no,
+        "O intervalo entre os valores do primeiro e do quarto quintil."@pt,
+        "Razpon med vrednostjo prvega in četrtega kvintila."@sl,
+        "Raspon između prvog i četvrtog kvintila."@sr,
+        "Intervallet mellan första och fjärde kvintilen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "InterquintileRange"@en ;
+    skos:prefLabel "Interquintile range"@en,
+        "Kvintiiliväli"@fi,
+        "Ampiezza interquintile"@it,
+        "Interkwintielafstand"@nl,
+        "Kvintilbredde"@no,
+        "Amplitude interquintil"@pt,
+        "Kvintilni razmik"@sl,
+        "Međukvintilni raspon"@sr,
+        "Kvintilavstånd"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/c3a6a12> a skos:Concept ;
+    skos:definition "The fourth of four values which separate the total frequency of a distribution into five equal parts."@en,
+        "Neljäs neljästä arvosta, jotka jakavat jakauman viiteen yhtä suureen osaan."@fi,
+        "Il quarto dei quattro valori che suddividono la frequenza totale di una distribuzione in cinque parti uguali."@it,
+        ""@nl,
+        "Den fjerde av fire verdier som separerer den totale frekvensen av en fordeling i fem like deler."@no,
+        "O quarto dos quatro valores que separam a frequência total de uma distribuição em cinco partes iguais."@pt,
+        "Četrta od štirih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na pet enakih delov."@sl,
+        "Četvrta od četiri vrednosti koja razdvaja ukupnu frekvenciju distribucije na pet jednakih delova."@sr,
+        "Det fjärde av fyra värden som separerar den totala frekvensen av en fördelning i fem lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "FourthQuintile"@en ;
+    skos:prefLabel "Fourth quintile"@en,
+        "Neljäs kvintiili"@fi,
+        "Quarto quintile"@it,
+        "Vierde kwintiel"@nl,
+        "Fjerde kvintil"@no,
+        "Quarto quintil"@pt,
+        "Četrti kvintil"@sl,
+        "Četvrti kvintil"@sr,
+        "Fjärde kvintilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/c646dd8> a skos:Concept ;
+    skos:definition "Cases with observations which are considered to be valid, i.e., providing substantial information and to be included for calculation."@en,
+        "Havainnot, joiden katsotaan olevan valideja tai 'oikeita', eli ne tarjoavat olennaista tietoa ja sisällytetään analyyseihin."@fi,
+        "Valori considerati ammissibili per lo studio, e che pertanto forniscono informazioni sostanziali nelle analisi dei dati."@it,
+        ""@nl,
+        "Observerte tilfeller som er ansett for å være gyldige, dvs. gir vesentlig informasjon og skal inngå i beregninger."@no,
+        "Casos com observações consideradas válidas, isto é, fornecendo informações substanciais e a serem incluídas nos cálculos."@pt,
+        "Enote z opazovanji, ki jih štejemo za veljavne, npr. prinašajo bistvene informacije in jih vključimo v analizo."@sl,
+        "Slučajevi sa opservacijama za koja se smatra da su ispravni, tj. da daju značajne informacije i da mogu biti uključeni se u dalju analizu."@sr,
+        "Fall med observationer som anses vara giltiga, dvs. ger betydande information och ska ingå i beräkningar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "ValidCases"@en ;
+    skos:prefLabel "Valid cases"@en,
+        "Validit havainnot"@fi,
+        "Casi validi"@it,
+        "Geldige gevallen"@nl,
+        "Gyldige tilfeller"@no,
+        "Casos válidos"@pt,
+        "Veljavne enote"@sl,
+        "Ispravni (validni) slučajevi"@sr,
+        "Giltiga fall"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ccfc0c3> a skos:Concept ;
+    skos:definition "The first of four values which separate the total frequency of a distribution into five equal parts."@en,
+        "Ensimmäinen neljästä arvosta, jotka jakavat jakauman viiteen yhtä suureen osaan. Jakauman arvoista 20 % on siis pienempiä tai yhtä suuria kuin ensmmäinen kvintiili."@fi,
+        "Il primo dei quattro valori che suddividono la frequenza totale di una distribuzione in cinque parti uguali."@it,
+        ""@nl,
+        "Den første av fire verdier som separerer den totale frekvensen av en fordeling i fem like deler."@no,
+        "O primeiro dos quatro valores que separam a frequência total de uma distribuição em cinco partes iguais."@pt,
+        "Prva od štirih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na pet enakih delov."@sl,
+        "Prva od četiri vrednosti koja razdvaja ukupnu frekvenciju distribucije na pet jednakih delova."@sr,
+        "Det första av fyra värden som separerar den totala frekvensen av en fördelning i fem lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "FirstQuintile"@en ;
+    skos:prefLabel "First quintile"@en,
+        "Ensimmäinen kvintiili"@fi,
+        "Primo quintile"@it,
+        "Eerste kwintiel"@nl,
+        "Første kvintil"@no,
+        "Primeiro quintil"@pt,
+        "Prvi kvintil"@sl,
+        "Prvi kvintil"@sr,
+        "Första kvintilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/cd8ebb0> a skos:Concept ;
+    skos:definition "Average value of all data if extracting the nth root of the product of all (n) values. Rarely used in social sciences."@en,
+        "Keskiluku, jossa otetaan n. juuri kaikkien (n) arvojen tulosta. Käytetään harvoin yhteiskuntatieteissä."@fi,
+        "Valore medio di tutti i dati se si estrae l'ennesima radice del prodotto di tutti i valori (n). Utilizzata raramente nelle scienze sociali."@it,
+        ""@nl,
+        "Gjennomsnittsverdi for alle data når en finner den n-te rot til alle (n) verdiene. Sjeldent brukt i samfunnsfag."@no,
+        "Valor médio de todos os dados, extraindo a raiz n-ésima do produto de todos (n) os elementos. Raramente é usada nas ciências sociais."@pt,
+        "Povprečna vrednost vseh podatkov, če izpeljemo n-ti koren zmnožka vseh (n) vrednosti. V družboslovju se redko uporablja."@sl,
+        "Geometrijska sredina je mera centralne tendencije koja se računa kao n-ti koren proizvoda svih elemenata skupa podataka. Retko se koristi u društvenim naukama."@sr,
+        "Medelvärdet av samtliga värden som man får genom att ta den n:te roten av produkten av alla (n) värden. Används sällan inom samhällsvetenskap."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "GeometricMean"@en ;
+    skos:prefLabel "Geometric mean"@en,
+        "Geometrinen keskiarvo"@fi,
+        "Media geometrica"@it,
+        "Meetkundig gemiddelde"@nl,
+        "Geometrisk gjennomsnitt"@no,
+        "Média geométrica"@pt,
+        "Geometrijska sredina"@sl,
+        "Geometrijska sredina"@sr,
+        "Geometriskt medelvärde"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/e592a55> a skos:Concept ;
+    skos:definition "Indicates the percentage of invalid cases of the total number of cases."@en,
+        "Ilmaisee puuttuvien havaintoyksiköiden prosenttiosuuden kaikista havaintoyksiköistä."@fi,
+        "Indica la percentuale di casi non validi sul numero totale dei casi."@it,
+        ""@nl,
+        "Indikerer prosentdelen av ugyldige tilfeller til det totale antallet tilfeller."@no,
+        "Indica a percentagem de casos inválidos do número total de casos."@pt,
+        "Označuje odstotek neveljavnih primerov glede na skupno število primerov."@sl,
+        "Pokazuje procenat neispravnih opservacija u odnosu na ukupan broj opservacija."@sr,
+        "Indikerar andelen ogiltiga fall i förhållande till det totala antalet fall."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "PercentageOfInvalidCases"@en ;
+    skos:prefLabel "Percentage of invalid cases"@en,
+        "Puuttuvien havaintoyksiköiden prosentuaalinen osuus"@fi,
+        "Percentuale di casi non validi"@it,
+        "Percentage ongeldige gevallen"@nl,
+        "Prosentdel ugyldige tilfeller"@no,
+        "Percentagem de casos inválidos"@pt,
+        "Delež neveljavnih enot"@sl,
+        "Procenat neispravnih slučajeva"@sr,
+        "Andelen ogiltiga fall"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/e9f3735> a skos:Concept ;
+    skos:definition "The third of four values which separate the total frequency of a distribution into five equal parts."@en,
+        "Kolmas neljästä arvosta, jotka jakavat jakauman viiteen yhtä suureen osaan."@fi,
+        "Il terzo dei quattro valori che suddividono la frequenza totale di una distribuzione in cinque parti uguali."@it,
+        ""@nl,
+        "Den tredje av fire verdier som separerer den totale frekvensen av en fordeling i fem like deler."@no,
+        "O terceiro dos quatro valores que separam a frequência total de uma distribuição em cinco partes iguais."@pt,
+        "Tretja od štirih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na pet enakih delov."@sl,
+        "Treća od četiri vrednosti koja razdvaja ukupnu frekvenciju distribucije na pet jednakih delova."@sr,
+        "Det tredje av fyra värden som separerar den totala frekvensen av en fördelning i fem lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "ThirdQuintile"@en ;
+    skos:prefLabel "Third quintile"@en,
+        "Kolmas kvintiili"@fi,
+        "Terzo quintile"@it,
+        "Derde kwintiel"@nl,
+        "Tredje kvintil"@no,
+        "Terceiro quintil"@pt,
+        "Tretji kvintil"@sl,
+        "Treći kvintil"@sr,
+        "Tredje kvintilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ebe9990> a skos:Concept ;
+    skos:definition "The third of three values which separate the total frequency of a distribution into four equal parts."@en,
+        "Yläkvartiili. Kolmas kolmesta arvosta, jotka jakavat jakauman neljään yhtä suureen osaan."@fi,
+        "Il terzo dei tre valori che suddividono la frequenza totale di una distribuzione in quattro parti uguali."@it,
+        ""@nl,
+        "Den tredje av tre verdier som separerer den totale frekvensen av en fordeling i fire like store deler."@no,
+        "O terceiro dos três valores que separam a frequência total de uma distribuição em quatro partes iguais."@pt,
+        "Tretja od treh vrednosti, ki razdelijo celotno frekvenčno porazdelitev na štiri enake dele."@sl,
+        "Treća od tri vrednosti koja razdvaja ukupnu frekvenciju distribucije u četiri jednaka dela."@sr,
+        "Det tredje av tre värden som separerar den totala frekvensen av en fördelning i fyra lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "ThirdQuartile"@en ;
+    skos:prefLabel "Third quartile"@en,
+        "Kolmas kvartiili"@fi,
+        "Terzo quartile"@it,
+        "Derde kwartiel"@nl,
+        "Tredje kvartil"@no,
+        "Terceiro quartil"@pt,
+        "Tretji kvartil"@sl,
+        "Treći kvatil"@sr,
+        "Tredje kvartilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ecf4107> a skos:Concept ;
+    skos:definition "Indicates the percentage of valid cases of the total number of cases."@en,
+        "Ilmaisee validien havaintoyksiköiden prosenttiosuuden kaikista havaintoyksiköistä."@fi,
+        "Indica la percentuale di casi validi sul numero totale dei casi."@it,
+        ""@nl,
+        "Indikerer prosentdelen av gyldige tilfeller til det totale antallet tilfeller."@no,
+        "Indica a percentagem de casos válidos do número total de casos."@pt,
+        "Označuje odstotek veljavnih primerov glede na skupno število primerov."@sl,
+        "Pokazuje procenat ispravnih (validnih) opservacija u odnosu na ukupan broj opservacija."@sr,
+        "Indikerar andelen giltiga fall i förhållande till det totala antalet fall."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "PercentageOfValidCases"@en ;
+    skos:prefLabel "Percentage of valid cases"@en,
+        "Validien havaintoyksiköiden prosentuaalinen osuus"@fi,
+        "Percentuale di casi validi"@it,
+        "Percentage geldige gevallen"@nl,
+        "Prosentdel gyldige tilfeller"@no,
+        "Percentagem de casos válidos"@pt,
+        "Delež veljavnih enot"@sl,
+        "Procenat ispravnih slučajeva"@sr,
+        "Andelen giltiga fall"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/edf2add> a skos:Concept ;
+    skos:definition "The seventh of nine values which separate the total frequency of a distribution into ten equal parts."@en,
+        "Seitsemäs yhdeksästä arvosta, jotka jakavat jakauman kymmeneen yhtä suureen osaan."@fi,
+        "Il settimo dei nove valori che suddividono la frequenza totale di una distribuzione in dieci parti uguali."@it,
+        ""@nl,
+        "Den syvende av ni verdier som separerer den totale frekvensen av en fordeling i ti like deler."@no,
+        "O sétimo dos nove valores que separam a frequência total de uma distribuição em dez partes iguais."@pt,
+        "Sedma od devetih vrednosti, ki razdelijo celotno frekvenčno porazdelitev na deset enakih delov."@sl,
+        "Sedma od devet vrednosti koja razdvaja ukupnu frekvenciju distribucije na deset jednakih delova."@sr,
+        "Det sjunde av nio värden som separerar den totala frekvensen av en fördelning i tio lika delar."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "SeventhDecile"@en ;
+    skos:prefLabel "Seventh decile"@en,
+        "Seitsemäs desiili"@fi,
+        "Settimo decile"@it,
+        "Zevende deciel"@nl,
+        "Syvende desil"@no,
+        "Sétimo decil"@pt,
+        "Sedmi decil"@sl,
+        "Sedmi decil"@sr,
+        "Sjunde decilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/f02fd7a> a skos:Concept ;
+    skos:definition "The second of three values which separate the total frequency of a distribution into four equal parts (= median)."@en,
+        "Toinen kvartiili eli mediaani. Toinen kolmesta arvosta, jotka jakavat jakauman neljään yhtä suureen osaan."@fi,
+        "Il secondo dei tre valori che suddividono la frequenza totale di una distribuzione in quattro parti uguali (= mediana)."@it,
+        ""@nl,
+        "Den andre av tre verdier som separerer den totale frekvensen av en fordeling i fire like store deler (=median)."@no,
+        "O segundo dos três valores que separam a frequência total de uma distribuição em quatro partes iguais. (= mediana)."@pt,
+        "Druga od treh vrednosti, ki razdelijo celotno frekvenčno porazdelitev na štiri enake dele (= mediana)."@sl,
+        "Druga od tri vrednosti koja razdvaja ukupnu frekvenciju distribucije u četiri jednaka dela."@sr,
+        "Det andra av tre värden som separerar den totala frekvensen av en fördelning i fyra lika delar (= median)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> ;
+    skos:notation "SecondQuartile"@en ;
+    skos:prefLabel "Second quartile"@en,
+        "Toinen kvartiili"@fi,
+        "Secondo quartile"@it,
+        "Tweede kwartiel"@nl,
+        "Andre kvartil"@no,
+        "Segundo quartil"@pt,
+        "Drugi kvartil"@sl,
+        "Drugi kvartil"@sr,
+        "Andra kvartilen"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/> a skos:ConceptScheme ;
+    dcterms:description "Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values."@en,
+        "Tilastolliset tunnusluvut kuvaavat tietyn arvojoukon, esimerkiksi otoksen havaintojen sisältämää informaatiota. Usein tunnusluvut ovat nimensä mukaisesti yksittäisiä lukuja."@fi,
+        "Specifica il tipo di statistica riassuntiva. Tali statistiche sono una rappresentazione sintetica delle caratteristiche di un insieme di valori."@it,
+        "Beschrijft het type samenvattende statistieken. Samenvattende statistieken worden gebruikt om een ​​reeks waarnemingen samen te vatten in een getal."@nl,
+        "Spesifiserer typen av oppsummerende statistikk. Oppsummerende statisitkk er en representasjon av et sett verdiers karakteristika representert ved et enkelt tall."@no,
+        "Especifica o tipo de estatística sumária. As estatísticas sumárias são medidas/números/valores usados para descrever as características de um conjunto de dados."@pt,
+        "Določa vrsto zbirne statistike. Zbirna statistika je številka, s katero predstavimo značilnosti niza vrednosti."@sl,
+        "Određuje vrstu zbirne statistike. Zbirna statistika predstavlja jednoznačan broj karakteristika skupa vrednosti. "@sr,
+        "Anger typ av sammanfattande statistik. Sammanfattande statistik är ett enda värde som representerar egenskaperna hos en mängd värden."@sv ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2019" ;
+    dcterms:title "Summary Statistic Type"@en,
+        "Tilastollisen tunnusluvun tyyppi"@fi,
+        "Tipo di statistiche riassuntive"@it,
+        "Type samenvattende statistieken"@nl,
+        "Oppsummerende statistikk type"@no,
+        "Tipo de estatística sumária"@pt,
+        "Vrsta zbirne statistike"@sl,
+        "Vrsta zbirne statistike"@sr,
+        "Typ av sammanfattande statistik"@sv ;
+    owl:versionInfo "2.1.2" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/015ce0a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/01aac65>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/03dbd00>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/17ff276>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/2381913>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/26ad7e5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/2c03973>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/3279fce>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/350c70a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/3713b65>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/380846d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/3ca7a64>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/5dc5781>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/6459c62>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/650be61>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/66851a3>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/690ab50>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/699a82e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/700bc90>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/71996c9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/7975ed0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/8321e79>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/85cba81>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/87ba2ec>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/93d51e9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/9947048>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/9dea4c0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/9eb1ff9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/a0ec870>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/a1d0ec6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/a7f7339>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ac62c25>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/b3ab24e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/c3a6a12>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/c646dd8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ccfc0c3>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/cd8ebb0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/e592a55>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/e9f3735>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ebe9990>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/ecf4107>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/edf2add>,
+        <http://rdf-vocabulary.ddialliance.org/cv/SummaryStatisticType/2.1.2/f02fd7a> ;
+    skos:notation "SummaryStatisticType"@en ;
+    skos:prefLabel "Summary Statistic Type"@en,
+        "Tilastollisen tunnusluvun tyyppi"@fi,
+        "Tipo di statistiche riassuntive"@it,
+        "Type samenvattende statistieken"@nl,
+        "Oppsummerende statistikk type"@no,
+        "Tipo de estatística sumária"@pt,
+        "Vrsta zbirne statistike"@sl,
+        "Vrsta zbirne statistike"@sr,
+        "Typ av sammanfattande statistik"@sv .
+

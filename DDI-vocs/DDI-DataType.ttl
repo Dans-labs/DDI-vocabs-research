@@ -1,0 +1,373 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/08a1af4> a skos:Concept ;
+    skos:definition "Integer-valued year, e.g., 2005."@en,
+        "Aasta numbrilise väärtusena, nt 2005."@et,
+        "Heltall verdi år, f.eks., 2005."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "GYear"@en ;
+    skos:prefLabel "Year"@en,
+        "Aasta"@et,
+        "År"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/0c72cf9> a skos:Concept ;
+    skos:definition "Whole numbers in the range 0 .. 18446744073709551615."@en,
+        "Täisarvud vahemikus 0 kuni 18446744073709551615."@et,
+        "Hele tall i rekkevidden 0 .. 18446744073709551615."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "UnsignedLong"@en ;
+    skos:prefLabel "Unsigned long"@en,
+        "Märgita pikk täisarv"@et,
+        "Unsigned long"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/1686a6c> a skos:Concept ;
+    skos:definition "Whole numbers in the range -2147483648 .. 2147483647."@en,
+        "Täisarvud vahemikus -2147483648 kuni 2147483647."@et,
+        "Hele tall i rekkevidden -2147483648 .. 2147483647."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Int"@en ;
+    skos:prefLabel "Int"@en,
+        "Int"@et,
+        "Int"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/17e6c6e> a skos:Concept ;
+    skos:definition "Whole numbers greater than -1."@en,
+        "Täisarvud, mis on suuremad kui -1."@et,
+        "Hele tall større enn -1."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "NonNegativeInteger"@en ;
+    skos:prefLabel "Non-negative integer"@en,
+        "Mitte negatiivne täisarv"@et,
+        "Ikke-negative heltall"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/1bd04a8> a skos:Concept ;
+    skos:definition "Whole numbers less than 1."@en,
+        "Täisarvud, mis on väiksemad kui 1. (Tavaliselt arvestatakse 0 positiivseks täisarvuks)"@et,
+        "Hele tall mindre enn 1."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "NonPositiveInteger"@en ;
+    skos:prefLabel "Non-positive integer"@en,
+        "Mitte positiivne täisarv"@et,
+        "Ikke-positive heltall"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/22ae0e2> a skos:Concept ;
+    skos:definition "Single-precision 32-bit floating point type: The basic value space of float consists of the values m*2^e, where m is an integer whose absolute value is less than 2^24, and e is an integer between -149 and 104, inclusive. In addition, it also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float."@en,
+        "Lihttäpsusega 32-bitine ujukomaarv: ujukomaarvu väärtusvahemik koosneb väärtustest m*2^e, kus m on täisarv absoluutväärtusega alla 2^24 ning e on täisarv vahemikus -149 kuni 104 k.a. Lisaks võib sellisel ujukomaarvul olla kolm eriväärtust: pluss ja miinus lõpmatus ning määramatus (NaN, not-a-number). Neid eriväärtusi tähistavad vastavalt INF, -INF ja NaN. Null võib sõnes olla pluss- või miinusmärgiga. Näiteks -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 ja INF on kõik ujukomaarvude lubatud literaalid."@et,
+        "Single-precision 32-bit floating point type: Den grunnleggende verdirekkevidden til en float består av verdiene m*2^e, hvor m er et heltall med absolutt verdi mindre enn 2^24 og e er et heltall mellom -149 og 104. I tillegg inneholder det også tre spesialverdier: positiv og negativ uendelig og not-a-number (NaN). Spesialverdiene positiv og negativ uendelig og not-a-number har leksikalsk representasjon INF, -INF og NaN, henholdsvis. Leksikalske representasjoner for null kan ha positivt eller negativt fortegn. For eksempel, -1E4, 1267.43233E12, 12.78e-2. -0. 0 og INF er alle lovlige uttrykk for float."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Float"@en ;
+    skos:prefLabel "Float"@en,
+        "Ujukomaga arv"@et,
+        "Float"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/2711832> a skos:Concept ;
+    skos:definition "Finite sequences of characters. A character is an atomic unit of written communication; it is not further specified except to note that every character has a corresponding Universal Character Set code point (which is an integer)."@en,
+        "Märkide jada, piiratud pikkusega. Märk on väikseim osake kirjalikus kommunikatsioonis; märke väiksemaks ei jagata, kuid igale märgile vastab universaalses koodimärgistikus (Universal Character Set) oma kood (mis on täisarv)."@et,
+        "Endelig sekvens av tegn. Et tegn er en atomenhet for skriftlig kommunikasjon; det er ikke nærmere spesifisert, bortsett fra å merke seg at hvert tegn har et tilsvarende Universal Character Set-kodepunkt (som er et heltall)."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "String"@en ;
+    skos:prefLabel "String"@en,
+        "String"@et,
+        "Streng"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/27226c8> a skos:Concept ;
+    skos:definition "True or false. Can be represented by 1 and 0 correspondingly."@en,
+        "Tõene või väär. Võib olla esitatud ka vastavalt 1 või 0."@et,
+        "Sant eller usant. Kan være representert av 1 og 0 henholdsvis."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Boolean"@en ;
+    skos:prefLabel "Boolean"@en,
+        "Boolean"@et,
+        "Boolsk"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/279fceb> a skos:Concept ;
+    skos:definition "Sequence of multiples of four base64 digits, where each 4-tuple represents a 24-bit integer. Each digit (a-z, A-Z, 0-9, +, /) represents a 6-bit integer between 0 and 63."@en,
+        "Neljast base64 märgist koosnevate rühmade jada, kus iga nelik vastab 24-bitisele täisarvule. Iga märk (a-z, A-Z, 0-9, +, /) tähistab 6-bitist täisarvu vahemikus 0 kuni 63."@et,
+        "Sekvens av multipler av fire base64 sifre, hvor hver 4-tuppel representerer et 24-bit heltall. Hvert siffer (a-z, A-Z, 0-9, +, /) representerer et 6-bit heltall mellom 0 og 63."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Base64Binary"@en ;
+    skos:prefLabel "base64Binary"@en,
+        "Base64-binaarne"@et,
+        "base64Binary"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/30bb747> a skos:Concept ;
+    skos:definition "Whole numbers in the range -32768 .. 32767."@en,
+        "Täisarvud vahemikus -32768 kuni 32767."@et,
+        "Hele tall i rekkevidden -32768 .. 32767."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Short"@en ;
+    skos:prefLabel "Short"@en,
+        "Lühike täisarv"@et,
+        "Short"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/4474971> a skos:Concept ;
+    skos:definition "Integer-valued year, month, day, and time zone hour and minutes, e.g., 2003-06-30-05:00 (30 June 2003 Eastern Standard Time U.S.)."@en,
+        "Aasta, kuu, päev täisarvudena ning ajavööndi tunnid ja minutid, nt 2003-06-30-05:00 (30. juuni 2003 ajavööndis Eastern Standard Time U.S.)."@et,
+        "Heltall verdi år, måned, dag og tidssone time og minutter, f.eks., 2003-06-30-05:00 (30 Juni 2003 Eastern Standard Time U.S.)."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Date"@en ;
+    skos:prefLabel "Date"@en,
+        "Kuupäev"@et,
+        "Dato"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/5fddfa0> a skos:Concept ;
+    skos:definition "Integer-valued month and day, e.g., 12-31."@en,
+        "Kuu ja päev numbriliste väärtustena (osana kuupäevast), nt 12-31."@et,
+        "Heltall verdi måned og dag, f.eks., 12-31."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "GMonthDay"@en ;
+    skos:prefLabel "MonthDay"@en,
+        "Kuu ja päev"@et,
+        "MonthDay"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/6311ae1> a skos:Concept ;
+    skos:definition "Use if the data type is known, but not found in the list."@en,
+        "Kasutada, kui andmetüüp on teada, kuid puudub loendis."@et,
+        "Bruk hvis datatypen er kjent, men ikke er på listen."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Muu"@et,
+        "Annet"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/6e3915f> a skos:Concept ;
+    skos:definition "A Uniform Resource Identifier such as ftp, http or mailto, e.g., http://www.w3.org/TR/xmlschema-2."@en,
+        "Ühtne ressursiidentifikaator, näiteks ftp, http või mailto (vaata nt http://www.w3.org/TR/xmlschema-2)."@et,
+        "En Uniform Resource Identifier som ftp, http eller mailto, f.eks., http://www.w3.org/TR/xmlschema-2."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "AnyURI"@en ;
+    skos:prefLabel "anyURI"@en,
+        "URI"@et,
+        "anyURI"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/7bf524f> a skos:Concept ;
+    skos:definition "Even-lengthed sequence of hexadecimal digits representing an N times 8-bit integer."@en,
+        "Paarisarvuline kuueteistkümnendnumbrite järjend, mis väljendab N korda 8-bitist täisarvu."@et,
+        "Jevnlange sekvenser av heksadesimal sifre som representerer et N ganger 8-bit heltall."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "HexBinary"@en ;
+    skos:prefLabel "hexBinary"@en,
+        "Hexbinaarne"@et,
+        "hexBinary"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/8394f03> a skos:Concept ;
+    skos:definition "Whole numbers in the range -9223372036854775808 .. 9223372036854775807."@en,
+        "Täisarvud vahemikus -9223372036854775808 kuni 9223372036854775807."@et,
+        "Hele tall i rekkevidden -9223372036854775808 .. 9223372036854775807."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Long"@en ;
+    skos:prefLabel "Long"@en,
+        "Pikk täisarv"@et,
+        "Long"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/8cf10d2> a skos:Concept ;
+    skos:definition "Integer-valued year, month, day, hour and minute, plus decimal-valued second property, and time zone hour and minute (e.g., 2002-10-10T12:00:00-05:00)."@en,
+        "Aasta, kuu, päev, tunnid ja minutid täisarvudena lisaks sekundid kümnendarvuna ning ajavööndi tunnid ja minutid (nt 2002-10-10T12:00:00-05:00)."@et,
+        "Heltall verdi år, måned, dag, time og minutt, pluss desimalverdi av sekunders egenskaper, og tidssone, time og minutt. (f.eks., 2002-10-10T12:00:00-05:00)."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "DateTime"@en ;
+    skos:prefLabel "DateTime"@en,
+        "Kuupäev ja aeg"@et,
+        "DateTime"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/8f0fb88> a skos:Concept ;
+    skos:definition "Whole numbers in the range 0 .. 255 (system dependent)."@en,
+        "Täisarvud vahemikus 0 kuni 255 (sõltuvalt süsteemist)."@et,
+        "Hele tall i rekkevidden 0 .. 255 (systemavhengig)."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "UnsignedByte"@en ;
+    skos:prefLabel "Unsigned byte"@en,
+        "Märgita bait"@et,
+        "Unsigned byte"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/915b651> a skos:Concept ;
+    skos:definition "Type of string in which any occurrence of whitespace (including tabs, line feeds, and carriage returns) is replaced by a single space."@en,
+        "String alamtüüp, milles kõik erimärgid (sh tabeldusmärgid, reavahetused ja kursori reaalgusesse toomised) on asendatud ühe tühikuga."@et,
+        "En type streng hvor alle forekomster av hvitt mellomrom (inkludert tabulator, linjeskift og vognretur) blir erstattet av et enkelt mellomrom."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "NormalizedString"@en ;
+    skos:prefLabel "Normalized string"@en,
+        "Normaliseeritud string"@et,
+        "Normalisert streng"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/937504f> a skos:Concept ;
+    skos:definition "A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, \"+\" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210."@en,
+        "Reaalarvude osahulk, kus kümnendsüsteemis on numbritest (0-9) moodustatud kindla pikkusega järjendid ja kümnendkoha eraldajaks on punkt. (IT terministandardi sõnastik: Sõltuvalt eri kokkulepetest võidakse eri maades kümnendkoma esitada komaga, punktiga või numbrite poolkõrgusel asuva punktiga.) Lubatud on pluss-/miinusmärk arvu ees. Märgi puudumisel loetakse vaikimisi märgiks \"+\". Võib kasutada ees- ja lõpunulle. Kui murdosa on null, võib punkti ja järgneva(d) nulli(d) ära jätta. Näiteks: -1.23, 12678967.543233, +100000.00, 210."@et,
+        "En delmengde av reelle tall som kan bli representert av en endelig sekvens av desimaltall (0-9) adskilt med et punktum som desimalindikator. Et alternativ tegn før desimalindikatoren er tillatt. Hvis tegnet er utelatt, antas \"+\". Førende og etterfølgende nuller er valgfri. Hvis brøkdelen er null, kan punktumet og følgende null(er) bli utelatt. For eksempel: -1.23, 12678967.543233, +100000.00, 210."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Decimal"@en ;
+    skos:prefLabel "Decimal"@en,
+        "Kümnendarv"@et,
+        "Desimal"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/9a80ecf> a skos:Concept ;
+    skos:definition "Whole numbers greater than 0."@en,
+        "Nullist suuremad täisarvud. (Tavaliselt arvestatakse 0 positiivseks täisarvuks)"@et,
+        "Hele tall større enn 0."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "PositiveInteger"@en ;
+    skos:prefLabel "Positive integer"@en,
+        "Positiivne täisarv"@et,
+        "Positive heltall"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/a0faef0> a skos:Concept ;
+    skos:definition "Whole numbers, the infinite set of integers, no minimum or maximum value."@en,
+        "Täisarvud, täisarvude lõpmatu hulk ilma minimaalse või maksimaalse väärtuseta."@et,
+        "Hele tall, det uendelige settet med heltall, ingen minimum eller maksimum verdi."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Integer"@en ;
+    skos:prefLabel "Integer"@en,
+        "Täisarv"@et,
+        "Heltall"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/a245c32> a skos:Concept ;
+    skos:definition "Whole numbers in the range -128 .. 127."@en,
+        "Täisarvud vahemikus -128 kuni 127."@et,
+        "Hele tall i rekkevidden -128 .. 127."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Byte"@en ;
+    skos:prefLabel "Byte"@en,
+        "Bait"@et,
+        "Byte"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/a76d4ef> a skos:Concept ;
+    skos:definition "Left-truncated dateTime, e.g., 13:20:00-05:00 (1:20 pm for Eastern Standard Time U.S.)."@en,
+        "Vasakult lõigatud DateTime väärtus, nt 13:20:00-05:00 (1:20 pm ajavööndis Eastern Standard Time U.S.)."@et,
+        "Venstre avkortet dateTime, f.eks., 13:20:00-05:00 (13:20 for Eastern Standard Time U.S.)."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Time"@en ;
+    skos:prefLabel "Time"@en,
+        "Aeg"@et,
+        "Tid"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/c799385> a skos:Concept ;
+    skos:definition "Whole numbers less than 0."@en,
+        "Nullist väiksemad täisarvud."@et,
+        "Hele tall mindre enn 0."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "NegativeInteger"@en ;
+    skos:prefLabel "Negative integer"@en,
+        "Negatiivne täisarv"@et,
+        "Negative heltall"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/c93cff9> a skos:Concept ;
+    skos:definition "Whole numbers in the range 0 .. 4294967295."@en,
+        "Täisarvud vahemikus 0 kuni 4294967295."@et,
+        "Hele tall i rekkevidden 0 .. 4294967295."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "UnsignedInt"@en ;
+    skos:prefLabel "Unsigned int"@en,
+        "Märgita Int"@et,
+        "Unsigned int"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/d4eaaeb> a skos:Concept ;
+    skos:definition "Integer-valued day, e.g., 24."@en,
+        "Päev numbrilise väärtusena, nt 24."@et,
+        "Heltall verdi dag, f.eks., 24."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "GDay"@en ;
+    skos:prefLabel "Day"@en,
+        "Päev"@et,
+        "Dag"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/d909d38> a skos:Concept ;
+    skos:definition "Double-precision 64-bit floating point type. The basic value space of double consists of the values m*2^e, where m is an integer whose absolute value is less than 2^53, and e is an integer between -1075 and 970, inclusive. In addition to the basic value space described above, the value space of double also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double."@en,
+        "Topelttäpsusega 64-bitine ujukomaarv: topelttäpsusega ujukomaarvu väärtusvahemik koosneb väärtustest m*2^e, kus m on täisarv absoluutväärtusega alla 2^53 ning e on täisarv vahemikus -1075 kuni 970 k.a. Lisaks eeltoodud väärtusvahemikule võib topelttäpsusega ujukomaarvul olla kolm eriväärtust: pluss ja miinus lõpmatus ning määramatus (NaN, not-a-number). Neid eriväärtusi tähistavad vastavalt INF, -INF ja NaN. Null võib olla sõnes pluss- või miinusmärgiga. Näiteks -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 ja INF on kõik topelttäpsusega ujukomaarvude lubatud literaalid."@et,
+        "Double-precision 64-bit floating point type. Den grunnleggende verdirekkevidden til en double består av verdiene m*2^e, hvor m er et heltall med absolutt verdi mindre enn 2^53, og e er et heltall mellom -1075 og 970. I tillegg til de grunnleggende verdiene beskrevet ovenfor, inneholder også verdirekkevidden til double også de følgende tre spesialverdiene: positiv og negativ uendelig og not-a-number (NaN). Spesialverdiene positiv og negativ uendelig og not-a-number har leksikalske representasjon INF, -INF og NaN, henholdsvis. Leksikalske representasjoner for null kan ha positivt eller negativt fortegn. For eksempel, -1E4, 1267.43233E12, 12.78e-2, 12, -0, 0 og INF er alle lovlige uttrykk for double."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Double"@en ;
+    skos:prefLabel "Double"@en,
+        "Kahekordne ujukomaga arv"@et,
+        "Double"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/dee6835> a skos:Concept ;
+    skos:definition "Integer-valued month, e.g., 03."@en,
+        "Kuu numbrilise väärtusena, nt 03."@et,
+        "Heltall verdi, f.eks., 03."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "GMonth"@en ;
+    skos:prefLabel "Month"@en,
+        "Kuu"@et,
+        "Måned"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/e02d2ae> a skos:Concept ;
+    skos:definition "A duration of time. The value space of \"duration\" is a six-dimensional space in which the coordinates designate the Gregorian year, month, day, hour, minute, and second components as defined in ISO 8601. These components are ordered in their significance by their order of appearance as year, month, day, hour, minute, and second. The lexical representation of duration is the extended format PnYnMnDTnHnMnS, where P is the flag for duration (i.e., Period) and is constant, nY represents the number of years, nM the number of months, nD the number of days, T is the date/time separator, nH the number of hours, nM the number of minutes and nS the number of seconds. The number of seconds can include decimal digits to arbitrary precision. For example, to indicate a duration of 1 year, 2 months, 3 days, 10 hours, and 30 minutes, one would write: \"P1Y2M3DT10H30M.\" An optional preceding minus sign (\"-\") is allowed, to indicate a negative duration: a duration of minus 120 days would be indicated as: \"-P120D\" (from: http://www.w3.org/TR/xmlschema-2/#duration)."@en,
+        "Ajaperiood. \"Perioodi\" väärtusvahemik on kuuemõõtmeline: koordinaadid tähistavad aastat, kuud, päeva, tunde, minuteid ja sekundeid Gregoriuse kalendri järgi (vastavalt standardile ISO 8601). Need elemendid esitatakse järjekorras suuremast väiksemani: aasta, kuu, päev, tund, minut, sekund. Perioodi sõne on kujul PnYnMnDTnHnMnS, kus P märgib Perioodi ja on konstant, nY väljendab aastate arvu, nM kuude arvu, nD päevade arvu, T eraldab kuupäeva ja kellaaega, nH väljendab tundide arvu,  nM minutite arvu ja nS sekundite arvu. Sekundite arv võib olla väljendatud ka kümnendarvuna, et lisada väärtusele tinglikku täpsust. Näiteks, kui periood on 1 aasta, 2 kuud, 3 päeva, 10 tundi ja 30 minutit, kirjutatakse see \"P1Y2M3DT10H30M\". Lubatud on miinusmärk (\"-\") väärtuse ees, kui on vaja väljendada negatiivset perioodi: ajaperiood miinus 120 päeva kirjutatakse siis \"-P120D\" (allikas: http://www.w3.org/TR/xmlschema-2/#duration). Ajaperiood. \"Perioodi\" väärtusvahemik on kuuemõõtmeline: koordinaadid tähistavad aastat, kuud, päeva, tunde, minuteid ja sekundeid Gregoriuse kalendri järgi (vastavalt standardile ISO 8601). Need elemendid esitatakse järjekorras suuremast väiksemani: aasta, kuu, päev, tund, minut, sekund. Perioodi sõne on kujul PnYnMnDTnHnMnS, kus P märgib Perioodi ja on konstant, nY väljendab aastate arvu, nM kuude arvu, nD päevade arvu, T eraldab kuupäeva ja kellaaega, nH väljendab tundide arvu,  nM minutite arvu ja nS sekundite arvu. Sekundite arv võib olla väljendatud ka kümnendarvuna, et lisada väärtusele tinglikku täpsust. Näiteks, kui periood on 1 aasta, 2 kuud, 3 päeva, 10 tundi ja 30 minutit, kirjutatakse see \"P1Y2M3DT10H30M\". Lubatud on miinusmärk (\"-\") väärtuse ees, kui on vaja väljendada negatiivset perioodi: ajaperiood miinus 120 päeva kirjutatakse siis \"-P120D\" (allikas: http://www.w3.org/TR/xmlschema-2/#duration)."@et,
+        """En varighet av tid. Verdirekkevidden til "varighet" er i seks dimensjoner som koordinerer det Gregorianske år, måned, dag, time, minutt og sekund komponenter som er definert i ISO 8601. Disse komponentene er arrangert etter signifikans gjennom rekkefølgen år, måned, dag, time, minutt og sekund. Den leksikalske representasjonen av varighet er i det utvidede formatet PnYnMnDTnHnMnS, hvor P er flagget for varighet (i.e., Period) og er konstant, nY representerer antall
+år, nM antall måneder, nD antall dager, T er dato/tid skilletegn, nH antall timer, nM antall minutter og nS antall sekunder. Antallet sekunder kan inkludere desimaltall til skjønnsmessig presisjon. For eksempel, for å indikere en varighet på 1 år, 2 måneder, 3 dager, 10 timer og 30 minutter kan en skrive: "P1Y2M3T10H30M." En valgfri foranledende minustegn ("-") er tillatt, for å indikere negativ varighet: en varighet på minus 120 dager vil bli indikert som "-P120D" (fra: http://www.w3.org/TR/xmlschema-2/#duration)."""@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "Duration"@en ;
+    skos:prefLabel "Duration"@en,
+        "Periood"@et,
+        "Varighet"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/e8a304e> a skos:Concept ;
+    skos:definition "Integer-valued year and month, e.g., 2004-11."@en,
+        "Aasta ja kuu numbriliste väärtustena (osana kuupäevast), nt 2004-11."@et,
+        "Heltall verdi år og måned, f.eks., 2004-11."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "GYearMonth"@en ;
+    skos:prefLabel "YearMonth"@en,
+        "Aasta ja kuu"@et,
+        "YearMonth"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/eb51124> a skos:Concept ;
+    skos:definition "Whole numbers in the range 0 .. 65535."@en,
+        "Täisarvud vahemikus 0 kuni 65535."@et,
+        "Hele tall i rekkevidden 0 .. 65535."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> ;
+    skos:notation "UnsignedShort"@en ;
+    skos:prefLabel "Unsigned short"@en,
+        "Märgita lühike täisarv"@et,
+        "Unsigned short"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/> a skos:ConceptScheme ;
+    dcterms:description "Identifies the type of data, which has a bearing on the acceptable data values, the operations that can be performed with the data, and the ways in which the data are stored."@en,
+        "Täpsustab andmete tüübi, millest sõltuvad lubatavad väärtused, andmetega teha lubatud tehted ning andmete talletamise viisid."@et,
+        "Identifisering av datatypen som har betydning for akseptable dataverdier, operasjoner som kan bli gjennomført på dataene og hvordan data kan bli lagret."@no ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/DataType/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2019" ;
+    dcterms:title "Data Type"@en,
+        "Andmetüüp"@et,
+        "Data type"@no ;
+    owl:versionInfo "1.1.2" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/08a1af4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/0c72cf9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/1686a6c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/17e6c6e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/1bd04a8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/22ae0e2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/2711832>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/27226c8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/279fceb>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/30bb747>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/4474971>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/5fddfa0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/6e3915f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/7bf524f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/8394f03>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/8cf10d2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/8f0fb88>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/915b651>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/937504f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/9a80ecf>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/a0faef0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/a245c32>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/a76d4ef>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/c799385>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/c93cff9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/d4eaaeb>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/d909d38>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/dee6835>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/e02d2ae>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/e8a304e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/DataType/1.1.2/eb51124> ;
+    skos:notation "DataType"@en ;
+    skos:prefLabel "Data Type"@en,
+        "Andmetüüp"@et,
+        "Data type"@no .
+

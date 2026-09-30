@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:isVersionOf rdf:resource="null/1.0.0/"/>
+      <skos:notation xml:lang="en">KindOfData</skos:notation>
+      <dcterms:title xml:lang="en">Kind of Data</dcterms:title>
+      <dcterms:description xml:lang="en">This controlled list distinguishes among types of data used in quantitative, qualitative, and mixed-methods research. 
+</dcterms:description>
+      <skos:prefLabel xml:lang="en">Kind of Data</skos:prefLabel>
+      <dcterms:title xml:lang="fr">Type de donn&#xe9;es</dcterms:title>
+      <dcterms:description xml:lang="fr">Ce vocabulaire permet de diff&#xe9;rencier les donn&#xe9;es en fonction de l&apos;utilisation d&apos;une m&#xe9;thode de recherche qualitative, quantitative ou mixte.</dcterms:description>
+      <skos:prefLabel xml:lang="fr">Type de donn&#xe9;es</skos:prefLabel>
+      <dcterms:title xml:lang="it">Tipo di dati</dcterms:title>
+      <dcterms:description xml:lang="it">Questo elenco controllato distingue tra i tipi di dati utilizzati nella ricerca quantitativa, qualitativa e con metodi misti.</dcterms:description>
+      <skos:prefLabel xml:lang="it">Tipo di dati</skos:prefLabel>
+      <dcterms:title xml:lang="lt">Duomen&#x173; r&#x16b;&#x161;is</dcterms:title>
+      <dcterms:description xml:lang="lt">&#x160;is kontroliuojamas &#x17e;odynas skiria duomen&#x173; tipus, naudojamus kiekybiniuose, kokybiniuose ir mi&#x161;ri&#x173; metod&#x173; tyrimuose.</dcterms:description>
+      <skos:prefLabel xml:lang="lt">Duomen&#x173; r&#x16b;&#x161;is</skos:prefLabel>
+      <dcterms:title xml:lang="nl">Soorten data</dcterms:title>
+      <dcterms:description xml:lang="nl">Deze gecontroleerde lijst bevat termen om de soorten gegevens te beschrijven die worden gebruikt in kwantitatief, kwalitatief en mixed-methods onderzoek.</dcterms:description>
+      <skos:prefLabel xml:lang="nl">Soorten data</skos:prefLabel>
+      <dcterms:title xml:lang="sl">Tip podatkov</dcterms:title>
+      <dcterms:description xml:lang="sl">Seznam razlikuje med vrstami podatkov, ki se uporabljajo v kvantitativnih, kvalitativnih in me&#x161;anih raziskavah.</dcterms:description>
+      <skos:prefLabel xml:lang="sl">Tip podatkov</skos:prefLabel>
+      <owl:versionInfo>1.0.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      <dcterms:rights>Copyright &#xa9;DDI Alliance 2026</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/64f5c8c"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/24f5e13"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/699b4f7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/64f5c8c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/"/>
+      <skos:notation xml:lang="en">Quantitative</skos:notation>
+      <skos:prefLabel xml:lang="en">Quantitative </skos:prefLabel>
+      <skos:definition xml:lang="en">Data typically expressed in numerical form that can be counted, measured, and statistically analyzed. Quantitative data are&#xa0;typically structured and may be used to identify patterns or relationships.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Quantitatif</skos:prefLabel>
+      <skos:definition xml:lang="fr">Donn&#xe9;es disponibles habituellement dans un format num&#xe9;rique, qui peuvent &#xea;tre compt&#xe9;es, mesur&#xe9;es et analys&#xe9;es statistiquement. Typiquement, les donn&#xe9;es quantitatives sont structur&#xe9;es et peuvent &#xea;tre utilis&#xe9;es pour identifier des tendances ou des relations.</skos:definition>
+      <skos:prefLabel xml:lang="it">Quantitativo</skos:prefLabel>
+      <skos:definition xml:lang="it">Dati generalmente espressi in forma numerica che possono essere contati, misurati e analizzati statisticamente. I dati quantitativi sono in genere strutturati e possono essere utilizzati per identificare modelli o relazioni.</skos:definition>
+      <skos:prefLabel xml:lang="lt">Kiekybiniai</skos:prefLabel>
+      <skos:definition xml:lang="lt">Duomenys paprastai i&#x161;rei&#x161;kiami skaitine forma, kuri&#x105; galima analizuoti statistiniais metodais. Kiekybiniai duomenys paprastai yra strukt&#x16b;ruoti ir naudojami tendencijoms ar ry&#x161;iams nustatyti.</skos:definition>
+      <skos:prefLabel xml:lang="nl">Kwantitatief</skos:prefLabel>
+      <skos:definition xml:lang="nl"></skos:definition>
+      <skos:prefLabel xml:lang="sl">Kvantitativni</skos:prefLabel>
+      <skos:definition xml:lang="sl">Podatki, ki so obi&#x10d;ajno izra&#x17e;eni v &#x161;tevil&#x10d;ni obliki in jih je mogo&#x10d;e &#x161;teti, meriti ter statisti&#x10d;no analizirati. Kvantitativni podatki so navadno strukturirani in se uporabljajo za prepoznavanje vzorcev ali povezanosti.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/24f5e13">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/"/>
+      <skos:notation xml:lang="en">Qualitative</skos:notation>
+      <skos:prefLabel xml:lang="en">Qualitative</skos:prefLabel>
+      <skos:definition xml:lang="en">Non-numerical data that capture meanings, experiences, or contexts. Qualitative data are&#xa0;often unstructured or semi-structured, taking the form of text, images, or audiovisual materials. They are&#xa0;typically analyzed using interpretive or thematic methods.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Qualitatif</skos:prefLabel>
+      <skos:definition xml:lang="fr">Donn&#xe9;es non num&#xe9;riques qui captent du sens, des exp&#xe9;riences ou des contextes. Les donn&#xe9;es qualitatives sont souvent non structur&#xe9;es ou semi-structur&#xe9;es, et se pr&#xe9;sentent sous forme de textes, d&apos;images ou de mat&#xe9;riaux audiovisuels. Elles sont habituellement analys&#xe9;es &#xe0; l&apos;aide de m&#xe9;thodes interpr&#xe9;tatives ou th&#xe9;matiques.</skos:definition>
+      <skos:prefLabel xml:lang="it">Qualitativo</skos:prefLabel>
+      <skos:definition xml:lang="it">Dati non numerici che esprimono significati, esperienze o contesti. I dati qualitativi sono spesso non strutturati o semi-strutturati e assumono la forma di testi, immagini o materiali audiovisivi. In genere vengono analizzati utilizzando metodi interpretativi o tematici.</skos:definition>
+      <skos:prefLabel xml:lang="lt">Kokybiniai</skos:prefLabel>
+      <skos:definition xml:lang="lt">Neskaitiniai duomenys, fiksuojantys prasmes, patirtis ar kontekstus. Kokybiniai duomenys da&#x17e;nai b&#x16b;na nestrukt&#x16b;ruotos arba pusiau strukt&#x16b;ruotos formos: tekstai, vaizdai ar audiovizualin&#x117; med&#x17e;iaga. Jie paprastai analizuojami interpretaciniais arba temin&#x117;s analiz&#x117;s metodais.</skos:definition>
+      <skos:prefLabel xml:lang="nl">Kwalitatief</skos:prefLabel>
+      <skos:definition xml:lang="nl"></skos:definition>
+      <skos:prefLabel xml:lang="sl">Kvalitativni</skos:prefLabel>
+      <skos:definition xml:lang="sl">Ne&#x161;tevilski podatki, ki zajemajo pomene, izku&#x161;nje ali kontekst. Kvalitativni podatki so pogosto nestrukturirani ali polstrukturirani ter se pojavljajo v obliki besedila, slik ali avdiovizualnega gradiva. Obi&#x10d;ajno se analizirajo z interpretativnimi ali tematskimi metodami.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/699b4f7">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/"/>
+      <skos:notation xml:lang="en">Mixed</skos:notation>
+      <skos:prefLabel xml:lang="en">Mixed</skos:prefLabel>
+      <skos:definition xml:lang="en">Data combining quantitative (typically structured) and qualitative (often unstructured) elements, that may be distributed and analyzed together, supporting both statistical and interpretive methods. For example, numerical data and text or multimedia sources.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Mixte</skos:prefLabel>
+      <skos:definition xml:lang="fr">Donn&#xe9;es qui combinent des &#xe9;l&#xe9;ments quantitatifs (habituellement structur&#xe9;s) et qualitatifs (souvent non structur&#xe9;s), qui peuvent &#xea;tre diffus&#xe9;s et analys&#xe9;s ensemble, permettant la mise en &#x153;uvre &#xe0; la fois de m&#xe9;thodes statistiques et empiriques. Par exemple : des donn&#xe9;es num&#xe9;riques combin&#xe9;es &#xe0; des textes ou sources multim&#xe9;dias.</skos:definition>
+      <skos:prefLabel xml:lang="it">Misto</skos:prefLabel>
+      <skos:definition xml:lang="it">Dati che combinano elementi quantitativi (generalmente strutturati) e qualitativi (spesso non strutturati), che possono essere distribuiti e analizzati insieme, supportando sia metodi statistici che interpretativi. Ad esempio, dati numerici e fonti testuali o multimediali.</skos:definition>
+      <skos:prefLabel xml:lang="lt">Mi&#x161;r&#x16b;s</skos:prefLabel>
+      <skos:definition xml:lang="lt">Duomenys, derinantys kiekybinius (paprastai strukt&#x16b;ruotus) ir kokybinius (da&#x17e;nai nestrukt&#x16b;ruotus) elementus, kurie gali b&#x16b;ti kaupiami ir analizuojami kartu, taikant tiek statistinius, tiek interpretacinius metodus, pavyzd&#x17e;iui, skaitiniai duomenys kartu su tekstiniais ar multimedijos &#x161;altiniais.</skos:definition>
+      <skos:prefLabel xml:lang="nl">Mixed</skos:prefLabel>
+      <skos:definition xml:lang="nl"></skos:definition>
+      <skos:prefLabel xml:lang="sl">Me&#x161;ani</skos:prefLabel>
+      <skos:definition xml:lang="sl">Podatki, ki zdru&#x17e;ujejo kvantitativne (obi&#x10d;ajno strukturirane) in kvalitativne (pogosto nestrukturirane) elemente ter se lahko obravnavajo in analizirajo skupaj, kar omogo&#x10d;a uporabo tako statisti&#x10d;nih kot interpretativnih metod. Na primer &#x161;tevil&#x10d;ni podatki ter besedilni ali multimedijski viri.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

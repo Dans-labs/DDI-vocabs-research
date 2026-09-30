@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/39872cc> a skos:Concept ;
+    skos:definition "A concept group created to bring together concepts reflecting the same general theme, or topic; for example, a group called \"Trust\" can include trust in institutions, trust in government, as well as interpersonal trust."@en,
+        "En konseptgruppe som lages for å knytte sammen konsepter som gjenspeiler det samme generelle tema eller emne; for eksempel, en gruppe kalt \"Tillit\" kan inkludere tillit til institusjoner, tillit til styresmakter, så vel som mellommenneskelige tillit."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/> ;
+    skos:notation "Thematic"@en ;
+    skos:prefLabel "Thematic"@en,
+        "Tematisk"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/6311ae1> a skos:Concept ;
+    skos:definition "Use when the type of concept group is known, but not found in the list."@en,
+        "Bruk når typen konseptgruppe er kjent, men ikke finnes på listen."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Annen"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/9ef1541> a skos:Concept ;
+    skos:definition "A concept group created for administrative purposes, for instance for subsetting or reorganizing data."@en,
+        "En konseptgruppe som lages for administrative formål, for eksempel for å subsette eller reorganisere data."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/> ;
+    skos:notation "Administrative"@en ;
+    skos:prefLabel "Administrative"@en,
+        "Administrativ"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/> a skos:ConceptScheme ;
+    dcterms:description "Specifies the rationale for creating a concept group."@en,
+        "Spesifiserer rasjonale for å lage en konseptgruppe."@no ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Type of Concept Group"@en,
+        "Type konseptgruppe"@no ;
+    owl:versionInfo "1.0.2" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/39872cc>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfConceptGroup/1.0.2/9ef1541> ;
+    skos:notation "TypeOfConceptGroup"@en ;
+    skos:prefLabel "Type of Concept Group"@en,
+        "Type konseptgruppe"@no .
+

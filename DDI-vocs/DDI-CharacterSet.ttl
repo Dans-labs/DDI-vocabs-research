@@ -1,0 +1,224 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/004a575> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88598"@en ;
+    skos:prefLabel "ISO-8859-8"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/0610983> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88599"@en ;
+    skos:prefLabel "ISO-8859-9"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/145fe2c> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1253"@en ;
+    skos:prefLabel "Windows-1253"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/348e9d0> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1258"@en ;
+    skos:prefLabel "Windows-1258"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/3f16a2b> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88592"@en ;
+    skos:prefLabel "ISO-8859-2"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/4369684> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1257"@en ;
+    skos:prefLabel "Windows-1257"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/6311ae1> a skos:Concept ;
+    skos:definition "Use if the character set is known, but not found in the list."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/6fcdc09> a skos:Concept ;
+    skos:definition "Use if the character set is not known, for example for some proprietary data files."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Unspecified"@en ;
+    skos:prefLabel "Unspecified"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/7149bb2> a skos:Concept ;
+    skos:definition "For MS-Windows character sets, use format: Windows-n in Caption and Windowsn in Code."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1251"@en ;
+    skos:prefLabel "Windows-1251"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/7e2ad57> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88597"@en ;
+    skos:prefLabel "ISO-8859-7"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/80b2ef1> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO885910"@en ;
+    skos:prefLabel "ISO-8859-10"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/80b9ba1> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88593"@en ;
+    skos:prefLabel "ISO-8859-3"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/8cb39c0> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "MacOSRoman"@en ;
+    skos:prefLabel "Mac OS Roman"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/8f6a0e5> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88595"@en ;
+    skos:prefLabel "ISO-8859-5"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/92dca19> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "UTF32"@en ;
+    skos:prefLabel "UTF-32"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/a97aaa9> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO885914"@en ;
+    skos:prefLabel "ISO-8859-14"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/add5edf> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO885913"@en ;
+    skos:prefLabel "ISO-8859-13"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/b39ba5d> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88596"@en ;
+    skos:prefLabel "ISO-8859-6"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/c45e91b> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1256"@en ;
+    skos:prefLabel "Windows-1256"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/c561b1a> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO885915"@en ;
+    skos:prefLabel "ISO-8859-15"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/cadad10> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO885916"@en ;
+    skos:prefLabel "ISO-8859-16"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/d2cd825> a skos:Concept ;
+    skos:definition "The official name is US-ASCII but use the format: ASCII. The ISO code for ASCII is ISO 14962."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ASCII"@en ;
+    skos:prefLabel "ASCII"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/d56f2f0> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1252"@en ;
+    skos:prefLabel "Windows-1252"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/deafe22> a skos:Concept ;
+    skos:definition "For ISO standards, use format: ISO-n-n in Caption and ISOnn in Code. ISO standards are also known as Latin, for example, ISO-8859-1 as Latin1."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88591"@en ;
+    skos:prefLabel "ISO-8859-1"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/deccb6c> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1255"@en ;
+    skos:prefLabel "Windows-1255"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/e1cb7b1> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO88594"@en ;
+    skos:prefLabel "ISO-8859-4"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/eb7ee0f> a skos:Concept ;
+    skos:definition "For Unicode Transformation Formats, use format: UTF-n in Caption and UTFn in Code."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "UTF8"@en ;
+    skos:prefLabel "UTF-8"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/f023832> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "UTF16"@en ;
+    skos:prefLabel "UTF-16"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/f485803> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "ISO885911"@en ;
+    skos:prefLabel "ISO-8859-11"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/f848527> a skos:Concept ;
+    skos:definition ""@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> ;
+    skos:notation "Windows1254"@en ;
+    skos:prefLabel "Windows-1254"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/> a skos:ConceptScheme ;
+    dcterms:description "Standard set of characters upon which many character encodings are based (Wikipedia)."@en ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Character Set"@en ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/004a575>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/0610983>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/145fe2c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/348e9d0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/3f16a2b>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/4369684>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/6fcdc09>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/7149bb2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/7e2ad57>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/80b2ef1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/80b9ba1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/8cb39c0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/8f6a0e5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/92dca19>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/a97aaa9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/add5edf>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/b39ba5d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/c45e91b>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/c561b1a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/cadad10>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/d2cd825>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/d56f2f0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/deafe22>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/deccb6c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/e1cb7b1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/eb7ee0f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/f023832>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/f485803>,
+        <http://rdf-vocabulary.ddialliance.org/cv/CharacterSet/1.0.0/f848527> ;
+    skos:notation "CharacterSet"@en ;
+    skos:prefLabel "Character Set"@en .
+

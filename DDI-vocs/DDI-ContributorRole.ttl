@@ -1,0 +1,896 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/0b8b21c> a skos:Concept ;
+    skos:definition "Producing individually collected data in a summary form, for purposes such as statistical analysis. A common aggregation goal is to obtain more information about particular population groups, based on specific variables, such as age, profession, education, or income."@en,
+        "Üksikandmetest koondandmestiku moodustamine, nt statistiliseks analüüsiks või muul eesmärgil. Agregeerimise peamisi eesmärke on saada rohkem teavet teatud rahvastikurühmade kohta mingi muutuja (nt vanus, amet, haridus, sissetulek) alusel."@et,
+        "Produzione di una sintesi dei dati raccolti a livello individuale, per scopi quali l'analisi statistica. Un obiettivo comune dell'aggregazione è quello di ottenere maggiori informazioni su particolari gruppi di popolazione, in base a variabili specifiche, come l'età, la professione, l'istruzione o il reddito."@it,
+        "Produsere individuelt innsamlede data i et sammenfattet format med hensikt om å tilrettelegge for ytterligere statistiske analyser. Et allment aggregeringsmål kunne oppnå mer informasjon om en spesifikk populasjongruppe basert på spesifikke variabler som alder, yrke, utdanning eller inntekt."@no,
+        "Priprava zbranih podatkov v obliki, ki je primerna za analizo. Pogost cilj združevanja je pridobiti več informacij o določenih skupinah prebivalstva na osnovi posebnih spremenljivk, kot so starost, poklic, izobrazba ali dohodek."@sl,
+        "Att ta fram individuellt insamlade data i sammanfattad form för syften som t.ex. statistiska analyser. Ett vanligt mål för aggregering är att få mer information om vissa populationsgrupper utifrån vissa variabler, som ålder, yrke, utbildning eller inkomst."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataProcessing.DataAggregation"@en ;
+    skos:prefLabel "Data processing: Data aggregation"@en,
+        "Andmetöötlus: agregeerimine"@et,
+        "Elaborazione dei dati: aggregazione dei dati"@it,
+        "Databehandling: Data aggregering"@no,
+        "Obdelava podatkov: združevanje podatkov"@sl,
+        "Databehandling: Dataaggregering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/0d6528b> a skos:Concept ;
+    skos:definition "Providing support for research or for other work or activities. Includes in-kind support, for example, providing staff time, facilities or instrumentation. Maps to 'Sponsor' in DataCite."@en,
+        "Uuringu, teadustöö või muu tegevuse toetamine. Hõlmab ka mitterahalist toetamist, näiteks tööjõu, ruumide või tehnika andmist. Vastab DataCite süsteemis rollile Sponsor."@et,
+        "Sostegno alla ricerca o ad altri lavori o attività. Include il sostegno in natura, ad esempio fornendo tempo del proprio personale, servizi o strumentazione. Corrisponde a 'Sponsor' in DataCite."@it,
+        "Støtte forskning eller andre typer arbeid eller aktiviteter. Inkluderer in natura, for eksempel, personal tid, fasiliteter eller instrumentering. Kobles til 'Sponsor' i DataCite."@no,
+        "Zagotavljanje podpore za raziskovanje ali za drugo delo ali dejavnosti. To vključuje, na primer zagotavljanje osebja, prostorov ali instrumentov. V DataCite ustreza kategoriji 'Sponsor'."@sl,
+        "Att ge stöd till forskning eller annan verksamhet. Det inkluderar stöd in natura, som att tillhandahålla deltidspersonal, lokaler eller instrument. Kopplas till \"Sponsor\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Sponsorship"@en ;
+    skos:prefLabel "Sponsorship"@en,
+        "Toetamine"@et,
+        "Sponsorizzazioni"@it,
+        "Sponsoravtale"@no,
+        "Sponzorstvo"@sl,
+        "Sponsring"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/1342e63> a skos:Concept ;
+    skos:definition "Protecting and maintaining the integrity and usability of data and accompanying metadata so that they remain available to future generations. Maps to 'DataManager' in DataCite."@en,
+        "Andmete ning seotud metaandmete tervikluse ja kasutatavuse tagamine, et andmed oleksid kättesaadavad järgmistele põlvkondadele. Vastab DataCite süsteemis rollile DataManager."@et,
+        "Protezione e mantenimento dell'integrità e dell'usabilità dei dati e dei metadati che li accompagnano, in modo che rimangano a disposizione delle generazioni future. Corrisponde a 'DataManager' in DataCite."@it,
+        "Ivareta og vedlikeholde integriteten og brukervennligheten til data og tilhørende metadata slik at det forblir tilgjengelig for fremtidige generasjoner. Kobles til 'DataManager' i DataCite."@no,
+        "Zaščita in vzdrževanje celovitosti ter uporabnosti podatkov in spremljajočih metapodatkov, da ostanejo na voljo tudi prihodnjim generacijam. V DataCite ustreza kategoriji \"DataManager\"."@sl,
+        "Att skydda och bibehålla integriteten och användbarheten hos data och tillhörande metadata, så att de förblir tillgängliga för framtida generationer. Mappas till \"DataManager\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "LongTermPreservationOrArchiving"@en ;
+    skos:prefLabel "Long-term preservation/archiving"@en,
+        "Pikaajaline säilitamine/arhiveerimine"@et,
+        "Conservazione a lungo termine/archiviazione"@it,
+        "Langsiktig bevaring/arkivering"@no,
+        "Dolgoročno ohranjanje/arhiviranje"@sl,
+        "Långtidsbevarande/arkivering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/1dd6b68> a skos:Concept ;
+    skos:definition "Reviewing whether a research proposal or study complies with ethical principles based on legislation or approved ethical guidelines (soft legislation)."@en,
+        "Kontrollimine, kas valitud uurimisprobleem või uuring on kooskõlas eetikapõhimõtetega, mis tulenevad seadustest või kinnitatud eetikanõuetest (nn pehme õigus)."@et,
+        "Valutazione della conformità di una proposta di ricerca o di uno studio ai principi etici basati sulla legislazione o sulle linee guida etiche approvate (non vincolanti)."@it,
+        "Gjennomgang av hvorvidt et forskningsforslag eller en undersøkelse er i overenstemmelse med etiske prinsipper basert på lovgivning eller godkjente etiske retningslinjer (myk lovgivning)."@no,
+        "Preverjanje, ali je predlog raziskave skladen z etičnimi načeli v povezavi z zakonodajo in sprejetimi etičnimi smernicami."@sl,
+        "Att pröva huruvida ett forskningsförslag eller en studie uppfyller etiska principer enligt lagkrav eller godkända etiska riktlinjer (så kallad mjuk lagstiftning)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "EthicsReview"@en ;
+    skos:prefLabel "Ethics review"@en,
+        "Eetikanõuete täitmine"@et,
+        "Valutazione etica"@it,
+        "Etisk godkjenning"@no,
+        "Pregled etične skladnosti	"@sl,
+        "Etikprövning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/21b058b> a skos:Concept ;
+    skos:definition "Combining text and images to support and enhance content, and make it visually appealing and user-friendly."@en,
+        "Teksti ja piltide kombineerimine sisu paremaks edasiandmiseks; sisu visuaalselt huvitavalt ja kasutajasõbralikult esitamine."@et,
+        "Combinare testo e immagini per supportare e migliorare i contenuti e renderli visivamente interessanti e facili da usare."@it,
+        "Kombinere tekst og bilder til å underbygge og forbedre innholdet og gjøre det mer visuelt tiltalende og brukervennlig."@no,
+        "Združevanje besedila in slik za vizualno obogatitev vsebine, prijazne do uporabnika."@sl,
+        "Att kombinera text och bild för att understödja och förstärka innehåll, göra det visuellt tilltalande och användarvänligt."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "GraphicDesign"@en ;
+    skos:prefLabel "Graphic design"@en,
+        "Graafiline disain"@et,
+        "Progettazione grafica"@it,
+        "Grafisk design"@no,
+        "Grafično oblikovanje"@sl,
+        "Grafisk design"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/284e453> a skos:Concept ;
+    skos:definition "Person that contributes and participates as a member in a designated project or project team. Maps to 'ProjectMember' in DataCite."@en,
+        "Isik, kes panustab ja osaleb konkreetse projekti või meeskonna liikmena. Vastab DataCite süsteemis rollile ProjectMember."@et,
+        "Persona che contribuisce e partecipa come membro a un progetto o a un team di progetto. Corrisponde a 'ProjectMember' in DataCite."@it,
+        "Person som bidrar og deltar som et medlem i et angitt prosjekt eller prosjektgruppe. Kobles til 'ProjectMember' i DataCite."@no,
+        "Oseba, ki sodeluje v določenem projektu ali projektni skupini. V DataCite ustreza kategoriji \"ProjectMember\"."@sl,
+        "En person som bidrar till och deltar som medlem i ett angivet projekt eller projektteam. Mappas till \"ProjectMember\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOperations.ProjectMember"@en ;
+    skos:prefLabel "Project operations: Project member"@en,
+        "Projekti teostus: osaleja"@et,
+        "Attività di progetto: membro del progetto"@it,
+        "Prosjektstyring: Prosjektmedlem"@no,
+        "Projektne dejavnosti: član projekta"@sl,
+        "Projektverksamhet: Projektmedlem"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/2916675> a skos:Concept ;
+    skos:definition "A standards-setting body from which Registration Agencies obtain official recognition and guidance. For example, the International DOI Foundation (IDF) serves as the registration authority for the International Standards Organization (ISO) in the area/domain of Digital Object Identifiers."@en,
+        "Standardeid kehtestav asutus, mis ametlikult kinnitab ja juhendab Registripidajaid. Näiteks IDF (International DOI Foundation) on Rahvusvahelise Standardiorganisatsiooni (ISO) keskne registriasutus objektide digitaalidentifikaatorite (DOI) valdkonnas."@et,
+        "Organismo di definizione degli standard da cui le agenzie di registrazione ottengono il riconoscimento ufficiale e le linee di indirizzo. Ad esempio, l'International DOI Foundation (IDF) funge da autorità di registrazione per l'International Standards Organization (ISO) nell'area/dominio degli identificatori di oggetti digitali."@it,
+        "Et standardiseringsorgan hvor registreringsbyrå oppnår offisiell anerkjennelse og veiledning. For eksempel fungerer International DOI Foundation (IDF) som registreringsbyrå for International Standards Organizations (ISO) innenfor domene Digital Object Identifiers."@no,
+        "Organ za določanje standardov, pri katerem registracijske agencije pridobijo uradno priznanje in smernice. Na primer, Mednarodna fundacija DOI (IDF) deluje kot registracijski organ Mednarodne organizacije za standardizacijo (ISO) na področju identifikatorjev digitalnih objektov."@sl,
+        "Ett standardsättande organ som ger registreringsmyndigheter officiellt erkännande och vägledning. Till exempel fungerar International DOI Foundation (IDF) som registreringsauktoritet för International Standards Organization (ISO) när det gäller Digital Object Identifiers (DOI)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "RegistrationAuthority"@en ;
+    skos:prefLabel "Registration authority"@en,
+        "Keskne registriasutus"@et,
+        "Autorità di registrazione"@it,
+        "Registreringsmyndighet"@no,
+        "Organ za standardizacijo"@sl,
+        "Registreringsauktoritet"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/2cc8195> a skos:Concept ;
+    skos:definition "Acquiring data and supporting documentation from potential contributors for further preservation and/or dissemination."@en,
+        "Andmete ja vajaliku lisadokumentatsiooni kogumine potentsiaalsetest allikatest täiendavaks säilitamiseks ja/või levitamiseks."@et,
+        "Acquisizione di dati e della documentazione di supporto, provenienti da eventuali collaboratori, per la successiva conservazione e/o divulgazione."@it,
+        "Å anskaffe data og tilhørende dokumentasjon fra potensielle bidragsytere for fremtidig bevaring og/eller formidling."@no,
+        "Pridobivanje podatkov in podporne dokumentacije za nadaljnje shranjevanje in/ali razširjanje. Ne vključuje zbiranja izvirnih podatkov."@sl,
+        "Att hämta in data och tillhörande dokumentation från möjliga medverkande för ytterligare bevarande och/eller delning."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataAcquisition"@en ;
+    skos:prefLabel "Data acquisition"@en,
+        "Andmehõive"@et,
+        "Acquisizione dei dati"@it,
+        "Datafangst"@no,
+        "Pridobivanje podatkov"@sl,
+        "Datafångst"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/336ba67> a skos:Concept ;
+    skos:definition "Providing financial support to a program or project, usually by an organization or government. Funding is made for a specific purpose for which the successful applicant must often account in full."@en,
+        "Programmi või projekti rahaline toetamine; tavaliselt on finantseerijaks mõni organisatsioon või riik. Raha eraldatakse konkreetseks eesmärgiks ning taotleja peab üldjuhul raha kasutamise kohta põhjalikult aru andma."@et,
+        "Fornitura di un sostegno finanziario a un programma o a un progetto, solitamente da parte di un'organizzazione o del governo. Il finanziamento viene erogato per uno scopo specifico che il richiedente selezionato deve spesso rendicontare per intero."@it,
+        "Yte økonomisk støtte til et program eller prosjekt som regel av en organisasjon eller myndighet. Finansiering foretas til et spesifikt formål hvor den godkjente søkeren ofte skal redegjøre fullt ut."@no,
+        "Zagotavljanje finančne podpore programu ali projektu, običajno s strani organizacije ali vlade. Financiranje je namenjeno za določen namen, za katerega je prejemnik sredstev pogosto v celoti odgovoren."@sl,
+        "Att ge ekonomiskt stöd till ett program eller projekt, vanligtvis av en organisation eller regering. Finansiering ges till ett visst syfte, och mottagaren måste vanligtvis ge fullständiga redovisningar av den."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "FundingProvision"@en ;
+    skos:prefLabel "Funding provision"@en,
+        "Rahastamine"@et,
+        "Finanziamento"@it,
+        "Finansiering"@no,
+        "Zagotavljanje financiranja"@sl,
+        "Finansiering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/3a9a021> a skos:Concept ;
+    skos:definition "Group of individuals involved in the research. Maps to 'ResearchGroup' in DataCite."@en,
+        "Isikute rühm, kes uuringut läbi viib. Vastab DataCite süsteemis rollile ResearchGroup."@et,
+        "Gruppo di persone coinvolte nella ricerca. Corrisponde a 'ResearchGroup' in DataCite."@it,
+        "En gruppe med individer som er involvert i forskningen. Kobles til 'ResearchGroup' i DataCite."@no,
+        "Skupina posameznikov, ki izvaja raziskavo. V DataCite ustreza kategoriji \"ResearchGroup\"."@sl,
+        "En grupp av personer som är delaktiga i forskningen. Mappas till \"ResearchGroup\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ResearchGroup"@en ;
+    skos:prefLabel "Research group"@en,
+        "Uurimisrühm"@et,
+        "Gruppo di ricerca"@it,
+        "Forskningsgruppe"@no,
+        "Raziskovalna skupina"@sl,
+        "Forskargrupp"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/3b0fc20> a skos:Concept ;
+    skos:definition "Distributing/disseminating the data to users and making them available for reuse. Maps to 'Distributor' in DataCite."@en,
+        "Andmete levitamine ja kasutajatele kättesaadavaks tegemine. Vastab DataCite süsteemis rollile Distributor."@et,
+        "Distribuzione/diffusione dei dati agli utenti, rendendoli disponibili per il riutilizzo. Corrisponde a 'Distributor' in DataCite."@it,
+        "Distribusjon/formidling av data til brukere og tilgjengeliggjøring for gjenbruk. Kobles til 'Distributor' i DataCite."@no,
+        "Distribucija/razširjanje podatkov uporabnikom in omogočanje njihove ponovne uporabe. V DataCite ustreza kategoriji \"Distributor\"."@sl,
+        "Att distribuera/sprida data till användare och tillgängliggöra dem för återanvändning. Mappas till \"Distributor\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataDistribution"@en ;
+    skos:prefLabel "Data distribution"@en,
+        "Levitamine"@et,
+        "Distribuzione dei dati"@it,
+        "Datadistribusjon"@no,
+        "Distribucija podatkov"@sl,
+        "Datadistribution"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/547933a> a skos:Concept ;
+    skos:definition "Developing weights to assist in adjusting the data to the desired objectives of the study, for example, to make the data representative of the target population."@en,
+        "Kaalude leidmine, et andmeid saaks kasutada uuringu eesmärkide täitmiseks, näiteks et andmed võimaldaksid teha järeldusi üldkogumi kohta."@et,
+        "Sviluppo dei pesi al fine di adattare i dati agli obiettivi desiderati dello studio, ad esempio per rendere i dati rappresentativi della popolazione di riferimento."@it,
+        "Utvikling av vekter som kan bidra i å justere data slik at det møter målene til studien, for eksempel å gjøre data representative for målpopulasjonen."@no,
+        "Razvoj uteži za pomoč pri prilagajanju podatkov, na primer, da bi bili podatki reprezentativni za ciljno populacijo."@sl,
+        "Att ta fram viktningar som en hjälp för att justera data efter studiens önskade mål, till exempel för att göra data representativa för målpopulationen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesign.WeightsDesign"@en ;
+    skos:prefLabel "Project/Study design: Weights design"@en,
+        "Projekti/uuringu disain: kaalude määramine"@et,
+        "Disegno del progetto/studio: progettazione dei pesi"@it,
+        "Prosjekt/studie design: Vektedesign"@no,
+        "Zasnova projekta/raziskave: zasnova uteži	"@sl,
+        "Projekt-/studiedesign: Viktningsdesign"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/55021e5> a skos:Concept ;
+    skos:definition "Housing, servicing, and maintaining data and, usually, the accompanying  metadata or related documentation. Maps to to 'HostingInstitution' in DataCite."@en,
+        "Andmete ning reeglina ka seotud metaandmete või muu dokumentatsiooni majutamine, haldamine ja säilitamine. Vastab DataCite süsteemis rollile HostingInstitution."@et,
+        "Ospitare, gestire e mantenere i dati e, solitamente, i metadati che li accompagnano o la relativa documentazione. Corrisponde a 'HostingInstitution' in DataCite."@it,
+        "Lagring, håndtering og vedlikehold av data, som oftest inkluderer dette også tilhørende metadata og relatert dokumentasjon. Kobles til 'HostingInstitution' i DataCite."@no,
+        "Digitalna hramba, storitve in vzdrževanje podatkov ter običajno spremljajočih metapodatkov ali povezane dokumentacije. V DataCite ustreza kategoriji \"HostingInstitution\"."@sl,
+        "Att lagra, ta hand om och underhålla data och, vanligtvis, tillhörande metadata eller dokumentation. Mappas till \"HostingInstitution\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataHosting"@en ;
+    skos:prefLabel "Data hosting"@en,
+        "Andmemajutus"@et,
+        "Hosting dei dati"@it,
+        "Datalagring"@no,
+        "Gostovanje podatkov"@sl,
+        "Datalagring"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/552cf53> a skos:Concept ;
+    skos:definition "Performing operations that result in changes to the data, including data cleaning, editing, post-harmonization, etc. Maps to 'DataCurator' in DataCite."@en,
+        "Toimingud, mille tulemusel andmed muutuvad, sh andmete puhastamine, ettevalmistamine, ühtlustamine jne. Vastab DataCite süsteemis rollile DataCurator."@et,
+        "Operazioni che comportano cambiamenti ai dati, tra cui la pulizia e la modifica dei dati, la post-armonizzazione, ecc. Corrisponde a 'DataCurator' in DataCite."@it,
+        "Utfører handlinger som medfører endringer i data, inkludert rensing av data, redigering og post-harmonisering, etc. Kobles til 'DataCurator' i DataCite."@no,
+        "Izvajanje operacij, ki spremenijo podatke: čiščenje, urejanje, naknadno usklajevanje idr. V shemi DataCite ustreza kategoriji 'DataCurator'."@sl,
+        "Att utföra åtgärder som gör att data förändras, t.ex. att rensa, redigera eller post-harmonisera data. Mappas till \"DataCurator\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/0b8b21c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/657848c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/7c47e9a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/7f385ef> ;
+    skos:notation "DataProcessing"@en ;
+    skos:prefLabel "Data processing"@en,
+        "Andmetöötlus"@et,
+        "Elaborazione dei dati"@it,
+        "Databehandling"@no,
+        "Obdelava podatkov"@sl,
+        "Databehandling"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/5767fa2> a skos:Concept ;
+    skos:definition "Selecting units from the target population."@en,
+        "Üksuste valimine üldkogumist."@et,
+        "Selezione delle unità dalla popolazione di riferimento."@it,
+        "Trekking av enheter fra mål populasjonen."@no,
+        "Izbor enot iz ciljne populacije."@sl,
+        "Att välja enheter ur målpopulationen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "SampleSelection"@en ;
+    skos:prefLabel "Sample selection"@en,
+        "Valimi moodustamine"@et,
+        "Selezione del campione"@it,
+        "Utvalgstrekking"@no,
+        "Določitev vzorca	"@sl,
+        "Val av urval"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/5b659e6> a skos:Concept ;
+    skos:definition "Creating and maintaining a website related to the data. May include web design, building a user interface, network security configuration, etc."@en,
+        "Andmete jaoks veebilehe loomine ja haldamine. Näiteks veebidisain, kasutajaliidese loomine või võrguturbesätete seadistamine jne."@et,
+        "Creazione e manutenzione di un sito web relativo ai dati. Può includere la progettazione web, la creazione di un'interfaccia utente, la configurazione della sicurezza di rete, ecc."@it,
+        "Å opprette og vedlikeholde en nettside relatert til data. Kan inkludere web design, konstruksjon av brukergrensesnitt, nettverkssikkerhet konfigurering, etc."@no,
+        "Vzpostavitev in vzdrževanje spletnega mesta, povezanega s podatki. Lahko vključuje oblikovanje spletne strani, izdelavo uporabniškega vmesnika, konfiguracijo omrežne varnosti itd."@sl,
+        "Att skapa och underhålla en webbplats som är kopplad till data. Det kan inkludera webbdesign, att skapa ett användargränssnitt, konfigurera nätverkssäkerhet osv."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "WebsiteDevelopment"@en ;
+    skos:prefLabel "Website development"@en,
+        "Veebilehe tegemine"@et,
+        "Sviluppo sito web"@it,
+        "Nettstedsutvikling"@no,
+        "Razvoj spletne strani"@sl,
+        "Webbplatsutveckling"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/626a54d> a skos:Concept ;
+    skos:definition "Raising awareness and understanding of products and services, to attract potential users."@en,
+        "Toodete ja teenuste tutvustamine ja teadlikkuse tõstmine, et leida potentsiaalseid kasutajaid."@et,
+        "Accrescere la consapevolezza e la comprensione di prodotti e servizi per attirare potenziali utenti."@it,
+        "Øke bevissthet og forståelse av produkter og tjenester for å tiltrekke seg potensielle brukere."@no,
+        "Informiranje in ozaveščanje o izdelkih in storitvah, da bi pritegnili potencialne uporabnike."@sl,
+        "Att öka medvetenheten om och förståelsen av produkter och tjänster i syfte att attrahera möjliga användare."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Promotion"@en ;
+    skos:prefLabel "Promotion"@en,
+        "Turundus"@et,
+        "Promozione"@it,
+        "Promotering"@no,
+        "Promocija"@sl,
+        "Marknadsföring"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/6311ae1> a skos:Concept ;
+    skos:definition "Use if the role is known but not in the list. Can be mapped to the roles 'RelatedPerson', 'Producer', and 'Work Package Leader' in DataCite."@en,
+        "Kasutada, kui roll on teada, kuid puudub loendis. Vastab DataCite süsteemis vastavalt vajadusele kas rollile RelatedPerson või Producer või Work Package Leader."@et,
+        "Utilizzare se il ruolo del collaboratore è noto, ma non riconducibile a nessun termine presente nell'elenco. Può corrispondere ai ruoli \"RelatedPerson\", \"Producer\" e \"Work Package Leader\" in DataCite."@it,
+        "Bruk hvis rollen er kjent, men ikke på listen. Kan bli koblet til rollene 'RelatedPerson', 'Producer', og 'Work Package Leader' i DataCite."@no,
+        "Uporabite, če je vloga znana, vendar je ni na seznamu. Lahko se poveže z vlogami \"RelatedPerson\", \"Producer\" in \"Work Package Leader\" v DataCite."@sl,
+        "Används om rollen är känd men inte finns med i listan. Kan mappas till rollerna \"RelatedPerson\", \"Producer\" och \"WorkPackageLeader\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Muu"@et,
+        "Altro"@it,
+        "Annet"@no,
+        "Drugo"@sl,
+        "Övrigt"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/657848c> a skos:Concept ;
+    skos:definition "The process of checking data to ensure that all of them have acceptable values, that they are accurate, coherent, consistent, complete and in the expected format."@en,
+        "Andmete kontrollimine: kas kõik väärtused on sobivad, kas andmed on täpsed, sidusad, ühtsed, täielikud ja nõutud formaadis."@et,
+        "Processo di verifica che intende assicurare che i dati abbiano tutti i valori ammissibili, che siano accurati, coerenti, consistenti, completi e nel formato previsto."@it,
+        "Prosessen ved å kvalitetssikre data for å sikre at alle har akseptable verdier, at de er nøyaktige, pålitelige, konsistente, fullstendige og i forventet format."@no,
+        "Postopek preverjanja podatkov, s katerim se zagotovi, da imajo vsi podatki sprejemljive vrednosti, da so točni, skladni, dosledni, popolni in v pričakovani obliki."@sl,
+        "Att bedöma data för att se till att alla data har acceptabla värden, att de är korrekta, koherenta, konsekventa, fullständiga och har förväntat format."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataProcessing.DataValidation"@en ;
+    skos:prefLabel "Data processing: Data validation"@en,
+        "Andmetöötlus: valideerimine"@et,
+        "Elaborazione dei dati: validazione dei dati"@it,
+        "Databehandling: Data validering"@no,
+        "Obdelava podatkov: validacija podatkov"@sl,
+        "Databehandling: Datavalidering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/6dd0887> a skos:Concept ;
+    skos:definition "Expressing the content of text or speech in a different language than the original language used. For example, questionnaire or study report translation."@en,
+        "Kõne või kirjaliku teksti sisu edasiandmine teises keeles. Näiteks küsimustiku või uuringuraporti tõlkimine."@et,
+        "Esprimere il contenuto di un testo o di un discorso in una lingua diversa da quella originale. Ad esempio, la traduzione di un questionario o di un rapporto di ricerca."@it,
+        "Å uttrykke innholdet i teksten eller talen i et annet språk enn originalspråket som ble brukt. For eksempel, spørreskjema eller studierapport oversettelse."@no,
+        "Posredovanje vsebine besedila ali govora v jeziku, ki se razlikuje od izvirnega jezika. Na primer prevajanje vprašalnika ali poročila o študiji."@sl,
+        "Att uttrycka innehållet i text eller tal på ett annat språk än originalspråket. Till exempel översättning av frågeformulär eller studierapporter."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Translation"@en ;
+    skos:prefLabel "Translation"@en,
+        "Tõlkimine"@et,
+        "Traduzione"@it,
+        "Oversettelse"@no,
+        "Prevajanje"@sl,
+        "Översättning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/6e917a4> a skos:Concept ;
+    skos:definition "Creating and maintaining software needed at any stage of the data life cycle."@en,
+        "Andmete elutsükli mistahes etapis vajamineva tarkvara loomine ja haldamine."@et,
+        "Creazione e mantimento del software necessario in qualsiasi fase del ciclo di vita dei dati."@it,
+        "Skape og vedlikeholde programvare som er nødvendig på hvilket som helst stadie i data livssyklusen."@no,
+        "Ustvarjanje in vzdrževanje programske opreme v celotnem življenjskem krogu podatkov."@sl,
+        "Att skapa och underhålla programvara som behövs i någon fas av datalivscykeln."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "SoftwareDevelopment"@en ;
+    skos:prefLabel "Software development"@en,
+        "Tarkvaraarendus"@et,
+        "Sviluppo software"@it,
+        "Programvareutvikling"@no,
+        "Razvoj programske opreme"@sl,
+        "Programvaruutveckling"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/71dfa2a> a skos:Concept ;
+    skos:definition "Generating data documentation. For example, a study description covering study rationale, methodology, and other characteristics of the dataset as a whole; variable-level documentation (labels, frequencies, question text); references to study-related materials or publications, etc."@en,
+        "Andmete dokumenteerimine. Näiteks uuringu kirjeldus, kus on kirjas uuringu eesmärk, metoodika ning andmestiku üldtunnused; muutujate dokumenteerimine (nimetused, sagedused, küsimuste sõnastus); viited uuringuga seotud materjalidele või publikatsioonidele jne."@et,
+        "Creazione della documentazione sui dati. Ad esempio, una descrizione dello studio che comprenda le ragioni dello studio, la metodologia e altre caratteristiche del dataset nel suo complesso; documentazione a livello di variabili (etichette, frequenze, testo delle domande); riferimenti a materiali o pubblicazioni relativi allo studio, ecc."@it,
+        "Generere datadokumentasjon. For eksempel, en studiebeskrivelse som dekker undersøkelsens begrunnelse, metodologi og andre kjennetegn ved datasettet som en helhet; variabelnivå dokumentasjon (labler, frekvenser, spørsmålstekst); referanse til studierelatert materiale eller publikasjoner, etc."@no,
+        "Priprava dokumentacije o podatkih. Na primer opis raziskave, ki zajema utemeljitev raziskave, metodologijo in druge značilnosti raziskave kot celote; dokumentacija na ravni spremenljivk (oznake, frekvence, besedilo vprašanja); sklici na gradiva ali publikacije, povezane z raziskavo, itd."@sl,
+        "Att generera datadokumentation. Till exempel en studiebeskrivning som innehåller tanken bakom studien, metoden och andra egenskaper hos datasetet som helhet; dokumentation på variabelnivå (etiketter, frekvenser, frågetext); referenser till studierelaterade material eller publikationer osv."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "MetadataProduction"@en ;
+    skos:prefLabel "Metadata production"@en,
+        "Metaandmete loomine"@et,
+        "Produzione dei metadati"@it,
+        "Metadataproduksjon"@no,
+        "Priprava metapodatkov"@sl,
+        "Metadataproduktion"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/7b371aa> a skos:Concept ;
+    skos:definition "Managing licenses for distributed data, tools, and other research materials on behalf of the rights holder."@en,
+        "Levitatud andmete, tööriistade ja muude uuringumaterjalide kasutamise õiguste ja litsentside haldamine (õiguste valdaja nimel)."@et,
+        "Gestione delle licenze dei dati, degli strumenti e di altri materiali di ricerca distribuiti per conto del titolare dei diritti."@it,
+        "Håndtere lisenser for distribuerte data, verktøy og annen forskningsmateriale på vegne av rettighetsinnehaver."@no,
+        "Upravljanje licenc za podatke, orodja in drugo raziskovalno gradivo v imenu imetnika avtorskih pravic."@sl,
+        "Hantering av licenser för distribuerade data, verktyg och annat forskningsmaterial på uppdrag av rättighetsinnehavaren."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "RightsManagement"@en ;
+    skos:prefLabel "Rights management"@en,
+        "Õiguste haldamine"@et,
+        "Gestione dei diritti"@it,
+        "Rettighetesstyring"@no,
+        "Upravljanje avtorskih pravic"@sl,
+        "Rättighetshantering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/7c47e9a> a skos:Concept ;
+    skos:definition "Planning or using specific techniques to preserve the anonymity of individual or other entities that the data refer to. For example, anonymization, pseudonymization, or removal of direct and indirect identifiers."@en,
+        "Konkreetsete meetmete planeerimine või kasutamine, et tagada üksikisikute või teiste andmesubjektide anonüümsus. Nt anonüümimine, pseudoanonüümimine, otsest või kaudset tuvastamist võimaldavate andemete eemaldamine."@et,
+        "Pianificazione o utilizzo di tecniche specifiche per preservare l'anonimato delle persone o di altre entità a cui i dati si riferiscono. Ad esempio, l'anonimizzazione, la pseudonimizzazione o la rimozione degli identificatori diretti e indiretti."@it,
+        "Planlegge eller bruke spesifikke teknikker for å ivareta anonymiteten til individer eller enheter som data omhandler. For eksempel, anonymisering, pseudonymisering eller fjerning av direkte og indirekte identifikatorer."@no,
+        "Načrtovanje ali uporaba posebnih tehnik za ohranjanje anonimnosti posameznikov ali drugih entitet, na katere se podatki nanašajo. Na primer: anonimizacija, psevdonimizacija ali odstranitev neposrednih in posrednih identifikatorjev."@sl,
+        "Att planera eller använda särskilda tekniker för att bevara anonymiteten för individer eller andra enheter som data hänvisar till. Till exempel anonymisering, pseudonymisering eller att ta bort direkta och indirekta identifierare."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataProcessing.DisclosureControl"@en ;
+    skos:prefLabel "Data processing: Disclosure control"@en,
+        "Andmetöötlus: konfidentsiaalsuse tagamine"@et,
+        "Elaborazione dei dati: controllo divulgazione"@it,
+        "Databehandling: Konfidensialitet kontroll"@no,
+        "Obdelava podatkov: Ravnanje z osebnimi podatki"@sl,
+        "Databehandling: Röjandekontroll"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/7f385ef> a skos:Concept ;
+    skos:definition "Combining data from separate sources into meaningful information. For example, linking register data with survey data or integrating datasets collected in different countries into a cross-national dataset."@en,
+        "Eri allikatest saadud andmete kombineerimine kasulikuks teabeks. Näiteks registriandmete ja uuringuandmete seostamine või erinevate riikide andmestike kombineerimine rahvusvaheliseks andmestikuks."@et,
+        "Combinazione di dati provenienti da fonti separate in informazioni significative. Ad esempio, collegamento tra i dati dei registri e quelli di survey o integrazione dei dataset raccolti in diversi Paesi in un unico dataset transnazionale."@it,
+        "Sammenstilling av data fra ulike kilder til meningsfull informasjon. For eksempel, å koble på registerdata med spørreskjema data eller integrere datasett samlet inn i forskjellig land til et tverrnasjonalt datasett."@no,
+        "Združevanje podatkov iz nepovezanih virov v smiselne informacije. Na primer povezovanje podatkov iz registrov z anketnimi podatki ali povezovanje podatkov, zbranih v različnih državah, v meddržavno zbirko podatkov."@sl,
+        "Att kombinera data från olika källor till meningsfull information. Till exempel att koppla registerdata till surveydata, eller att integrera dataset som samlats in i olika länder till ett tvärnationellt dataset."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataProcessing.DataIntegration"@en ;
+    skos:prefLabel "Data processing: Data integration"@en,
+        "Andmetöötlus: integreerimine"@et,
+        "Elaborazione dei dati: integrazione dei dati"@it,
+        "Databehandling: Dataintegrering"@no,
+        "Obdelava podatkov: integracija podatkov"@sl,
+        "Databehandling: Dataintegrering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/85068dd> a skos:Concept ;
+    skos:definition "Overseeing one or more individuals or teams in their work. Maps to 'Supervisor' in DataCite."@en,
+        "Ühe või mitme isiku või meeskonna töö juhendamine. Vastab DataCite süsteemis rollile Supervisor."@et,
+        "Supervisione di uno o più individui o team nello svolgimento del proprio lavoro. Corrisponde a 'Supervisor' in DataCite."@it,
+        "Å se til ett eller flere individer eller grupper i deres arbeid. Kobles til 'Supervisor' i DataCite."@no,
+        "Nadzor enega ali več posameznikov ali skupin pri njihovem delu. V DataCite ustreza kategoriji \"Supervisor\"."@sl,
+        "Att handleda en eller flera personer eller team i deras arbete. Mappas till \"Supervisor\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Supervision"@en ;
+    skos:prefLabel "Supervision"@en,
+        "Juhendamine"@et,
+        "Supervisione"@it,
+        "Tilsyn"@no,
+        "Nadzor"@sl,
+        "Handledning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/91a066f> a skos:Concept ;
+    skos:definition "Searching for, and/or obtaining financial or other type of support for a program or project."@en,
+        "Programmile või projektile rahalise või muu toetuse otsimine ja/või saamine."@et,
+        "Ricerca e/o ottenimento di un sostegno finanziario o di altro tipo per un programma o un progetto."@it,
+        "Søke etter og/eller oppnå finansiell eller annen type støtte for et program eller prosjekt."@no,
+        "Iskanje in/ali pridobivanje finančne ali druge vrste podpore za program ali projekt."@sl,
+        "Att söka efter och/eller beviljas finansiering eller någon annan form av stöd för ett program eller projekt."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "FundingOrSponsorshipAcquisition"@en ;
+    skos:prefLabel "Funding/sponsorship acquisition"@en,
+        "Rahastaja/toetaja leidmine"@et,
+        "Acquisizione di finanziamenti/sponsorizzazioni"@it,
+        "Finansiering/sponsoravtale erhvervelse"@no,
+        "Pridobivanje sredstev/sponzorstva"@sl,
+        "Erhållande av finansiering/sponsring"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/9573464> a skos:Concept ;
+    skos:definition "Developing models for the structure and distribution of data and metadata in fixed, predictable formats. For example, the DATS (Data Tag Suite) for describing biomedical data, the Data Documentation Initiative (DDI) for describing social, behavioral, economic, and health sciences data, etc."@en,
+        "Mudelite loomine andmete ja metaandmete struktureerimiseks ning levitamiseks kindlaksmääratud formaadis. Näiteks DATS (Data Tag Suite) biomeditsiiniliste andmete kirjeldamiseks, DDI (Data Documentation Initiative) sotsiaal-, käitumis-, majandus- ja terviseteaduslike andmete kirjeldamiseks jne."@et,
+        "Sviluppo di modelli per la struttura e la distribuzione di dati e metadati in formati fissi e prevedibili. Ad esempio, lo standard DATS (Data Tag Suite) per la descrizione dei dati biomedici, lo standard Data Documentation Initiative (DDI) per la descrizione dei dati delle scienze sociali, comportamentali, economiche e sanitarie, ecc."@it,
+        "Utvikle modeller for strukturering og distribuering av data og metadata i faste, forutsigbare formater. For eksempel, DATS (Data Tag Suite) for beskrivelse av biomedisinske data, DDI (Data Documentation Initiative) for beskrivelse av data fra samfunnsvitenskapene, økonomi og helsevitenskap osv."@no,
+        "Razvoj modelov za strukturiranje in deljenje podatkov ter metapodatkov v fiksnih, predvidljivih oblikah. Na primer Data Tag Suite (DATS) za opis biomedicinskih podatkov, Data Documentation Initiative (DDI) za opis podatkov s področja družbenih, vedenjskih, ekonomskih in zdravstvenih ved itd."@sl,
+        "Att ta fram modeller för struktur och fördelning av data och metadata i fasta, förutsägbara format. Till exempel DATS (Data Tag Suite) för att beskriva biomedicinska data, DDI (Data Documentation Initiative) för att beskriva data från samhällsvetenskap, nationalekonomi och hälsovetenskaperna osv."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesign.StandardsDevelopment"@en ;
+    skos:prefLabel "Project/Study design: Standards development"@en,
+        "Projekti/uuringu disain: standardite väljatöötamine"@et,
+        "Disegno del progetto/studio: sviluppo degli standard"@it,
+        "Prosjekt/studie design: Utvikling av standarderer"@no,
+        "Zasnova projekta/raziskave: razvoj standardov	"@sl,
+        "Projekt-/studiedesign: Utveckling av standarder"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/9cfccbf> a skos:Concept ;
+    skos:definition "Person officially designated as head of a project, or subproject team that carries out the work for developing a resource. The project leader remains closely involved in the work performed throughout the life of the project. Maps to 'ProjectLeader' in DataCite."@en,
+        "Ametlikult projekti või alamprojekti tiimijuhiks määratud isik, kes juhib ressursi loomiseks tehtavat tööd. Tiimijuht osaleb otseselt töös kogu projekti jooksul. Vastab DataCite süsteemis rollile ProjectLeader."@et,
+        "Persona ufficialmente nominata come capo di un progetto o di un team di un sottoprogetto che svolge il lavoro di sviluppo di una risorsa. Il coordinatore del progetto rimane direttamente coinvolto nel lavoro svolto per tutta la durata del progetto. Corrisponde a 'ProjectLeader' in DataCite."@it,
+        "Person som offisielt utpekes som leder av prosjektet eller delprosjekt som gjennomfører arbeidet for utviklingen av en ressurs. Prosjektlederen er tett koblet opp til arbeidet som gjennomføres i prosjektet gjennom hele prosjekttiden. Kobles til 'ProjectLeader' i DataCite."@no,
+        "Vodja projektne ali podprojektne skupine je uradno imenovan in je tesno vpleten v opravljanje dela ves čas trajanja projekta. V DataCite ustreza kategoriji 'ProjectLeader'."@sl,
+        "En person som officiellt har utsetts att leda ett projekt, eller ett team i ett delprojekt som utför arbete med att utveckla en resurs. Projektledaren är nära inblandad i arbetet genom projektets hela livslängd. Mappas till \"ProjectLeader\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOperations.ProjectLeader"@en ;
+    skos:prefLabel "Project operations: Project leader"@en,
+        "Projekti teostus: tiimijuht"@et,
+        "Attività di progetto: coordinatore del progetto"@it,
+        "Prosjektstyring: Prosjektleder"@no,
+        "Projektne dejavnosti: vodja projektne skupine"@sl,
+        "Projektverksamhet: Projektledare"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/a162a08> a skos:Concept ;
+    skos:definition "Development and execution of architectures, policies, practices and procedures to handle data at any stage of its life cycle. Includes processes and activities related to the selection, organization and integration of data, their annotation, as well as their publication and preservation so that the data maintain their value over time, and remain available for reuse."@en,
+        "Arhitektuuride, eeskirjade, toimingute ja hea tava arendamine ja rakendamine andmete haldamiseks igas elutsükli etapis. Hõlmab protsesse ja tegevusi, mis on seotud andmete valiku, korrastamise ja integreerimisega, andmete kirjeldamisega, andmete avaldamise ja säilitamisega, et andmed ei kaotaks ajas väärtust ning oleksid kättesaadavad uutele kasutajatele."@et,
+        "Sviluppo ed esecuzione di architetture, politiche, pratiche e procedure per gestire i dati in qualsiasi fase del loro ciclo di vita. Comprende i processi e le attività relativi alla selezione, all'organizzazione e all'integrazione dei dati, alla loro annotazione, nonché alla loro pubblicazione e conservazione, in modo che i dati mantengano il loro valore nel tempo e rimangano disponibili per il riutilizzo."@it,
+        "Utvikling og gjennomføring av arkitektur, politikk, praksis og prosedyrer for å håndtere data i alle trinn av livssyklusen. Inkluderer prosesser og aktiviteter knyttet til utvelgelse, organisasering og integrering av data, deres annotering, samt publisering og preservasjon sånn at dataene opprettholder sin verdi over tid og blir tilgjengelig for gjenbruk."@no,
+        "Razvoj in izvajanje smernic, praks in postopkov za ravnanje s podatki v vseh fazah življenjskega kroga podatkov. Vključuje procese in dejavnosti, povezane z izbiro, organizacijo in integracijo podatkov, njihovo anotacijo ter objavo in shranjevanjem, tako da podatki sčasoma ohranijo svojo vrednost in ostanejo na voljo za ponovno uporabo."@sl,
+        "Att utveckla och använda arkitekturer, policyer, riktlinjer och procedurer för att hantera data i alla delar av deras livscykel. Detta inkluderar processer och åtgärder som ingår i urval, organisering och integrering av data, annotering av data, samt publicering och bevarande av data, så att deras värden bibehålls över tid och finns tillgängliga för återanvändning."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataManagement"@en ;
+    skos:prefLabel "Data management"@en,
+        "Andmehaldus"@et,
+        "Gestione dei dati"@it,
+        "Datahåndtering"@no,
+        "Ravnanje s podatki	"@sl,
+        "Datahantering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/b1caf7f> a skos:Concept ;
+    skos:definition "Arranging, revising, and preparing materials (e.g., text, audio or video) for final production or publication. Maps to 'Editor' in DataCite."@en,
+        "Materjalide (nt tekstide, heli- või videomaterjali) koostamine, toimetamine ja ettevalmistamine esitamiseks või avaldamiseks. Vastab DataCite süsteemis rollile Editor."@et,
+        "Organizzazione, revisione e preparazione dei materiali (ad esempio, testi, audio o video) per la produzione finale o la pubblicazione. Corrisponde a 'Editor' in DataCite."@it,
+        "Arrangere, revidere og forberede materialet (f.eks tekst, lyd eller video) for endelig produksjon eller publikasjon. Kobles til 'Editor' i DataCite."@no,
+        "Urejanje, pregledovanje in priprava končnih verzij gradiv (npr. besedil, avdio ali video posnetkov) za uporabo, npr. objavo. V DataCite ustreza kategoriji 'Editor'."@sl,
+        "Att ordna, revidera och förbereda material (t.ex. text, ljud eller video) för slutproduktion eller publikation. Mappas till \"Editor\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Editing"@en ;
+    skos:prefLabel "Editing"@en,
+        "Toimetamine"@et,
+        "Editing"@it,
+        "Redigering"@no,
+        "Urejanje"@sl,
+        "Redigering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/b3b6b30> a skos:Concept ;
+    skos:definition "Person officially designated as manager of a project. This function normally has more administrative responsibilities than actual work involvement. Maps to 'ProjectManager' in DataCite."@en,
+        "Ametlikult projektijuhiks määratud isik. Selles rollis on isikul reeglina rohkem administratiivseid ülesandeid kui otseseid tööülesandeid. Vastab DataCite süsteemis rollile ProjectManager."@et,
+        "Persona ufficialmente nominata come responsabile di un progetto. Questa funzione ha normalmente responsabilità amministrative piuttosto che un effettivo coinvolgimento nel lavoro. Corrisponde a 'ProjectManager' in DataCite."@it,
+        "Person som offisielt utpekes som administrator av prosjektet. Denne funksjonen har mer administrative ansvarsområder enn arbeidsengasjement. Kobles til 'ProjectManager' i DataCite."@no,
+        "Vodja projekta je uradno imenovan in ima običajno več administrativnih odgovornosti kot dejanskega sodelovanja pri projektnih aktivnostih. V DataCite ustreza kategoriji \"ProjectManager\"."@sl,
+        "En person som har utsetts att ansvara för ett projekt. Den här funktionen har normalt sett mer administrativa ansvarsområden än det faktiska projektarbetet. Mappas till \"ProjectManager\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOperations.ProjectManager"@en ;
+    skos:prefLabel "Project operations: Project manager"@en,
+        "Projekti teostus: projektijuht"@et,
+        "Attività di progetto: responsabile del progetto"@it,
+        "Prosjektstyring: Prosjekt administrator"@no,
+        "Projektne dejavnosti: vodja projekta"@sl,
+        "Projektverksamhet:  Projektansvarig"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/b74a43d> a skos:Concept ;
+    skos:definition "Assessing quality, worth and significance. Includes, for example, establishing evaluation criteria, gathering evaluation inputs and conducting the process of evaluation."@en,
+        "Kvaliteedi, kasulikkuse ja olulisuse hindamine. Hõlmab muuhulgas hindamiskriteeriumite paika panemist, hindamiseks vajaliku sisendi kogumist ning hindamise läbiviimist."@et,
+        "Valutazione della qualità, del valore e del significato. Include, ad esempio, la definizione dei criteri di valutazione, la raccolta degli input di valutazione e la conduzione del processo di valutazione."@it,
+        "Vurdering av kvalitet, verdi og betydelighet. Inkludere, for eksempel, etablering av evalueringskriterium, innsamling av evalueringsinput og gjennomføring av evalueringsprosessen."@no,
+        "Ocenjevanje kakovosti, vrednosti in pomembnosti. Vključuje na primer določitev meril in predmetov vrednotenja ter izvajanje vrednotenja."@sl,
+        "Att bedöma kvalitet, värde och signifikans. Det omfattar till exempel att slå fast utvärderingskriterier, samla in data från utvärderingar och utföra själva utvärderingen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Evaluation"@en ;
+    skos:prefLabel "Evaluation"@en,
+        "Hindamine"@et,
+        "Valutazione"@it,
+        "Evaluering"@no,
+        "Vrednotenje"@sl,
+        "Utvärdering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/ba06f19> a skos:Concept ;
+    skos:definition "Creating a data model based on an analysis of data objects and their relationships, data properties, as well as data flows and processes. It is often the first step in database creation, tool and standards development, etc., and typically involves a progression from a conceptual model to a logical model, and then to a physical schema."@en,
+        "Andmemudeli loomine, lähtudes andmeobjektide ja nende suhete, andmete omaduste ning andmevoogude ja -protsesside analüüsi tulemusest. See on sageli esimene etapp andmebaasi rajamisel või  tööriistade ja standardite jne väljatöötamisel. Reeglina alustatakse kontseptuaalsest mudelist, millele järgneb loogiline mudel ja siis füüsiline mudel."@et,
+        "Creazione di un modello di dati basato sull'analisi degli oggetti e delle loro relazioni, delle proprietà, dei flussi e dei processi riguardanti i dati. È spesso il primo passo nella creazione di un database, nello sviluppo di strumenti e standard, ecc. e in genere comporta una progressione da un modello concettuale a un modello logico e quindi a uno schema fisico."@it,
+        "Opprette en datamodell basert på analyser av dataobjekter og deres relasjoner, dataegenskaper samt dataflyt og prosesser. Dette er ofte det første steget i databaseopprettelse, utvikling av verktøyer og standarder mv. og involverer typisk en utvikling fra en konseptuell modell til en logisk modell og deretter til et fysisk skjema."@no,
+        "Oblikovanje podatkovnega modela na osnovi analize podatkovnih objektov in njihovih povezav, podatkovnih lastnosti ter podatkovnih tokov in procesov. To je pogosto prvi korak pri ustvarjanju podatkovnih zbirk, razvoju orodij in standardov itd. in običajno vključuje prehod od konceptualnega modela k logičnemu modelu in nato k fizični shemi."@sl,
+        "Att skapa en datamodell som bygger på en analys av dataobjekt och deras relationer, dataegenskaper, samt dataflöden och -processer. Det är ofta det första steget till att skapa en databas, verktyg och standarder osv., och inbegriper vanligtvis en utveckling från en konceptuell modell till en logisk modell och vidare till ett fysiskt schema."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesign.DataModeling"@en ;
+    skos:prefLabel "Project/Study design: Data modeling"@en,
+        "Projekti/uuringu disain: andmemudelid"@et,
+        "Disegno del progetto/studio: modellazione dei dati"@it,
+        "Prosjekt/studie design: Datamodellering"@no,
+        "Zasnova projekta/raziskave: modeliranje podatkov"@sl,
+        "Projekt-/studiedesign: Datamodellering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/baaa9f1> a skos:Concept ;
+    skos:definition "Owning property rights, including intellectual property rights over the resource. Maps to 'RightsHolder' in DataCite."@en,
+        "Ressursside omandiõiguste, sh intellektuaalomandi õiguste valdamine. Vastab DataCite süsteemis rollile RightsHolder."@et,
+        "Titolare dei diritti di proprietà, compresi i diritti di proprietà intellettuale sulla risorsa. Corrisponde a 'RightsHolder' in DataCite."@it,
+        "Eie eiendomsretten, inklusiv intellektuelle rettigheter over ressursen. Kobles til 'RightsHolder' i DataCite."@no,
+        "Posedovanje avtorskih pravic, vključno s pravicami do intelektualne lastnine vira. V DataCite ustreza kategoriji \"RightsHolder\"."@sl,
+        "Den som står som ägare för äganderätten, inklusive de immaterialrätten för resursen. Mappas till \"RightsHolder\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "RightsHolding"@en ;
+    skos:prefLabel "Rights holding"@en,
+        "Õiguste valdamine"@et,
+        "Titolare dei diritti"@it,
+        "Rettighetsinnehaver"@no,
+        "Posedovanje avtorskih pravic"@sl,
+        "Rättighetsinnehavare"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/bbaff12> a skos:Concept ;
+    skos:definition "Individual, or organization that may be reached to obtain data-related information. Maps to  'ContactPerson' in DataCite."@en,
+        "Isik või organisatsioon, kelle poole pöörduda andmete kohta lisateabe saamiseks. Vastab DataCite süsteemis rollile ContactPerson."@et,
+        "Persona o organizzazione che può essere contattata per ottenere informazioni sui dati. Corrisponde a 'ContactPerson' in DataCite."@it,
+        "Individ eller organisasjon som kan kontaktes for å få datarelatert informasjon. Kobles til 'ContactPerson' i Datacite."@no,
+        "Posameznik ali organizacija, pri kateri je mogoče dobiti informacije, povezane s podatki. V DataCite ustreza kategoriji \"ContactPerson\"."@sl,
+        "En individ eller organisation som kan nås om man behöver datarelaterad information. Mappas till \"ContactPerson\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Contact"@en ;
+    skos:prefLabel "Contact"@en,
+        "Kontakt"@et,
+        "Contatto"@it,
+        "Kontakt"@no,
+        "Kontakt"@sl,
+        "Kontaktperson"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/be111a8> a skos:Concept ;
+    skos:definition "Providing assistance to users of data, metadata, tools, etc."@en,
+        "Andmete, metaandmete, tööriistade jms kasutajate abistamine."@et,
+        "Fornire assistenza agli utenti sui dati, metadati, strumenti, ecc."@it,
+        "Å gi veiledning til brukere av data, metadata, verktøy, etc."@no,
+        "Zagotavljanje pomoči uporabnikom podatkov, metapodatkov, orodij itd."@sl,
+        "Att ge stöd till personerna som använder data, metadata, verktyg osv."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "UserSupport"@en ;
+    skos:prefLabel "User support"@en,
+        "Kasutajatugi"@et,
+        "Supporto utenti"@it,
+        "Brukerstøtte"@no,
+        "Podpora uporabnikom"@sl,
+        "Användarsupport"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c05e5b6> a skos:Concept ;
+    skos:definition "Developing guidelines or protocols for the methods used to conduct the study, and to process and analyze the data. For example, directions and instructions for collecting data, conducting interviews, translating questionnaires, input harmonization, using weights, etc."@en,
+        "Juhiste või eeskirjade koostamine nii uuringu läbiviimiseks kasutatavate kui andmete töötlemiseks ja analüüsimiseks kasutatavate meetodite kohta. Näiteks juhised ja juhtnöörid andmekogumise, küsitlemise, küsimustike tõlkimise, sisendi ühtlustamise, kaalude kasutamise jms kohta."@et,
+        "Sviluppo di linee guida o protocolli relativi ai metodi utilizzati per condurre lo studio, elaborare e analizzare i dati. Ad esempio, indicazioni e istruzioni per la raccolta dei dati, la conduzione delle interviste, la traduzione dei questionari, l'armonizzazione degli input, l'uso dei pesi, ecc."@it,
+        "Utvikle retningslinjer og protokoll for metoder som skal følges i gjennomføring av studien, samt prosessering og analyse av data. For eksempel, veiledning og instruksjoner for datainnsamling, gjennomføring av intervju, oversettelse av spørreskjema, harmonisering av inndata, bruk av vekter, etc."@no,
+        "Razvoj smernic ali protokolov za metode, ki se uporabljajo za izvedbo raziskave ter obdelavo in analizo podatkov. Na primer navodila in napotki za zbiranje podatkov, izvajanje intervjujev, prevajanje vprašalnikov, usklajevanje vhodnih podatkov, uporabo uteži itd."@sl,
+        "Att ta fram riktlinjer eller protokoll för de metoder som ska användas i utförandet av studien, och för att behandla och analysera data. Till exempel anvisningar och instruktioner för hur datainsamling, intervjuer, översättning av frågeformulär, harmonisering av indata, viktning osv. ska utföras."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesign.MethodologyDevelopment"@en ;
+    skos:prefLabel "Project/Study design: Methodology development"@en,
+        "Projekti/uuringu disain: metoodika väljatöötamine"@et,
+        "Disegno del progetto/studio: sviluppo della metodologia"@it,
+        "Prosjekt/studie design: Metodeutvikling"@no,
+        "Zasnova projekta/raziskave: razvoj metodologije	"@sl,
+        "Projekt-/studiedesign: Metodutveckling"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c095029> a skos:Concept ;
+    skos:definition "Developing high-level research concepts as well as specific concepts to be measured. Conceptualization involves clarifying the concepts with verbal definitions and examples as well as expressing relationships among the concepts."@en,
+        "Üldiste uurimiseesmärkide sõnastamine ja konkreetsete mõõdetavate nähtuste kindlaksmääramine. Hõlmab uuritavate nähtuste defineerimist koos näidetega ning nähtuste vaheliste seoste kirjeldamist."@et,
+        "Definizione dei concetti sia a un alto livello di astrazione che specifici e misurabili. La concettualizzazione deve chiarire i concetti attraverso definizioni verbali ed esempi, così come le relazioni esistenti tra essi."@it,
+        "Utvikling av høyvnivå forskningskonsepter og spesifikke forskningskonsepter som skal måles. Konseptualisering involverer tydeliggjøring av konsepter med språklige definisjoner og eksempler, samtidig som relasjoner mellom konsepter uttrykkes."@no,
+        "Razvoj raziskovalnih konceptov. Konceptualizacija vključuje pojasnitev konceptov z besednimi opredelitvami in primeri ter izražanje odnosov med koncepti."@sl,
+        "Hur man tar fram forskningsbegrepp på hög nivå och specifika begrepp på det som ska mätas. Begreppsbildning inbegriper att beskriva begreppen med definitioner och exempel och att beskriva relationerna mellan begreppen."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesign.Conceptualization"@en ;
+    skos:prefLabel "Project/Study design: Conceptualization"@en,
+        "Projekti/uuringu disain: eesmärgi sõnastamine"@et,
+        "Disegno del progetto/studio: concettualizzazione"@it,
+        "Prosjekt/studie design: Konseptualisering"@no,
+        "Zasnova projekta/raziskave: konceptualizacija"@sl,
+        "Projekt-/studiedesign: Begreppsbildning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c166544> a skos:Concept ;
+    skos:definition "Conceiving and planning for the data collection instrument(s). May include the operationalization of concepts into questions and indicators, instrument testing, forward translation and subsequent changes in the master instrument(s),  as well as designing  and testing other types of data collection instruments than survey questionnaires."@en,
+        "Andmekogumisviisi(de) valimine ja ettevalmistamine. Võib tähendada nt uuritavate nähtuste kohta küsimuste ja näitajate koostamist, andmekogumisviiside testimist, küsimustiku tõlkimist ja selle põhjal andmekogumisviisi(de) muutmist või lisaks küsimustikele teiste andmekogumisviiside kavandamist ja testimist."@et,
+        "Ideazione e pianificazione degli strumenti di raccolta dati. Può includere l'operazionalizzazione dei concetti in domande e indicatori, la verifica degli strumenti, la traduzione e le successive modifiche degli strumenti principali, nonché la progettazione e la verifica di strumenti di raccolta dati diversi dai questionari."@it,
+        "Utvikling og planlegging av datainnsamlingsinstrument. Kan inkludere operasjonalisering av konsepter til spørsmål og indikatorer, instrumenttesting, initiere oversettelse (\"forward translation\") og påfølgende endringer i hovedinstrumentet, samt utforme og teste andre datainnsamlingsinstrumenter enn spørreskjema."@no,
+        "Zasnova in načrtovanje instrumenta za zbiranje podatkov. Lahko vključuje operacionalizacijo konceptov v vprašanja in kazalnike, preizkušanje instrumentov, sprotno prevajanje in poznejše spremembe glavnega instrumenta ter oblikovanje in preizkušanje drugih vrst instrumentov za zbiranje podatkov."@sl,
+        "Att ta fram och planera instrument för datainsamling. Detta kan handla om hur begrepp omsätts i frågor och indikatorer, instrumenttester, initial översättning (\"forward translation\") och efterföljande förändringar av huvudinstrumenten, samt att utforma och testa andra typer av datainsamlingsinstrument än frågeformulär."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesign.InstrumentDesign"@en ;
+    skos:prefLabel "Project/Study design: Instrument design"@en,
+        "Projekti/uuringu disain: andmekogumise kirjeldamine"@et,
+        "Disegno del progetto/studio: progettazione dello strumento"@it,
+        "Prosjekt/studie design: Instrument design"@no,
+        "Zasnova projekta/raziskave: zasnova instrumentov	"@sl,
+        "Projekt-/studiedesign: Instrumentdesign"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c5be2ef> a skos:Concept ;
+    skos:definition "Defining which elements of the target population are included in the sample, as well as the rules and procedures by which they will be selected."@en,
+        "Valimi täpsustamine: mis/kes üldkogumist kuuluvad valimisse ning mis on valimi moodustamise kriteeriumid."@et,
+        "Definizione degli elementi della popolazione di riferimento che sono inclusi nel campione, nonché le regole e le procedure con cui saranno selezionati."@it,
+        "Definere hvilke elementer i målpopulasjonen som skal være inkludert i utvalget, så vel som reglene og prosedyrene for at de vil bli valgt."@no,
+        "Opredelitev ciljne populacije, vključene v vzorec, ter pravila in postopki, po katerih bodo izbrani."@sl,
+        "Att definiera vilka element av målpopulationen som ska ingå i urvalet, och vilka regler och processer som de ska väljas ut med."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "ProjectOrStudyDesignSamplingDesign"@en ;
+    skos:prefLabel "Project/Study design: Sampling design"@en,
+        "Projekti/uuringu disain: valimi kirjeldus"@et,
+        "Disegno del progetto/studio: disegno campionario"@it,
+        "Prosjekt/studie design: Utvalgdesign"@no,
+        "Zasnova projekta/raziskave: načrt vzorčenja"@sl,
+        "Projekt-/studiedesign: Urvalsdesign"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/ca5e845> a skos:Concept ;
+    skos:definition "Providing expert advice."@en,
+        "Erialase nõu andmine."@et,
+        "Fornire consulenza specializzata."@it,
+        "Gi ekspertråd."@no,
+        "Izvajanje strokovnega svetovanja."@sl,
+        "Att ge expertråd."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Consulting"@en ;
+    skos:prefLabel "Consulting"@en,
+        "Nõustamine"@et,
+        "Consulenza"@it,
+        "Konsultasjon"@no,
+        "Svetovanje"@sl,
+        "Konsultande"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/cdea62c> a skos:Concept ;
+    skos:definition "Entering or updating data into a computer system, often from other forms of media, like paper questionnaires, newspaper articles, etc."@en,
+        "Andmete sisestamine või uuendamine arvutiprogrammis; enamasti sisestatakse andmeid teistelt andmekandjatelt (nt paberankeedid, ajaleheartiklid jne)."@et,
+        "Inserimento o aggiornamento di dati in un sistema informatico, spesso provenienti da altre forme di supporto, come questionari cartacei, articoli di giornale, ecc."@it,
+        "Inntaste eller oppdatering av data i et datasystem, ofte fra andre medium som papir-spørreskjema, avisartikler, etc."@no,
+        "Vnos ali posodabljanje podatkov v digitalnem okolju, pogosto iz drugih oblik medijev, kot so papirnati vprašalniki, časopisni članki itd."@sl,
+        "Att skriva in, mata in eller uppdatera data i ett datasystem. Detta rör ofta data från andra former av media, som pappersenkäter, tidningsartiklar m.m."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataEntry"@en ;
+    skos:prefLabel "Data entry"@en,
+        "Andmesisestus"@et,
+        "Inserimento dati"@it,
+        "Datainntasting"@no,
+        "Vnos podatkov"@sl,
+        "Datainmatning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/ce09e3d> a skos:Concept ;
+    skos:definition "Representing data, analysis results, or other information as a chart, image or animation, to aid in the understanding of their meaning."@en,
+        "Andmete, analüüsitulemuste või muu teabe esitamine diagrammi, pildi või animatsioonina, et andmetest oleks parem aru saada."@et,
+        "Rappresentazione di dati, risultati di analisi o altre informazioni sotto forma di grafici, immagini o animazioni, per facilitare la comprensione del loro significato."@it,
+        "Representere data, analyse resultater, eller annen informasjon som grafer, bilder eller animasjon, for å hjelpe til i forståelse av deres betydning."@no,
+        "Predstavljanje podatkov, rezultatov analiz ali drugih informacij v obliki grafikona, slike ali animacije za lažje razumevanje njihovega pomena."@sl,
+        "Att återge data, analysresultat eller annan information i form av diagram, bilder eller animeringar, för att göra det lättare att förstå dem.."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Visualization"@en ;
+    skos:prefLabel "Visualization"@en,
+        "Visualiseerimine"@et,
+        "Visualizzazione"@it,
+        "Visualisering"@no,
+        "Vizualizacija"@sl,
+        "Visualisering"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/cf270e4> a skos:Concept ;
+    skos:definition "Imparting information and/or instructions to improve the recipient's performance or to help attain a required level of knowledge or skills related to research or research data. For example, training interviewers, translators, data archivists, or data analysts."@en,
+        "Teabe ja/või juhiste andmine, et tagada paremad töötulemused või vajalikul tasemel teadmised/oskused uuringu või saadud andmete kohta. Näiteks küsitlejate, tõlkijate, andmearhivaaride, andmeanalüütikute koolitamine."@et,
+        "Fornire informazioni e/o istruzioni per migliorare le prestazioni del destinatario o per aiutarlo a raggiungere un livello richiesto di conoscenze o competenze relative alla ricerca o ai dati della ricerca. Ad esempio, formazione di intervistatori, traduttori, archivisti o analisti di dati."@it,
+        "Gi informasjon og/eller instruere slik at mottakers prestasjon forbedres, eller for å hjelpe til med å oppnå et nødvendig kunnskaps- eller ferdighetsnivå relatert til forskning eller forskningsdata. For eksempel, opplæring av intervjuere, oversettere, dataarkivarer eller dataanalytikere."@no,
+        "Posredovanje informacij in/ali navodil za izboljšanje delovanja ali pomoč pri doseganju zahtevane ravni znanja ali spretnosti, povezanih z raziskavami ali raziskovalnimi podatki. Na primer usposabljanje anketarjev, prevajalcev, podatkovnih arhivistov ali podatkovnih analitikov."@sl,
+        "Att delge information och/eller instruktioner för att förbättra mottagarens prestation, eller för att bidra till att nå en begärd nivå av kunskap och förmågor kring forskning eller forskningsdata. Till exempel utbildning av intervjuare, översättare, dataarkivarier eller dataanalytiker."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Training"@en ;
+    skos:prefLabel "Training"@en,
+        "Koolitamine"@et,
+        "Formazione"@it,
+        "Opplæring"@no,
+        "Usposabljanje"@sl,
+        "Utbildning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e333508> a skos:Concept ;
+    skos:definition "An individual involved in analyzing the data or the study results, but whose role is to help with the research rather than be a creator.  For example, a researcher may seek, and find additional data from another source and correlate it to the study or experiment that is being conducted. Maps to 'Researcher' in DataCite."@en,
+        "Isik, kes tegeleb andmete või uuringu tulemuste analüüsimisega; selles rollis isik pigem töötab andmetega kui toodab või loob andmeid. Näiteks võib teadlane otsida ja leida täiendavaid andmeid teisest allikast ning seostada neid läbiviidava uuringu või eksperimendi andmetega. Vastab DataCite süsteemis rollile Researcher."@et,
+        "Una persona coinvolta nell'analisi dei dati o dei risultati dello studio, ma il cui ruolo è quello di fornire un supporto alla ricerca piuttosto che esserne un creatore. Ad esempio, un ricercatore può cercare e trovare dati aggiuntivi provenienti da un'altra fonte e correlarli allo studio o all'esperimento in corso. Corrisponde a 'Researcher\" in DataCite."@it,
+        "Et individ involvert i analysering av data eller undersøkelsesresultatene, men rollen er å hjelpe med forskningen istedenfor å være skaper. For eksempel, en forsker kan lete og finne ytterligere data fra en annen kilde og korrelere det til studien eller eksperimentet som blir gjennomført. Kobles til 'Researcher' i DataCite."@no,
+        "Posameznik, ki ni avtor, sodeluje pa pri analizi podatkov ali rezultatov raziskave. Njegova vloga omejena na pomoč pri raziskavi - lahko na primer poišče in najde dodatne podatke iz drugega vira ter jih poveže z raziskavo ali eksperimentom. V DataCite ustreza kategoriji \"Researcher\"."@sl,
+        "En individ som är delaktig i att analysera data eller studieresultaten, men vars roll är att hjälpa till med forskningen snarare än att vara en skapare. En forskare kan till exempel leta efter och hitta ytterligare data från en annan källa och koppla dem till studien eller experimentet som utförs. Mappas till \"Researcher\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "Researcher"@en ;
+    skos:prefLabel "Researcher"@en,
+        "Teadlane"@et,
+        "Ricercatore"@it,
+        "Forsker"@no,
+        "Raziskovalec"@sl,
+        "Forskare"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e5c50a7> a skos:Concept ;
+    skos:definition "The process of investigating the data to help answer research questions and reach conclusions."@en,
+        "Andmete süvitsi uurimine, et leida vastused uurimisküsimustele ning teha järeldusi."@et,
+        "Il processo di analisi dei dati che consente di rispondere alle domande di ricerca e giungere alle conclusioni."@it,
+        "Prosessen med å undersøke dataene for å besvare forskningsspørsmål og nå konklusjoner."@no,
+        "Proučevanje podatkov, da bi odgovorili na raziskovalna vprašanja."@sl,
+        "Att undersöka data för att få hjälp att besvara forskningsfrågor och dra slutsatser."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataAnalysis"@en ;
+    skos:prefLabel "Data analysis"@en,
+        "Andmeanalüüs"@et,
+        "Analisi dei dati"@it,
+        "Dataanalyse"@no,
+        "Analiza podatkov"@sl,
+        "Dataanalys"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e676feb> a skos:Concept ;
+    skos:definition "Creating and maintaining equipment needed at any stage of the data life cycle."@en,
+        "Andmete elutsükli eri etappides vajaminevate seadmete arendamine ja hooldamine."@et,
+        "Creazione e mantenimento delle apparecchiature necessarie in qualsiasi fase del ciclo di vita dei dati."@it,
+        "Opprette og vedlikeholde utstyr som er nødvendig på hvilket som helst stadie i dataenes livssyklus."@no,
+        "Izdelava in vzdrževanje opreme, potrebne v katerem koli koraku življenjskega kroga podatkov."@sl,
+        "Att skapa och underhålla utrustning som behövs i någon fas av datalivscykeln."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "EquipmentDevelopment"@en ;
+    skos:prefLabel "Equipment development"@en,
+        "Seadmete arendamine"@et,
+        "Sviluppo delle apparecchiature"@it,
+        "Utstyrsutvikling"@no,
+        "Razvoj opreme	"@sl,
+        "Utveckling av utrustning"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e9b52b4> a skos:Concept ;
+    skos:definition "Activities relating to the process of gathering data in an established, systematic fashion that enables answering the stated research questions, testing hypotheses, and evaluating outcomes. Maps to 'DataCollector' in DataCite."@en,
+        "Andmete süstemaatiline, kindlaksmääratud viisil kogumine, mis võimaldab leida vastused püstitatud uurimisküsimustele, testida hüpoteese ja hinnata tulemusi. Vastab DataCite süsteemis rollile DataCollector."@et,
+        "Attività relative al processo di raccolta sistematica dei dati che consente di rispondere alle domande di ricerca formulate, di testare le ipotesi e di valutare i risultati. Corrisponde a 'DataCollector' in DataCite."@it,
+        "Aktiviteter relatert til prosessen med å samle inn data på en etablert og systematisk måte som muliggjør besvarelse av forskningsspørsmål, hypotesetesting og evaluering av resultatet. Kobles til 'DataCollector' i DataCite."@no,
+        "Dejavnosti, povezane z zbiranjem izvirnih  podatkov na ustaljen, sistematičen način, ki prispevajo k rešitvi raziskovalnih vprašanj, preverjanju hipotez in vrednotenju rezultatov. V shemi DataCite ustreza kategoriji 'DataCollector'."@sl,
+        "Aktiviteter som ingår i att samla in data på ett förutbestämt och systematiskt sätt, som gör det möjligt att besvara angivna forskningsfrågor, testa hypoteser och utvärdera utfall. Mappas till \"DataCollector\" i DataCite."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:notation "DataCollection"@en ;
+    skos:prefLabel "Data collection"@en,
+        "Andmekogumine "@et,
+        "Raccolta dei dati"@it,
+        "Datainnsamling"@no,
+        "Zbiranje podatkov	"@sl,
+        "Datainsamling"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/f0e43a7> a skos:Concept ;
+    skos:definition "Initiating, planning, executing, controlling, and closing the work of a team designed to achieve specific goals."@en,
+        "Konkreetsete eesmärkide saavutamiseks moodustatud meeskonna töö algatamine, planeerimine, elluviimine, juhtimine ja lõpetamine."@et,
+        "Avviare, pianificare, eseguire, controllare e concludere il lavoro di un team finalizzato a raggiungere specifici obiettivi."@it,
+        "Initiering, planlegging, gjennomføring, kontrollering og ferdigstille arbeidet i en gruppe som er utformet for å nå spesifikke mål."@no,
+        "Začetek, načrtovanje, izvajanje, nadzor in zaključek skupinskega dela za doseganje določenih ciljev."@sl,
+        "Att initiera, planera, genomföra, utvärdera och avsluta arbetet för ett team i syfte att uppnå angivna mål."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/284e453>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/9cfccbf>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/b3b6b30> ;
+    skos:notation "ProjectOperations"@en ;
+    skos:prefLabel "Project operations"@en,
+        "Projekti teostus"@et,
+        "Attività di progetto"@it,
+        "Prosjektstyring"@no,
+        "Projektne dejavnosti"@sl,
+        "Projektverksamhet"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/fd6b874> a skos:Concept ;
+    skos:definition "Describing the rationale, and putting together a specific plan for conducting a study or research project."@en,
+        "Uuringu või projekti eesmärgi kirjeldamine ning konkreetse kava koostamine uuringu või projekti läbiviimiseks."@et,
+        "Descrizione delle motivazioni e del piano operativo per condurre uno studio o un progetto di ricerca."@it,
+        "Beskriver rasjonale og sammenstilling av plan for å gjennomføre en studie eller et forskningsprosjekt."@no,
+        "Opis namena raziskave/projekta in priprava izvedbenega načrta."@sl,
+        "Beskrivning av tanken bakom projektet/studien och hur man har sammanställt en plan för hur en studie eller ett forskningsprojekt ska utföras."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/547933a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/9573464>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/ba06f19>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c05e5b6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c095029>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c166544> ;
+    skos:notation "ProjectOrStudyDesign"@en ;
+    skos:prefLabel "Project/Study design"@en,
+        "Projekti/uuringu disain"@et,
+        "Disegno del progetto/studio"@it,
+        "Prosjekt/studie design"@no,
+        "Zasnova projekta/raziskave"@sl,
+        "Projekt-/studiedesign"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/> a skos:ConceptScheme ;
+    dcterms:description "A classification of contributor roles."@en,
+        "Kaastöötaja rollide klassifikaator."@et,
+        "Classificazione dei ruoli del collaboratore"@it,
+        "En klassifikasjon av bidragsyterroller."@no,
+        "Vrste vlog sodelujočih pri projektu."@sl,
+        "En klassificering av roller för medverkande personer."@sv ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2025" ;
+    dcterms:title "Contributor Role"@en,
+        "Kaastöötaja roll"@et,
+        "Ruolo del collaboratore"@it,
+        "Bidragsyterrolle"@no,
+        "Vrsta sodelovanja"@sl,
+        "Roll för medverkande"@sv ;
+    owl:versionInfo "1.0.3" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/0d6528b>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/1342e63>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/1dd6b68>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/21b058b>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/2916675>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/2cc8195>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/336ba67>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/3a9a021>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/3b0fc20>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/55021e5>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/552cf53>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/5767fa2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/5b659e6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/626a54d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/6dd0887>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/6e917a4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/71dfa2a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/7b371aa>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/85068dd>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/91a066f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/a162a08>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/b1caf7f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/b74a43d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/baaa9f1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/bbaff12>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/be111a8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/c5be2ef>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/ca5e845>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/cdea62c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/ce09e3d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/cf270e4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e333508>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e5c50a7>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e676feb>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/e9b52b4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/f0e43a7>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ContributorRole/1.0.3/fd6b874> ;
+    skos:notation "ContributorRole"@en ;
+    skos:prefLabel "Contributor Role"@en,
+        "Kaastöötaja roll"@et,
+        "Ruolo del collaboratore"@it,
+        "Bidragsyterrolle"@no,
+        "Vrsta sodelovanja"@sl,
+        "Roll för medverkande"@sv .
+

@@ -1,0 +1,84 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/1686a6c> a skos:Concept ;
+    skos:definition "Whole numbers in the range -2147483648 .. 2147483647. An integer datatype corresponding to the W3C XML Schema's xs:int datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Int"@en ;
+    skos:prefLabel "Int "@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/22ae0e2> a skos:Concept ;
+    skos:definition "Single-precision 32-bit floating point type: The basic value space of float consists of the values m*2^e, where m is an integer whose absolute value is less than 2^24, and e is an integer between -149 and 104, inclusive. In addition, it also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float. A numeric datatype corresponding to the W3C XML Schema's xs:float datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Float"@en ;
+    skos:prefLabel "Float"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/30bb747> a skos:Concept ;
+    skos:definition "Whole numbers in the range -32768 .. 32767. A numeric datatype corresponding to the W3C XML Schema's xs:short datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Short"@en ;
+    skos:prefLabel "Short"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/482be0d> a skos:Concept ;
+    skos:definition "A value that increases continuously and infinitely by a given amount. Use of this term in DDI-L indicates that the value increases by the amount provided in the \"interval\" facet; the \"isSequence\" facet will be set to \"true\"."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Incremental"@en ;
+    skos:prefLabel "Incremental"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/6311ae1> a skos:Concept ;
+    skos:definition "Use if the numeric type is known, but not found in the list."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/8394f03> a skos:Concept ;
+    skos:definition "Whole numbers in the range -9223372036854775808 .. 9223372036854775807. A numeric datatype corresponding to the W3C XML Schema's xs:long datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Long"@en ;
+    skos:prefLabel "Long"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/937504f> a skos:Concept ;
+    skos:definition "A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator. An optional leading sign is allowed. If the sign is omitted, \"+\" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210. A numeric datatype corresponding to the W3C XML Schema's xs:decimal datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Decimal"@en ;
+    skos:prefLabel "Decimal"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/a0faef0> a skos:Concept ;
+    skos:definition "Whole numbers,  the infinite set of integers, no minimum or maximum value.  An integer datatype corresponding to the W3C XML Schema's xs:integer datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Integer"@en ;
+    skos:prefLabel "Integer"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/d909d38> a skos:Concept ;
+    skos:definition "Double-precision 64-bit floating point type. The basic value space of double consists of the values m*2^e, where m is an integer whose absolute value is less than 2^53, and e is an integer between -1075 and 970, inclusive. In addition to the basic value space described above, the value space of double also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double. A numeric datatype corresponding to the W3C XML Schema's xs:double datatype."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Double"@en ;
+    skos:prefLabel "Double"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/e93f994> a skos:Concept ;
+    skos:definition "Ordinal number of objects in a finite set, discrete. A simple incrementing Integer type. When using in DDI-L, the \"isSequence\" facet must be set to true, and the \"interval\" facet must be set to \"1\"."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> ;
+    skos:notation "Count"@en ;
+    skos:prefLabel "Count"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/> a skos:ConceptScheme ;
+    dcterms:description "Specifies the type of numeric data."@en ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/NumericType/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2019" ;
+    dcterms:title "Numeric Type"@en ;
+    owl:versionInfo "1.1.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/1686a6c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/22ae0e2>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/30bb747>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/482be0d>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/8394f03>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/937504f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/a0faef0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/d909d38>,
+        <http://rdf-vocabulary.ddialliance.org/cv/NumericType/1.1.0/e93f994> ;
+    skos:notation "NumericType"@en ;
+    skos:prefLabel "Numeric Type"@en .
+

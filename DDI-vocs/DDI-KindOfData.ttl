@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/24f5e13> a skos:Concept ;
+    skos:definition "Non-numerical data that capture meanings, experiences, or contexts. Qualitative data are often unstructured or semi-structured, taking the form of text, images, or audiovisual materials. They are typically analyzed using interpretive or thematic methods."@en,
+        "Données non numériques qui captent du sens, des expériences ou des contextes. Les données qualitatives sont souvent non structurées ou semi-structurées, et se présentent sous forme de textes, d'images ou de matériaux audiovisuels. Elles sont habituellement analysées à l'aide de méthodes interprétatives ou thématiques."@fr,
+        "Dati non numerici che esprimono significati, esperienze o contesti. I dati qualitativi sono spesso non strutturati o semi-strutturati e assumono la forma di testi, immagini o materiali audiovisivi. In genere vengono analizzati utilizzando metodi interpretativi o tematici."@it,
+        "Neskaitiniai duomenys, fiksuojantys prasmes, patirtis ar kontekstus. Kokybiniai duomenys dažnai būna nestruktūruotos arba pusiau struktūruotos formos: tekstai, vaizdai ar audiovizualinė medžiaga. Jie paprastai analizuojami interpretaciniais arba teminės analizės metodais."@lt,
+        ""@nl,
+        "Neštevilski podatki, ki zajemajo pomene, izkušnje ali kontekst. Kvalitativni podatki so pogosto nestrukturirani ali polstrukturirani ter se pojavljajo v obliki besedila, slik ali avdiovizualnega gradiva. Običajno se analizirajo z interpretativnimi ali tematskimi metodami."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/> ;
+    skos:notation "Qualitative"@en ;
+    skos:prefLabel "Qualitative"@en,
+        "Qualitatif"@fr,
+        "Qualitativo"@it,
+        "Kokybiniai"@lt,
+        "Kwalitatief"@nl,
+        "Kvalitativni"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/64f5c8c> a skos:Concept ;
+    skos:definition "Data typically expressed in numerical form that can be counted, measured, and statistically analyzed. Quantitative data are typically structured and may be used to identify patterns or relationships."@en,
+        "Données disponibles habituellement dans un format numérique, qui peuvent être comptées, mesurées et analysées statistiquement. Typiquement, les données quantitatives sont structurées et peuvent être utilisées pour identifier des tendances ou des relations."@fr,
+        "Dati generalmente espressi in forma numerica che possono essere contati, misurati e analizzati statisticamente. I dati quantitativi sono in genere strutturati e possono essere utilizzati per identificare modelli o relazioni."@it,
+        "Duomenys paprastai išreiškiami skaitine forma, kurią galima analizuoti statistiniais metodais. Kiekybiniai duomenys paprastai yra struktūruoti ir naudojami tendencijoms ar ryšiams nustatyti."@lt,
+        ""@nl,
+        "Podatki, ki so običajno izraženi v številčni obliki in jih je mogoče šteti, meriti ter statistično analizirati. Kvantitativni podatki so navadno strukturirani in se uporabljajo za prepoznavanje vzorcev ali povezanosti."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/> ;
+    skos:notation "Quantitative"@en ;
+    skos:prefLabel "Quantitative "@en,
+        "Quantitatif"@fr,
+        "Quantitativo"@it,
+        "Kiekybiniai"@lt,
+        "Kwantitatief"@nl,
+        "Kvantitativni"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/699b4f7> a skos:Concept ;
+    skos:definition "Data combining quantitative (typically structured) and qualitative (often unstructured) elements, that may be distributed and analyzed together, supporting both statistical and interpretive methods. For example, numerical data and text or multimedia sources."@en,
+        "Données qui combinent des éléments quantitatifs (habituellement structurés) et qualitatifs (souvent non structurés), qui peuvent être diffusés et analysés ensemble, permettant la mise en œuvre à la fois de méthodes statistiques et empiriques. Par exemple : des données numériques combinées à des textes ou sources multimédias."@fr,
+        "Dati che combinano elementi quantitativi (generalmente strutturati) e qualitativi (spesso non strutturati), che possono essere distribuiti e analizzati insieme, supportando sia metodi statistici che interpretativi. Ad esempio, dati numerici e fonti testuali o multimediali."@it,
+        "Duomenys, derinantys kiekybinius (paprastai struktūruotus) ir kokybinius (dažnai nestruktūruotus) elementus, kurie gali būti kaupiami ir analizuojami kartu, taikant tiek statistinius, tiek interpretacinius metodus, pavyzdžiui, skaitiniai duomenys kartu su tekstiniais ar multimedijos šaltiniais."@lt,
+        ""@nl,
+        "Podatki, ki združujejo kvantitativne (običajno strukturirane) in kvalitativne (pogosto nestrukturirane) elemente ter se lahko obravnavajo in analizirajo skupaj, kar omogoča uporabo tako statističnih kot interpretativnih metod. Na primer številčni podatki ter besedilni ali multimedijski viri."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/> ;
+    skos:notation "Mixed"@en ;
+    skos:prefLabel "Mixed"@en,
+        "Mixte"@fr,
+        "Misto"@it,
+        "Mišrūs"@lt,
+        "Mixed"@nl,
+        "Mešani"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/> a skos:ConceptScheme ;
+    dcterms:description """This controlled list distinguishes among types of data used in quantitative, qualitative, and mixed-methods research. 
+"""@en,
+        "Ce vocabulaire permet de différencier les données en fonction de l'utilisation d'une méthode de recherche qualitative, quantitative ou mixte."@fr,
+        "Questo elenco controllato distingue tra i tipi di dati utilizzati nella ricerca quantitativa, qualitativa e con metodi misti."@it,
+        "Šis kontroliuojamas žodynas skiria duomenų tipus, naudojamus kiekybiniuose, kokybiniuose ir mišrių metodų tyrimuose."@lt,
+        "Deze gecontroleerde lijst bevat termen om de soorten gegevens te beschrijven die worden gebruikt in kwantitatief, kwalitatief en mixed-methods onderzoek."@nl,
+        "Seznam razlikuje med vrstami podatkov, ki se uporabljajo v kvantitativnih, kvalitativnih in mešanih raziskavah."@sl ;
+    dcterms:isVersionOf <null/1.0.0/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2026" ;
+    dcterms:title "Kind of Data"@en,
+        "Type de données"@fr,
+        "Tipo di dati"@it,
+        "Duomenų rūšis"@lt,
+        "Soorten data"@nl,
+        "Tip podatkov"@sl ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/24f5e13>,
+        <http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/64f5c8c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/KindOfData/1.0.0/699b4f7> ;
+    skos:notation "KindOfData"@en ;
+    skos:prefLabel "Kind of Data"@en,
+        "Type de données"@fr,
+        "Tipo di dati"@it,
+        "Duomenų rūšis"@lt,
+        "Soorten data"@nl,
+        "Tip podatkov"@sl .
+

@@ -1,0 +1,439 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/002f39b> a skos:Concept ;
+    skos:definition "Data are collected every twenty years. Maps to SDMX code \"A20\"."@en,
+        "Duomenys renkami kas dvidešimt metų. Atitinka SDMX kodą „A20“."@lt,
+        "Podatki se zbirajo vsakih dvajset let. Označuje se s kodo SDMX \"A20\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTwentyYears"@en ;
+    skos:prefLabel "Every twenty years"@en,
+        "Kas dvidešimt metų"@lt,
+        "Vsakih dvajset let"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/0140e68> a skos:Concept ;
+    skos:definition "Data are collected every three years. Maps to SDMX code \"A3\"."@en,
+        "Duomenys renkami kas trejus metus. Atitinka SDMX kodą „A3“."@lt,
+        "Podatki se zbirajo vsaka tri leta. Označuje se s kodo SDMX \"A3\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryThreeYears"@en ;
+    skos:prefLabel "Every three years"@en,
+        "Kas trejus metus"@lt,
+        "Vsaka tri leta"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/11f3fba> a skos:Concept ;
+    skos:definition "Data are collected every two hours. Maps to SDMX code \"H2\"."@en,
+        "Duomenys renkami kas dvi valandas. Atitinka SDMX kodą „H2“."@lt,
+        "Podatki se zbirajo vsaki dve uri. Označuje se s kodo SDMX \"H2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTwoHours"@en ;
+    skos:prefLabel "Every two hours"@en,
+        "Kas dvi valandas"@lt,
+        "Vsako uro"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/130fbad> a skos:Concept ;
+    skos:definition "Data are collected every ten days. No matching SDMX code."@en,
+        "Duomenys renkami kas dešimt dienų. Nėra atitinkančio SDMX kodo."@lt,
+        "Podatki se zbirajo vsakih deset dni. Ni ustrezne kode SDMX."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTenDays"@en ;
+    skos:prefLabel "Every ten days"@en,
+        "Kas dešimt dienų"@lt,
+        "Vsakih deset dni"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/1f08d62> a skos:Concept ;
+    skos:definition "Data are collected every day of the calendar week. Maps to SDMX code \"D\"."@en,
+        "Duomenys renkami kiekvieną kalendorinės savaitės dieną. Atitinka SDMX kodą „D“."@lt,
+        "Podatki se zbirajo dnevno. Označuje se s kodo SDMX \"D\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryDay"@en ;
+    skos:prefLabel "Every day"@en,
+        "Kasdien"@lt,
+        "Dnevno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/26d7ba7> a skos:Concept ;
+    skos:definition "Data are collected every month. Maps to SDMX code \"M\"."@en,
+        "Duomenys renkami kas mėnesį. Atitinka SDMX kodą „M“."@lt,
+        "Podatki se zbirajo vsak mesec. Označuje se s kodo SDMX \"M\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryMonth"@en ;
+    skos:prefLabel "Every month"@en,
+        "Kas mėnesį"@lt,
+        "Mesečno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/2ea450f> a skos:Concept ;
+    skos:definition "Data are collected every year. Maps to SDMX code \"A\"."@en,
+        "Duomenys renkami kasmet. Atitinka SDMX kodą „A“."@lt,
+        "Podatki se zbirajo letno. Označuje se s kodo SDMX \"A\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryYear"@en ;
+    skos:prefLabel "Every year"@en,
+        "Kasmet"@lt,
+        "Letno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/33bdb59> a skos:Concept ;
+    skos:definition "Data are collected every three hours. Maps to SDMX code \"H3\"."@en,
+        "Duomenys renkami kas tris valandas. Atitinka SDMX kodą „H3“."@lt,
+        "Podatki se zbirajo vsake tri ure. Označuje se s kodo SDMX \"H3\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryThreeHours"@en ;
+    skos:prefLabel "Every three hours"@en,
+        "Kas tris valandas"@lt,
+        "Vsake tri ure"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/3e0f3c6> a skos:Concept ;
+    skos:definition "Data are collected every two months. Maps to SDMX code \"M2\"."@en,
+        "Duomenys renkami kas du mėnesius. Atitinka SDMX kodą „M2“."@lt,
+        "Podatki se zbirajo vsaka dva meseca. Označimo s kodo SDMX \"M2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTwoMonths"@en ;
+    skos:prefLabel "Every two months"@en,
+        "Kas du mėnesius"@lt,
+        "Vsaka dva meseca"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/41fe2eb> a skos:Concept ;
+    skos:definition "Data are collected every three weeks. Maps to SDMX code \"W3\"."@en,
+        "Duomenys renkami kas tris savaites. Atitinka SDMX kodą „W3“."@lt,
+        "Podatki se zbirajo vsake tri tedne. Označuje se s kodo SDMX \"W3\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryThreeWeeks"@en ;
+    skos:prefLabel "Every three weeks"@en,
+        "Kas tris savaites"@lt,
+        "Vsake tri tedne"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/4a6550a> a skos:Concept ;
+    skos:definition "Data are collected every week. Maps to SDMX code \"W\"."@en,
+        "Duomenys renkami kiekvieną savaitę. Atitinka SDMX kodą „W“."@lt,
+        "Podatki se zbirajo tedensko. Označuje se s kodo SDMX \"W\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryWeek"@en ;
+    skos:prefLabel "Every week"@en,
+        "Kiekvieną savaitę"@lt,
+        "Tedensko"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/4e70e38> a skos:Concept ;
+    skos:definition "Data are collected every two weeks. Maps to SDMX code \"W2\"."@en,
+        "Duomenys renkami kas dvi savaites. Atitinka SDMX kodą „W2“."@lt,
+        "Podatki se zbirajo vsakih štirinajst dni. Označuje se s kodo SDMX \"W2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTwoWeeks"@en ;
+    skos:prefLabel "Every two weeks"@en,
+        "Kas dvi savaites"@lt,
+        "Vsaka dva tedna"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/50c39ed> a skos:Concept ;
+    skos:definition "Data are collected every two years. Maps to SDMX code \"A2\"."@en,
+        "Duomenys renkami kas dvejus metus. Atitinka SDMX kodą „A2“."@lt,
+        "Podatki se zbirajo vsaki dve leti. Označuje se s kodo SDMX \"A2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTwoYears"@en ;
+    skos:prefLabel "Every two years"@en,
+        "Kas dvejus metus"@lt,
+        "Vsaki dve leti"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/535863a> a skos:Concept ;
+    skos:definition "Data are collected continuously. No matching SDMX code."@en,
+        "Duomenys renkami tolydžiai. Nėra atitinkančio SDMX kodo."@lt,
+        "Podatki se zbirajo neprekinjeno. Ni ustrezne kode SDMX."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "Continuous"@en ;
+    skos:prefLabel "Continuous"@en,
+        "Tolydus"@lt,
+        "Neprekinjeno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/62725ee> a skos:Concept ;
+    skos:definition "Data are collected every business or trading day (e.g. from Monday to Friday). Maps to SDMX code \"B\"."@en,
+        "Duomenys renkami kiekvieną darbo arba prekybos dieną (pvz., nuo pirmadienio iki penktadienio). Atitinka SDMX kodą „B“."@lt,
+        "Podatki se zbirajo vsak delovni ali trgovalni dan (npr. od ponedeljka do petka). Označuje se s kodo SDMX \"B\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryBusinessDay"@en ;
+    skos:prefLabel "Every business day"@en,
+        "Kiekvieną darbo dieną"@lt,
+        "Vsak delovni dan"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/6311ae1> a skos:Concept ;
+    skos:definition "Data are collected multiple times with a frequency that is known but not included in the list. For instance, data collection takes place every 5 hours and 32 minutes. Maps to SDMX code \"_O\". In DDI-Lifecycle elements that support CVs are of CodeValueType. If the \"Other\" value is entered in the element, the more specific value not found in the CV may be entered in the @otherValue attribute."@en,
+        "Duomenys renkami kelis kartus žinomu, tačiau į sąrašą neįtrauktu dažnumu. Pvz., duomenys renkami kas 5 valandas ir 32 minutes. Atitinka SDMX kodą „_O“. DDI-Lifecycle elementai, kurie palaiko kontroliuojamus žodynus (KŽ), yra CodeValueType tipo. Jei elemente įrašoma reikšmė „Kita“, konkretesnė reikšmė, kurios nėra KŽ, gali būti įrašoma į atributą @otherValue."@lt,
+        "Podatki se zbirajo večkrat, vendar pogostost ni določena ali znana. Označuje se s kodo SDMX \"_U\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        "Kita"@lt,
+        "Drugo"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/6cb8be6> a skos:Concept ;
+    skos:definition "Data are collected every four years. Maps to SDMX code \"A4\"."@en,
+        "Duomenys renkami kas ketverius metus. Atitinka SDMX kodą „A4“."@lt,
+        "Podatki se zbirajo vsaka štiri leta. Označuje se s kodo SDMX \"A4\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryFourYears"@en ;
+    skos:prefLabel "Every four years"@en,
+        "Kas ketverius metus"@lt,
+        "Vsaka štiri leta"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/6fcdc09> a skos:Concept ;
+    skos:definition "Data are collected multiple times but the frequency is not specified or known. Maps to SDMX code \"_U\"."@en,
+        "Duomenys renkami kelis kartus, tačiau dažnumas nenurodytas arba nežinomas. Atitinka SDMX kodą „_U“."@lt,
+        "Podatki se zbirajo večkrat, vendar pogostost ni določena ali znana. Označuje se s kodo SDMX \"_U\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "Unspecified"@en ;
+    skos:prefLabel "Unspecified"@en,
+        "Nepatikslinta"@lt,
+        "Nedoločeno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/7599922> a skos:Concept ;
+    skos:definition "There is only one data collection event, no multiple occurrences. In those cases, this term can be used if the frequency element is mandatory in the metadata model. Maps to SDMX code \"_Z\"."@en,
+        "Yra tik vienas duomenų rinkimo įvykis, kuris nėra kartojamas. Tokiais atvejais šį terminą galima naudoti, jei metaduomenų modelyje privalomas dažnumo elementas. Atitinka SDMX kodą „_Z“."@lt,
+        "Obstaja samo en dogodek zbiranja podatkov, ni večkratnega pojavljanja. V teh primerih se ta izraz lahko uporabi, če je element pogostost v metapodatkovnem modelu obvezen. Označuje se s kodo SDMX \"_Z\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "NotApplicable"@en ;
+    skos:prefLabel "Not applicable"@en,
+        "Netaikoma"@lt,
+        "Se ne nanaša"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/78d0215> a skos:Concept ;
+    skos:definition "Data are collected twice a month. Maps to SDMX code \"M_2\"."@en,
+        "Duomenys renkami du kartus per mėnesį. Atitinka SDMX kodą „M_2“."@lt,
+        "Podatki se zbirajo dvakrat na mesec. Označuje se s kodo SDMX \"M_2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "TwiceAMonth"@en ;
+    skos:prefLabel "Twice a month"@en,
+        "Du kartus per mėnesį"@lt,
+        "Dvakrat mesečno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/99b46e0> a skos:Concept ;
+    skos:definition "Data are collected twice a day. Maps to SDMX code \"D_2\"."@en,
+        "Duomenys renkami du kartus per dieną. Atitinka SDMX kodą „D_2“."@lt,
+        "Podatki se zbirajo dvakrat na dan. Označuje se s kodo SDMX \"D_2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "TwiceADay"@en ;
+    skos:prefLabel "Twice a day"@en,
+        "Du kartus per dieną"@lt,
+        "Dvakrat dnevno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/a5724cc> a skos:Concept ;
+    skos:definition "Data are collected weekly but there is a planned, or unplanned gap between data collection periods. For instance, time-use data that are collected weekly but only during certain periods of time. No matching SDMX code."@en,
+        "Duomenys renkami kas savaitę, tačiau tarp duomenų rinkimo laikotarpių yra planuotas arba neplanuotas tarpas. Pvz., laiko biudžeto duomenys, kurie renkami kas savaitę, bet tik tam tikrais laikotarpiais. Nėra atitinkančio SDMX kodo."@lt,
+        "Podatki se zbirajo tedensko, vendar je med obdobji zbiranja podatkov načrtovana ali nenačrtovana vrzel. Na primer podatki o časovni uporabi, ki se zbirajo tedensko, vendar le v določenih časovnih obdobjih. Ni ustrezne kode SDMX."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "OccasionalWeekly"@en ;
+    skos:prefLabel "Occasional weekly"@en,
+        "Tam tikrais laikotarpiais kas savaitę"@lt,
+        "Tedensko - občasno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/a586be6> a skos:Concept ;
+    skos:definition "Data are collected daily but there is a planned, or unplanned gap between data collection periods. For instance, weather statistics on the depth of snow collected daily but only during winter months. No matching SDMX code."@en,
+        "Duomenys renkami kasdien, tačiau tarp duomenų rinkimo laikotarpių yra planuotas arba neplanuotas tarpas. Pvz., oro sąlygų statistiniai duomenys apie sniego dangos storį renkami kasdien, bet tik žiemos mėnesiais. Nėra atitinkančio SDMX kodo."@lt,
+        "Podatki se zbirajo vsak dan, vendar je med obdobji zbiranja podatkov načrtovana ali nenačrtovana vrzel. Na primer vremenski statistični podatki o globini snega se zbirajo dnevno, vendar le v zimskih mesecih. Ni ustrezne kode SDMX."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "OccasionalDaily"@en ;
+    skos:prefLabel "Occasional daily"@en,
+        "Tam tikrais laikotarpiais kasdien"@lt,
+        "Dnevno - občasno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/b5ce97c> a skos:Concept ;
+    skos:definition "Data are collected three times a week. Maps to SDMX code \"W_3\"."@en,
+        "Duomenys renkami tris kartus per savaitę. Atitinka SDMX kodą „W_3“."@lt,
+        "Podatki se zbirajo trikrat na teden. Označuje se s kodo SDMX \"W_3\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "ThreeTimesAWeek"@en ;
+    skos:prefLabel "Three times a week"@en,
+        "Tris kartus per savaitę"@lt,
+        "Trikrat tedensko"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/b6fe088> a skos:Concept ;
+    skos:definition "Data are collected annually but there is a gap between data collection periods. For instance, an annual survey does not succeed in getting funding every year for data collection. Maps to SDMX code \"OA\"."@en,
+        "Duomenys renkami kasmet, tačiau tarp duomenų rinkimo laikotarpių yra tarpas. Pvz., kasmetinės apklausos duomenų rinkimui nepavyksta kasmet gauti finansavimą. Atitinka SDMX kodą „OA“."@lt,
+        "Podatki se zbirajo vsako leto, vendar je med obdobji zbiranja podatkov vrzel. Na primer, letni raziskavi ne uspe vsako leto pridobiti sredstev za zbiranje podatkov. Označuje se s kodo SDMX \"OA\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "OccasionalAnnual"@en ;
+    skos:prefLabel "Occasional annual"@en,
+        "Tam tikrais laikotarpiais kasmet"@lt,
+        "Letno - občasno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/b8be24a> a skos:Concept ;
+    skos:definition "Data are collected three times a month. Maps to SDMX code \"M_3\"."@en,
+        "Duomenys renkami tris kartus per mėnesį. Atitinka SDMX kodą „M_3“."@lt,
+        "Podatki se zbirajo trikrat na mesec. Označuje se s kodo SDMX \"M_3\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "ThreeTimesAMonth"@en ;
+    skos:prefLabel "Three times a month"@en,
+        "Tris kartus per mėnesį"@lt,
+        "Trikrat na mesec"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/bda54f9> a skos:Concept ;
+    skos:definition "Data are collected every five years. Maps to SDMX code \"A5\"."@en,
+        "Duomenys renkami kas penkerius metus. Atitinka SDMX kodą „A5“."@lt,
+        "Podatki se zbirajo vsakih pet let. Označuje se s kodo SDMX \"A5\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryFiveYears"@en ;
+    skos:prefLabel "Every five years"@en,
+        "Kas penkerius metus"@lt,
+        "Vsakih pet let"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/c597fb4> a skos:Concept ;
+    skos:definition "Data are collected twice a year. No matching SDMX code."@en,
+        "Duomenys renkami du kartus per metus. Nėra atitinkančio SDMX kodo."@lt,
+        "Podatki se zbirajo dvakrat letno. Ni ustrezne kode SDMX."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "TwiceAYear"@en ;
+    skos:prefLabel "Twice a year"@en,
+        "Du kartus per metus"@lt,
+        "Dvakrat letno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/c6b4bec> a skos:Concept ;
+    skos:definition "Data are collected at irregular points in time. For example, time series data that record every stock trade or random events. The interval between each collection event is unpredictable and can vary in length. Maps to SDMX code \"I\"."@en,
+        "Duomenys renkami nereguliariai. Pvz., laiko eilučių duomenys, kuriuose fiksuojama kiekviena akcijų prekyba arba atsitiktiniai įvykiai. Intervalas tarp kiekvieno duomenų rinkimo įvykio nenuspėjamas ir gali būti skirtingo ilgio. Atitinka SDMX kodą „I“."@lt,
+        "Podatki se zbirajo v neenakomernih časovnih obdobjih. Na primer, podatki časovnih vrst, ki beležijo vsako trgovanje z delnicami ali naključne dogodke. Interval med posameznimi dogodki zbiranja je nepredvidljiv in je lahko različno dolg. Označuje se s kodo SDMX \"I\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "Irregular"@en ;
+    skos:prefLabel "Irregular"@en,
+        "Nereguliariai"@lt,
+        "Neenakomerno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/c8a6851> a skos:Concept ;
+    skos:definition "Data are collected every ten years. Maps to SDMX code \"A10\"."@en,
+        "Duomenys renkami kas dešimt metų. Atitinka SDMX kodą „A10“."@lt,
+        "Podatki se zbirajo vsakih deset let. Označuje se s kodo SDMX \"A10\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryTenYears"@en ;
+    skos:prefLabel "Every ten years"@en,
+        "Kas dešimt metų"@lt,
+        "Vsakih deset let"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/ca0a52e> a skos:Concept ;
+    skos:definition "Data are collected twice a week. Maps to SDMX code \"W_2\"."@en,
+        "Duomenys renkami du kartus per savaitę. Atitinka SDMX kodą „W_2“."@lt,
+        "Podatki se zbirajo dvakrat tedensko. Označuje se s kodo SDMX \"W_2\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "TwiceAWeek"@en ;
+    skos:prefLabel "Twice a week"@en,
+        "Du kartus per savaitę"@lt,
+        "Dvakrat tedensko"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/ce9e3c9> a skos:Concept ;
+    skos:definition "Data are collected every four weeks. Maps to SDMX code \"W4\"."@en,
+        "Duomenys renkami kas keturias savaites. Atitinka SDMX kodą „W4“."@lt,
+        "Podatki se zbirajo vsake štiri tedne. Označuje se s kodo SDMX \"W4\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryFourWeeks"@en ;
+    skos:prefLabel "Every four weeks"@en,
+        "Kas keturias savaites"@lt,
+        "Vsake štiri tedne"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/dd15c91> a skos:Concept ;
+    skos:definition "Data are collected every three months, or quarterly. Maps to SDMX code \"Q\"."@en,
+        "Duomenys renkami kas tris mėnesius arba kas ketvirtį. Atitinka SDMX kodą „Q“."@lt,
+        "Podatki se zbirajo vsake tri mesece ali četrtletno. Označuje se s kodo SDMX \"Q\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryThreeMonths"@en ;
+    skos:prefLabel "Every three months"@en,
+        "Kas tris mėnesius"@lt,
+        "Vsake tri mesece"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/e2a7553> a skos:Concept ;
+    skos:definition "Data are collected three times a year. Maps to SDMX code \"A_3\"."@en,
+        "Duomenys renkami tris kartus per metus. Atitinka SDMX kodą „A_3“."@lt,
+        "Podatki se zbirajo trikrat letno. Označuje se s kodo SDMX \"A_3\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "ThreeTimesAYear"@en ;
+    skos:prefLabel "Three times a year"@en,
+        "Tris kartus per metus"@lt,
+        "Trikrat letno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/e3c0d3a> a skos:Concept ;
+    skos:definition "Data are collected every hour. Maps to SDMX code \"H\"."@en,
+        "Duomenys renkami kas valandą. Atitinka SDMX kodą „H“."@lt,
+        "Podatki se zbirajo vsako uro. Označuje se s kodo SDMX \"H\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryHour"@en ;
+    skos:prefLabel "Every hour"@en,
+        "Kas valandą"@lt,
+        "Vsako uro"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/eb65657> a skos:Concept ;
+    skos:definition "Data are collected every thirty years. Maps to SDMX code \"A30\"."@en,
+        "Duomenys renkami kas trisdešimt metų. Atitinka SDMX kodą „A30“."@lt,
+        "Podatki se zbirajo vsakih trideset let. Označuje se s kodo SDMX \"A30\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryThirtyYears"@en ;
+    skos:prefLabel "Every thirty years"@en,
+        "Kas trisdešimt metų"@lt,
+        "Vsakih trideset let"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/f2de11b> a skos:Concept ;
+    skos:definition "Data are collected monthly but there is a planned, or unplanned gap between data collection periods. Intervals may span from one to several months. For example, data are collected monthly but only in spring, summer and fall (not in winter). Maps to SDMX code \"OM\"."@en,
+        "Duomenys renkami kas mėnesį, tačiau tarp duomenų rinkimo laikotarpių yra planuotas arba neplanuotas tarpas. Pertraukos gali būti nuo vieno iki kelių mėnesių. Pvz., duomenys renkami kas mėnesį, bet tik pavasarį, vasarą ir rudenį (ne žiemą). Atitinka SDMX kodą „OM“."@lt,
+        "Podatki se zbirajo mesečno, vendar je med obdobji zbiranja podatkov načrtovana ali nenačrtovana vrzel. Intervali lahko trajajo od enega do več mesecev. Na primer, podatki se zbirajo mesečno, vendar le spomladi, poleti in jeseni (ne pozimi). Označuje se s kodo SDMX \"OM\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "OccasionalMonthly"@en ;
+    skos:prefLabel "Occasional monthly"@en,
+        "Tam tikrais laikotarpiais kas mėnesį"@lt,
+        "Mesečno - občasno"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/fb2f2a4> a skos:Concept ;
+    skos:definition "Data are collected every minute. May be used even if there are occasional gaps between collection events.  Maps to SDMX code \"N\"."@en,
+        "Duomenys renkami kas minutę. Gali būti naudojamas, net jei tarp duomenų rinkimo įvykių kartais būna didesni tarpai. Atitinka SDMX kodą „N“."@lt,
+        "Podatki se zbirajo vsako minuto. Uporablja se lahko, tudi če so med zbiranjem občasne vrzeli. Označuje se s kodo SDMX \"N\"."@sl ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> ;
+    skos:notation "EveryMinute"@en ;
+    skos:prefLabel "Every minute"@en,
+        "Kas minutę"@lt,
+        "Vsako minuto"@sl .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/> a skos:ConceptScheme ;
+    dcterms:description """Indicates the frequency of data collection events. 
+"""@en,
+        "Nurodo duomenų rinkimo įvykių dažnumą."@lt,
+        "Se nanaša na pogostost zbiranja podatkov."@sl ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2025" ;
+    dcterms:title "Type of Frequency"@en,
+        "Dažnumo tipas"@lt,
+        "Pogostost zbiranja"@sl ;
+    owl:versionInfo "1.0.2" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/002f39b>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/0140e68>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/11f3fba>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/130fbad>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/1f08d62>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/26d7ba7>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/2ea450f>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/33bdb59>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/3e0f3c6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/41fe2eb>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/4a6550a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/4e70e38>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/50c39ed>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/535863a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/62725ee>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/6cb8be6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/6fcdc09>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/7599922>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/78d0215>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/99b46e0>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/a5724cc>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/a586be6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/b5ce97c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/b6fe088>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/b8be24a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/bda54f9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/c597fb4>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/c6b4bec>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/c8a6851>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/ca0a52e>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/ce9e3c9>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/dd15c91>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/e2a7553>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/e3c0d3a>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/eb65657>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/f2de11b>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfFrequency/1.0.2/fb2f2a4> ;
+    skos:notation "TypeOfFrequency"@en ;
+    skos:prefLabel "Type of Frequency"@en,
+        "Dažnumo tipas"@lt,
+        "Pogostost zbiranja"@sl .
+

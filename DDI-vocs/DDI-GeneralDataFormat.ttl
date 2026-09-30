@@ -1,0 +1,314 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/31a45a8> a skos:Concept ;
+    skos:definition "Virtuelle dreidimensionale Darstellungen von Objekten, Architektur, Orten usw."@de,
+        "Virtual three-dimensional representations of objects, architecture, places, etc."@en,
+        "Objektien, esineiden, arkkitehtuurin, paikkojen ym. virtuaaliset, kolmiulotteiset esitykset."@fi,
+        "Représentation virtuelle en trois dimensions d'objets, d'architectures, de lieux, etc."@fr,
+        "Rappresentazioni virtuali tridimensionali di oggetti, architetture, luoghi, ecc."@it,
+        ""@nl,
+        "Virtuelle tredimensjonale representasjoner av objekter, arkitektur, steder osv."@no,
+        "Representações tridimensionais virtuais de objetos, arquitetura, lugares, etc."@pt,
+        "Virtualne tridimenzionalne predstavitve predmetov, arhitekture, krajev itd."@sl,
+        "Virtuelne trodimenzionalne reprezentacije objekata, arhitekture, mesta, itd."@sr,
+        "Virtuell, tredimensionell representation av föremål, arkitektur, platser, m.m."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "ThreeD"@en ;
+    skos:prefLabel "Dreidimensional"@de,
+        "3D"@en,
+        "3D"@fi,
+        "Représentation 3D"@fr,
+        "3D"@it,
+        "Driedimensionaal"@nl,
+        "3D"@no,
+        "3D"@pt,
+        "3D"@sl,
+        "Trodimenzionalan"@sr,
+        "3D"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/34e2d19> a skos:Concept ;
+    skos:definition "Bewegte Bilder. Das können Filme, Animationen, digitale Aufnahmen, visuelle Ausgabe von Simulationen, aufgezeichnete Fernsehprogramme, etc. sein. Sie können stumm sein oder synchroniserten Ton haben."@de,
+        "Moving images. May include films, animation, digital recordings, visual output from simulations, recorded television programs, etc. May be mute or may include synchronized sound."@en,
+        "Liikkuva kuva. Esimerkiksi elokuvat, animaatiot, digitaaliset tallenteet, visuaalisesti esitetyt simulaatioiden sisällöt, tallennetut televisio-ohjelmat. Voi olla äänetön tai sisältää ääntä."@fi,
+        "Images en mouvement. Peut inclure des films, de l'animation, des enregistrements digitaux, des visualisations de simulations, des émissions de télévision enregistrées, etc. Peut être muet ou peut inclure du son synchronisé."@fr,
+        "Immagini in movimento. Possono includere film, animazioni, registrazioni digitali, output visuali ottenuti da simulazioni, registrazioni di programmi televisivi, ecc. Possono essere muti (senza audio) oppure includere audio sincronizzato alle immagini."@it,
+        ""@nl,
+        "Bevegelige bilder. Kan inkludere filmer, animasjon, digitale innspillinger, visuelle data fra simuleringer, opptak av tv-programmer etc. Kan være lydløse eller med synkronisert lyd."@no,
+        "Imagens em movimento. Pode incluir filmes, animações, gravações digitais, produções visuais de simulações, programas de televisão gravados, etc. Pode ser mudo, ou pode incluir som sincronizado."@pt,
+        "Gibljive slike. Lahko vključuje filme, animacije, digitalne posnetke, prikaze rezultatov simulacij, posnetke televizijskih programov ipd. Lahko so neme ali pa vključujejo zvočno sinhronizacijo."@sl,
+        "Pokretne slike. Može da uključuje filmove, animacije, digitalne snimke, vizuelni izlaz simulacija, snimljenih televizijskih programa, itd. Može biti nemi ili može uključivati sinhronizovani zvuk."@sr,
+        "Rörliga bilder. Kan inkludera film, animation, digitala inspelningar, visuella utdata från simulationer, inspelade TV-program, m.m. Kan vara ljudlösa eller med synkroniserat ljud."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Video"@en ;
+    skos:prefLabel "Video"@de,
+        "Video"@en,
+        "Video"@fi,
+        "Vidéo"@fr,
+        "Video"@it,
+        "Video"@nl,
+        "Video"@no,
+        "Vídeo"@pt,
+        "Video"@sl,
+        "Video"@sr,
+        "Video"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/5311744> a skos:Concept ;
+    skos:definition "Statische Bilder wie Graphen, Zeichnungen, Fotografien, diagnostische/medizinische Bilder wie Röntgenbilder usw."@de,
+        "Static images, such as graphs, drawings, photographs, diagnostic/medical images like X-rays, etc."@en,
+        "Esimerkiksi graafit, piirrokset, valokuvat ja lääketieteellisen kuvantamisen tuotteet (esim. röntgen- tai ultraäänikuvat). Liikkuvan kuvan kohdalla käytä termiä 'Video'."@fi,
+        "Images statiques, telles que des graphiques, des dessins, des photographies, des images de diagnostique/médicales comme des radiographies, etc."@fr,
+        "Immagini statiche, come grafici, disegni, fotografie, immagini diagnostiche come i raggi X, ecc."@it,
+        ""@nl,
+        "Statiske bilder som f.eks grafer, tegninger, fotografier, diagnostiske/medisinske bilder (røntgenbilder etc.)."@no,
+        "Imagens estáticas, como gráficos, desenhos, fotografias, imagens de diagnóstico/médicas como raios-x, etc."@pt,
+        "Statične slike, kot so grafi, risbe, fotografije, diagnostične/medicinske slike, kot na primer rentgenske slike itd."@sl,
+        "Statične slike, poput grafikona, crteža, fotografija, dijagnostičkih / medicinskih slika, poput rendgenskih zraka, itd."@sr,
+        "Statiska bilder som t.ex. diagram, ritningar, fotografier, diagnostiska/medicinska bilder (röntgenbilder m.m.)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "StillImage"@en ;
+    skos:prefLabel "Unbewegtes Bild"@de,
+        "Still image"@en,
+        "Kuva"@fi,
+        "Image fixe"@fr,
+        "Immagine"@it,
+        "Beeld"@nl,
+        "Stillbilde"@no,
+        "Imagens"@pt,
+        "Mirujoča slika"@sl,
+        "Nepokretna slika"@sr,
+        "Stillbild"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/6311ae1> a skos:Concept ;
+    skos:definition "Verwenden Sie diese Kategorie, wenn die Art des Datenformats bekannt, aber nicht in der Liste vertreten ist."@de,
+        "Use when the kind of data format is known, but not found in the list."@en,
+        "Käytä mikäli aineiston formaatti on tiedossa, mutta ei sanastossa."@fi,
+        "Utilisez quand le genre de format de données est connu, mais pas présent dans la liste."@fr,
+        "Utilizzare quando il tipo di formato dei dati è conosciuto, ma non è presente nell'elenco."@it,
+        ""@nl,
+        "Brukes dersom typen dataformat er kjent, men ikke finnes i listen."@no,
+        "Usar se o formato dos dados for conhecido, mas não se encontrar na lista."@pt,
+        "Uporabite, ko je vrsta podatkov znana, vendar je ne najdete na seznamu."@sl,
+        "Koristite kada je vrsta formata podataka poznata, ali nije na listi."@sr,
+        "Använd om typ av dataformat är känt men saknas i listan."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Andere"@de,
+        "Other"@en,
+        "Muu aineistoformaatti"@fi,
+        "Autre"@fr,
+        "Altro"@it,
+        "Anders"@nl,
+        "Annet"@no,
+        "Outro"@pt,
+        "Drugo"@sl,
+        "Ostalo"@sr,
+        "Övrigt"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/719d067> a skos:Concept ;
+    skos:definition "Computerprogramm(e) im Quellcode (menschenlesbar) oder in kompilierter Form."@de,
+        "Computer program(s) in source code (human-readable) or compiled form."@en,
+        "Tietokoneohjelma/ohjelmia konekielisenä tai lähdekoodina (ihmisen luettavissa)."@fi,
+        "Programme(s) informatique(s) en code source (lisible par l'homme) ou en format compilé."@fr,
+        "Programmi per computer in codice sorgente (leggibile da esseri umani) o in forma compilata."@it,
+        ""@nl,
+        "Dataprogram(-er) i kildekode (menneskelesbar) eller kompilert form."@no,
+        "Programa(s) de computador em código-fonte (legível por humanos) ou em forma codificada."@pt,
+        "Računalniški programi v izvorni kodi (človeško berljivi) ali v prevedeni obliki."@sl,
+        "Računarski program(i) u izvornom kodu (koji može biti čitljiv ljudima) ili u mašinskom obliku."@sr,
+        "Datorprogram som källkod (människoläslig) eller i kompilerad form."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Software"@en ;
+    skos:prefLabel "Software"@de,
+        "Software"@en,
+        "Ohjelmisto"@fi,
+        "Logiciel"@fr,
+        "Software"@it,
+        "Software"@nl,
+        "Programvare"@no,
+        " Software"@pt,
+        "Programska oprema"@sl,
+        "Softver"@sr,
+        "Programvara"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/8732239> a skos:Concept ;
+    skos:definition "Daten, die weitestgehend aus Werten bestehen, die durchZiffern von 0 bis 9 ausgedrückt werden und gegebenenfalls Zeichen für negative Werte, Dezimalkommata oder Buchstaben, mit denen beabsichtigt wird, Zahlen zu repräsentieren (z. B. A-F oder a-f in Hexadezimal)."@de,
+        "Data consisting largely of values expressed as digits from 0 to 9 and, optionally, signs for negative values, decimal points, or letters only when intended to represent numbers (for example, A-F or a-f in hexadecimal)."@en,
+        "Data koostuu enimmäkseen numeroilla 0-9 ilmaistuista arvoista ja mahdollisesti myös negatiivisten arvojen merkeistä tai desimaalierottimista. Datassa voi myös olla kirjaimia silloin, kun kirjainmerkit edustavat numerointia (esim. A-F tai a-f heksadesimaalijärjestelmässä)."@fi,
+        "Données constituées largement de valeurs exprimées sous forme de chiffres de 0 à 9 et, facultativement, de signes pour des valeurs négatives, de points décimaux, ou de lettres seulement lorsqu'elles représentent des nombres (par exemple, A-F ou a-f en hexadécimal)"@fr,
+        "I dati sono in gran parte rappresentati da valori espressi come cifre comprese tra 0 a 9 e, eventualmente, da segni per i valori negativi, da punti per i valori decimali o da lettere solo se destinati a rappresentare numeri (ad esempio, A-F o a-f nel sistema esadecimale)."@it,
+        ""@nl,
+        "Data som hovedsakelig består av verdier uttrykt som siffer fra 0 til 9, og eventuelt tegn for negative verdier, desimaltegn, eller bokstaver når de representerer tall (for eksempel A-F eller a-f i heksadesimaler)."@no,
+        "Dados que consistem, geralmente, em valores expressos em dígitos de 0 a 9 e, opcionalmente, sinais para valores negativos, pontos decimais ou letras, apenas quando destinados a representar números (por exemplo, A-F ou a-f em hexadecimal)."@pt,
+        "Podatki, ki so večinoma sestavljeni iz vrednosti, izraženih kot števke od 0 in 9, lahko tudi kot znaki za negativne vrednosti, decimalna ločila ali črke, ki so namenjene predstavitvi števil (na primer A-F ali a-f v šestnajstiškem zapisu)."@sl,
+        "Podaci koji se uglavnom sastoje od vrednosti izraženih kao cifre od 0 do 9 i opciono znakova za negativne vrednosti, decimalne tačke ili slova, samo kada su namenjeni predstavljanju brojeva (na primer, A-F ili a-f u heksadecimalnoj vrednosti)."@sr,
+        "Data som främst består av värden som uttrycks med siffrorna 0 till 9 och eventuellt tecken för negativa värden, decimalkomman, och bokstäver endast då de är avsedda att representera siffror (t.ex. A-F eller a-f för hexadecimala tal)."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Numeric"@en ;
+    skos:prefLabel "Numerisch"@de,
+        "Numeric"@en,
+        "Numeerinen"@fi,
+        "Nombre"@fr,
+        "Numerico"@it,
+        "Numeriek"@nl,
+        "Numeriske"@no,
+        "Numérico"@pt,
+        "Številski"@sl,
+        "Numerički"@sr,
+        "Numeriska"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/9dffbf6> a skos:Concept ;
+    skos:definition "Daten, die weitestgehend aus Text bestehen, einschließlich Buchstaben, Ziffern und Sonderzeichen oder Symbolen, die schriftlich für Interpunktion, Abkürzung usw. verwendet werden. Zum Beispiel Interviewtranskriptionen, Erzählungen oder Essays, die von Studienteilnehmern verfasst wurden, Zeitungsartikeln usw."@de,
+        "Data consisting largely of text, including letters, numbers, and special characters or symbols used in writing for punctuation, abbreviation, etc. For example, interview transcriptions, narratives or essays written by study participants, newspaper articles, etc."@en,
+        "Data koostuu enimmäkseen tekstistä, mukaan lukien kirjainmerkit, numerot sekä erityismerkit tai symbolit, joita käytetään kirjoitetun tekstin välimerkkeinä, lyhenteissä jne. Esimerkiksi sanomalehtiartikkelit, haastatteluliteraatiot, tutkittavien kirjoittamat kertomukset tai esseet jne."@fi,
+        "Données constituées largement de texte, incluant des lettres, des nombres, et des caractères spéciaux ou des symboles utilisés dans l'écriture de ponctuation, d'abréviation, etc. Par exemple, des transcriptions d'entretien, des récits ou des essais écrits par des participants à l'étude, des articles de journal, etc."@fr,
+        "I dati sono formati in gran parte da elementi testuali, compresi lettere, numeri, caratteri speciali o simboli utilizzati nella scrittura per la punteggiatura, abbreviazioni, ecc. Ad esempio, trascrizioni di interviste, racconti o saggi scritti dai partecipanti allo studio, articoli di giornale, ecc."@it,
+        ""@nl,
+        "Data som hovedsakelig består av tekst, inkludert bokstaver, tall, og spesielle tegn eller symboler som brukes i skrift for tegnsetting, forkortelser etc. For eksempel intervjutranskripsjoner, fortellinger eller essay skrevet av studiedeltakere, avisartikler etc."@no,
+        "Dados que consistem basicamente em textos, incluindo letras, números e caracteres especiais ou símbolos usados na escrita para pontuação, abreviatura, etc. Por exemplo, transcrições de entrevistas, narrativas ou ensaios escritos por participantes do estudo, artigos de jornais, etc."@pt,
+        "Podatki, ki so večinoma sestavljeni iz besedila, vključno s črkami, številkami in posebnimi znaki ali simboli, ki se uporabljajo v pisni obliki za ločila, kratice, itd. Npr. transkripti intervjujev, pričevanja ali eseji, ki so jih napisali udeleženci raziskave, časopisni članki itd."@sl,
+        "Podaci koji se uglavnom sastoje od teksta, uključujući slova, brojeve i posebne znakove ili simbole koji se koriste u pisanju kao interpunkcijski znaci, skraćenice, itd. Na primer, transkripti intervjua, svedočenja ili eseji koje su napisali učesnici studije, članci u novinama, itd."@sr,
+        "Data som främst består av text, inklusive bokstäver, siffror och specialtecken eller symboler som används i skrift för interpunktion, förkortningar m.m. Exempel: intervjutranskripter, berättelser eller uppsatser skrivna av studiedeltagarna, tidningsartiklar, m.m."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Text"@en ;
+    skos:prefLabel "Text"@de,
+        "Text"@en,
+        "Teksti"@fi,
+        "Texte"@fr,
+        "Testuale"@it,
+        "Tekst"@nl,
+        "Tekst"@no,
+        "Texto"@pt,
+        "Besedilni"@sl,
+        "Tekstualni"@sr,
+        "Text"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/b22f041> a skos:Concept ;
+    skos:definition "Aufgezeichneter Ton, inkl. Stimme, Musik, etc."@de,
+        "Recorded sound, including voice, music, etc."@en,
+        "Taltioitu ääni. Esimerkiksi puhe tai musiikki."@fi,
+        "Son enregistré, incluant voix, musique, etc."@fr,
+        "Registrazioni sonore, incluso voce, musica, ecc."@it,
+        ""@nl,
+        "Opptak av lyd, inkludert tale, musikk osv."@no,
+        "Som gravado, incluindo voz, música, etc."@pt,
+        "Posnet zvok, vključno z glasom, glasbo itd."@sl,
+        "Snimljeni zvuk, uključujući glas, muziku i sl."@sr,
+        "Inspelat ljud, inklusive tal, musik, m.m."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Audio"@en ;
+    skos:prefLabel "Audio"@de,
+        "Audio"@en,
+        "Audio"@fi,
+        "Audio"@fr,
+        "Audio"@it,
+        "Audio"@nl,
+        "Audio"@no,
+        "Áudio"@pt,
+        "Avdio"@sl,
+        "Zvučni"@sr,
+        "Audio"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/c9347b7> a skos:Concept ;
+    skos:definition "Geodaten sind jegliche Arten von Daten mit räumlichen Koordinaten, wodurchdieseauf der Erdoberfläche abgebildet werdenkönnen.Sie können physische Objekte, diskrete Flächen oder durchgehende Flächen darstellen. Diskrete Geodaten werden in der Regel unter Verwendung von Vektordaten aus Punkten, Linien und Polygonen dargestellt, während kontinuierliche Geodaten in der Regel durch Rasterdaten repräsentiert werden, bestehend aus einem Gitter von Zellen, die jeweils ihren eigenen Wert haben.Eine beliebige Anzahl von Anwendungenin einer Vielzahl von Bereichen produziert Geodaten, wie GIS, Fernerkundungsgeräte, GPS-Geräte, archäologische Totalstationen, manuelle Kartierung und computergestütztes Design (CAD) in einer Reihe von Formaten, einschließlich Bilder, Vektoren, Text und tabellarischen Daten. Vektor-basierte Geodaten enthalten Tabellen, die archäologische Stätten zusammen mit ihren Koordinaten verzeichnen, textbasierte Dateien (z. B. XML), die Koordinaten und Topologie für historische Straßennetze enthalten, Abstimmungszahlen für politische Parteien von Verwaltungsgebieten. Rasterbasierte Geodaten umfassen Satellitenbilder, Luftbilder, gescannte Karten und digitale Karten von Höhen, Vegetation, Landnutzung, Meeresoberflächentemperaturen, Luftverschmutzung, Bodenarten usw."@de,
+        "Geospatial data are any type of data with spatial coordinates that allow them to be mapped to the Earth's surface. They can represent physical objects, discrete areas or continuous surfaces. Discrete geospatial data are usually represented using vector data consisting of points, lines and polygons, while continuous geospatial data are usually represented by raster data, consisting of a grid of cells that each has its own value. Any number of applications in a wide range of areas produce geospatial data, such as GIS, Remote Sensing equipment, GPS units, archaeological total stations, manual mapping and computer-aided design (CAD), in a number of formats, including images, vector, text, and tabular data. Vector-based geospatial data include tables listing archaeological sites along with their coordinates, text-based files (e.g. XML) containing coordinates and topology for historic road networks, voting figures for political parties by administrative area. Raster-based geospatial data include satellite images, aerial photographs, scanned maps, and digital maps of elevations, vegetation, land-use, sea surface temperatures, air pollution, soil-types, etc."@en,
+        "Paikkatieto on mitä tahansa dataa, joka sisältää sijannin maapallolla määrittäviä koordinaatteja. Paikkatieto voi esittää diskreettejä tai jatkuvia kohteita tai fyysisiä objekteja. Se esitetään joko pisteistä, viivoista ja alueista muodostuvassa vektorimuodossa tai säännöllisistä ja tasasuuruisista ruuduista muodostuvassa rasterimuodossa. Paikkatietoa sen eri muodoissa (mm. kuvina, vektoreina, tekstinä, taulukkodatana) tuotetaan esimerkiksi paikkatietojärjestelmissä (GIS), kaukokartoitusvälineillä, GPS-laitteilla, takymetreillä tai manuaalisella kartoituksella. Paikkatietoa voidaan karttojen lisäksi käyttää myös moniin muihin tarkoituksiin, esimerkiksi yhteiskunnan ja ympäristön tutkimiseen. Kaikkea paikkatietoa voidaan esittää joko vektori- tai rasterimuotoisena, mutta vektorimuotoon laitetaan usein mittauksiin ja tilastoihin perustuvia paikkatiedoja kuten esimerkiksi arkeologisten kaivausten nimet ja koordinaatit listattuina taulukkomuotoon ja poliittisten puolueiden ääniosuudet alueittain esitettynä. Lähes aina rasterimuodossa esitettyä paikkatietoa ovat esimerkiksi satelliitti- ja ilmakuvat, skannatut kartat sekä digitaaliset korkeus-, kasvillisuus-, maankäyttö-, ilmansaaste- ja maaperäkartat jne."@fi,
+        "Les données géospatiales sont tous types de données avec des coordonnées spatiales ce qui leur permet d'être cartographiées sur la surface de la Terre. Elles peuvent représenter des objets physiques, des petites zones ou des grandes étendues. Les données géospatiales discrètes sont habituellement représentées en utilisant des données vectorielles, constituées de points, lignes et polygones, tandis que les données géospatiales continues sont habituellement représentées en utilisant des données matricielles, constituées de grilles de cellules qui ont chacune leur propre valeur. Un grand nombre d'applications dans une grande variété de domaines produisent des données géospatiales, tels que des GIS, des équipements de télédétection, des unités GPS, des tachéomètres archéologiques, des cartographies manuelles et de la conception assistée par ordinateur (CAD), dans un certain nombre de formats, incluant images, vecteur, texte, et données tabulées. Les données géospatiales vectorielles comprennent des tableaux listant les sites archéologiques et leurs coordonnées, des fichiers textes (e. g. XML) contenant coordonnées et topologies des réseaux routiers historique, les chiffres des votes des partis politiques par région administrative. Les données géospatiales matricielles comprennent des images satellite, des photographies aériennes, des cartes numérisées, et des cartes numériques des élévations, de la végétation, de l'utilisation des terres, des températures de surface de la mer, de la pollution de l'air, des types de sols, etc."@fr,
+        "I dati geospaziali sono rappresentati da qualsiasi tipo di dato con coordinate spaziali che ne consentono una mappatura sulla superficie terrestre. Possono rappresentare oggetti fisici, aree delimitate o superfici continue. I dati geospaziali delimitati vengono solitamente rappresentati utilizzando dati vettoriali costituiti da punti, linee e poligoni, mentre i dati geospaziali continui sono solitamente rappresentati da dati raster, costituiti da una griglia di celle ognuna con il proprio valore. Diverse applicazioni in una vasta gamma di settori producono dati geospaziali - come GIS, apparecchiature di telerilevamento, unità GPS, stazioni totali per i rilievi archeologici, mappature manuali e progettazione assistita da computer (CAD) - in diversi formati, tra cui immagini, vettori, testi e dati tabellari. I dati geospaziali vettoriali includono tabelle che elencano i siti archeologici insieme alle loro coordinate, file testuali (ad esempio XML) contenenti le coordinate e la topologia per le reti stradali storiche, rappresentazioni del voto espresso per i partiti politici nelle area amministrative. I dati geospaziali basati su raster includono immagini satellitari, fotografie aeree, mappe scannerizzate e mappe digitali di elevazione, vegetazione, uso del suolo, temperature della superficie del mare, inquinamento atmosferico, tipi di suolo, ecc."@it,
+        ""@nl,
+        "Geospatiale data er alle former data med spatiale koordinater som tillater dem å bli kartlagt på jordens overflate. De kan representere fysiske objekter, diskrete områder eller kontinuerlige overflater. Diskrete geospatiale data er vanligvis representert ved bruk av vektordata bestående av punkt, linjer og polygoner, mens kontinuerlige geospatiale data vanligvis representeres av rasterdata, som består av et nett av celler der hver rute har sin egen verdi. Et stort antall applikasjoner på et bredt spekter av områder produserer geospatiale data, som for eksempel GIS, fjernregistrering, GPS-enheter, arkeologiske totalstasjoner, manuell karttegning og dataassistert konstruksjon (CAD), i et nummer format, inkludert bilder, vektor, tekst og tabelldata. Vektor-baserte geospatiale data inkluderer tabeller som lister arkeologiske utgravninger med deres koordinater, tekstbaserte filer (for eksempel XML) som inneholder koordinater og topologi for historisk veinett, stemmer for politiske partier ut fra administrative områder. Raster-baserte geospatiale data inkluderer satellittbilder, flyfoto, scannede kart, og digitale kart av høydeforskjeller, vegetasjon, bruk av landområde, havoverflatens temperatur, forurensning, jordtyper etc."@no,
+        "Dados geoespaciais são qualquer tipo de dados com coordenadas espaciais que permitem que eles sejam mapeados na superfície da Terra. Podem representar objetos físicos, áreas discretas ou superfícies contínuas. Dados geoespaciais discretos são geralmente representados usando dados vetoriais como pontos, linhas e polígonos, enquanto dados geoespaciais contínuos são geralmente representados por dados raster, que consistem numa matriz de células em que cada uma tem um valor próprio. Inúmeras aplicações numa grande variedade de áreas produzem dados geoespaciais, como o SIG - Sistema de Informação Geográfica (GIS - Geographic Information System), equipamentos de deteção remota, unidades de GPS, estações arqueológicas totais, mapeamento manual e desenho assistido por computador (DAC), ou CAD (do inglês: computer aided design), em vários formatos, incluindo imagens, vetores, texto e dados tabulares. Dados geoespaciais baseados em vetores incluem tabelas que listam os lugares arqueológicos juntamente com as suas coordenadas, arquivos baseados em texto (por exemplo, XML) contendo coordenadas e topologia para redes rodoviárias históricas, número de votos para partidos políticos por área administrativa. Os dados geoespaciais baseados em raster incluem imagens de satélite, fotografias aéreas, mapas digitalizados e mapas digitais de terreno, vegetação, uso da terra, temperaturas da superfície do mar, poluição do ar, tipos de solo, etc."@pt,
+        "Geoprostorski podatki so vse vrste podatkov s prostorskimi koordinatami, ki omogočajo preslikavo na površino Zemlje. Predstavljajo lahko fizične objekte, diskretna območja ali zvezne površine. Diskretni geoprostorski podatki so ponavadi predstavljeni z uporabo vektorskih podatkov, sestavljenih iz točk, črt in večkotnikov, medtem ko se zvezni geoprostorski podatki navadno prikazujejo z rastrskimi podatki, ki jih sestavlja mreža celic, kjer ima vsaka svojo lastno vrednost. Geoprostorske podatke lahko pridobimo z različnimi aplikacijami, ki se uporabljajo na raznih področjih, kot so GIS, oprema za daljinsko zaznavanje, enote GPS, naprave za arheološke in geodetske meritve, ročno kartiranje in računalniško podprto oblikovanje (CAD) v številnih oblikah, vključno s slikami, vektorji , besedili in tabelarnimi podatki. Vektorski geoprostorski podatki vključujejo tabele s seznami arheoloških najdišč in njihovimi koordinatami, besedilne datoteke (npr. XML), ki vsebujejo koordinate in topologijo zgodovinskih cestnih omrežj, rezultate glasovanja za politične stranke po upravnih območjih. Geoprostorski podatki, ki temeljijo na rasterju, vključujejo satelitske slike, fotografije iz zraka, skenirane zemljevide in digitalne karte nadmorskih višin, rastja, rabe zemljišč, temperatur morskih površin, onesnaževanja zraka, tipov prsti itd."@sl,
+        "Geoprostorni podaci su sve vrste podataka koji sadrže prostorne koordinate koje im omogućavaju da se preslikaju na Zemljinu površinu. Mogu da predstavljaju fizičke predmete, diskretna područja ili neprekidne površine. Diskretni geoprostorni podaci obično se prikazuju upotrebom vektorskih podataka koji se sastoje od tačaka, linija i poligona, dok su neprekidni geoprostorni podaci obično predstavljeni rasterskim podacima, koji se sastoje od mreže ćelija koje svaka ima svoju vrednost. Bilo koji broj aplikacija u širokom rasponu područja proizvodi geoprostorne podatke, kao što su GIS, oprema za daljinsko istraživanje, GPS jedinice, arheološke ukupne stanice, ručno mapiranje i kompjuterski dizajniran (CAD), u više formata, uključujući slike, vektore, tekst i tabelarne podatke. Vektorski geoprostorni podaci uključuju tabele sa popisom arheoloških nalazišta zajedno sa njihovim koordinatama, tekstualne datoteke (npr. XML) koje sadrže koordinate i topologiju istorijskih putnih mreža, rezultate glasanja za političke stranke prema administrativnom području. Geografski podaci zasnovani na rasterima uključuju satelitske snimke, fotografije iz vazduha, skenirane mape i digitalne mape nadmorske visine, vegetacije, upotrebe kopna, temperature morske površine, zagađenja vazduha, vrste tla, itd."@sr,
+        "Geospatiala data är alla sorters data med spatiella koordinater som tillåter dem att mappas på jordens yta. De kan representera fysiska föremål, diskreta områden eller kontinuerliga ytor. Diskreta geospatiala data representeras vanligtvis med vektordata som består av punkter, linjer och polygoner, medan kontinuerliga geospatiala data vanligen representeras med rasterdata som består av ett rutnät där varje ruta har sitt eget värde. Ett stort antal program inom ett brett spektrum av områden producerar geospatiala data, t.ex. GIS, fjärranalysutrustning, GPS-enheter, arkeologiska totalstationer, manuell kartritning och CAD (computer-aided design), i ett flertal format, inklusive bilder, vektorfiler, text och tabelldata. Vektorbaserade geospatiala data inkluderar tabeller över arkeologiska utgrävningar tillsammans med deras koordinater, text-baserade filer (t.ex. XML) med koordinater och topologi för historiska vägnät, och röstsiffror för politiska partier inom olika administrative områden. Rasterbaserade geospatiala data inkluderar satellitbilder, flygfoton, skannade kartor och digitala kartor över höjdskillnader, vegetation, användning av landområden, havsytans temperatur, luftföroreningar, jordtyper, m.m."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "Geospatial"@en ;
+    skos:prefLabel "Geodaten"@de,
+        "Geospatial"@en,
+        "Paikkatieto"@fi,
+        "Données géospatiales"@fr,
+        "Geospaziale"@it,
+        "Geografisch-ruimtelijk"@nl,
+        "Geospatiale"@no,
+        "Geoespacial"@pt,
+        "Geoprostorski"@sl,
+        "Geoprostorni"@sr,
+        "Geospatiala"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/cec124a> a skos:Concept ;
+    skos:definition "Eine Ressource, die eine Interaktion vom Benutzer erfordert, um verstanden, ausgeführt oder erfahrenwerden zu können. Zum Beispiel Trainingsmodule, Abfrage- /Antwortportale, Dateien, die vom Benutzer eine Aktion erfordern, etc."@de,
+        "A resource requiring interaction from the user to be understood, executed, or experienced. For example, training modules, query/response portals, files that require action from the user, etc."@en,
+        "Sisältö, joka vaatii vuorovaikutteisuutta käyttäjältä ollakseen ymmärrettävissä, käytettävissä tai koettavissa. Esimerkiksi harjoitusmoduulit, kysely/vastausportaalit, käyttäjän toimintaa vaativat tiedostot jne."@fi,
+        "Une ressource nécessitant l'interaction de l'utilisateur pour être comprise, exécutée, ou expérimentée. Par exemple, des modules de formation, des portails de questions / réponses, des fichiers qui requièrent l'intervention de l'utilisateur, etc."@fr,
+        "Una risorsa che richiede l'interazione con l'utente per essere compresa, eseguita o sperimentata. Ad esempio, moduli per la formazione, portali che consentono interrogazioni, file che richiedono l'intervento dell'utente, ecc."@it,
+        ""@nl,
+        "En ressurs som krever interaksjon fra brukeren for å bli forstått, brukt eller erfart. For eksempel treningsmoduler, portaler for spørsmål og svar, filer som krever behandling fra brukeren osv."@no,
+        "Um recurso que requer interação do utilizador para ser entendido, executado ou experimentado. Por exemplo, módulos de formação, portais de consulta/resposta, ficheiros que necessitam de alguma ação por parte do utilizador, etc."@pt,
+        "Vir, ki zahteva stik z uporabnikom, da ga razume, izvaja ali doživi. Na primer moduli za usposabljanje, portali za poizvedbo/odziv, datoteke, ki zahtevajo dejanje uporabnika itd."@sl,
+        "Resurs koji zahteva interakciju od korisnika da bi se razumeo, izvršio ili doživeo. Na primer, moduli za obuku, portali za upite / odgovore, datoteke koje od korisnika zahtevaju akcije, itd."@sr,
+        "En resurs som kräver interaktion från användaren för att förstås, köras eller upplevas. Exempel: träningsmoduler, portaler för frågor och svar, filer som kräver att användaren gör något med dem, m.m."@sv ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> ;
+    skos:notation "InteractiveResource"@en ;
+    skos:prefLabel "Interaktive Ressource"@de,
+        "Interactive resource"@en,
+        "Vuorovaikutteinen"@fi,
+        "Ressource interactive"@fr,
+        "Risorsa interattiva"@it,
+        "Interactieve bron"@nl,
+        "Interaktiv ressurs"@no,
+        "Recursos interativos"@pt,
+        "Interaktivni vir"@sl,
+        "Interaktivni resurs"@sr,
+        "Interaktiv resurs"@sv .
+
+<http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/> a skos:ConceptScheme ;
+    dcterms:description "Beschreibt das Format der Daten, die in den logischen Produkten einer Studie dokumentiert sind."@de,
+        "Describes the physical format(s) of the data documented in the logical product(s) of a study unit."@en,
+        "Formaatti, jossa aineisto luovutetaan käyttäjille."@fi,
+        "Décrit le(s) format(s) physique des données documentées dans la description des différentes parties de la description de l'étude"@fr,
+        "Descrive il formato fisico dei dati documentati nello studio."@it,
+        "Beschrijft het formaat van de gegevens die binnen de studie-eenheid gedocumenteerd zijn."@nl,
+        "Beskriver fysisk(-e) format for de data som dokumenteres i en studieenhets logiske produkt(-er)."@no,
+        "Descreve o(s) formato(s) físico(s) dos dados documentados nos resultados dum estudo."@pt,
+        "Opisuje fizične format_e dokumentiranih podatkov v logičnem sosledju raziskovalne enote."@sl,
+        "Opisuje fizički format(e) podataka koji su dokumentovani u logičkim proizvodima jedinice studije."@sr,
+        "Beskriver fysiskt/-a format för de data som dokumenteras i en studieenhets logiska produkt/-er."@sv ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2019" ;
+    dcterms:title "Art des Datenformats"@de,
+        "General Data Format"@en,
+        "Aineiston formaatti"@fi,
+        "Format général des données"@fr,
+        "Formato generale dei dati"@it,
+        "Algemeen gegevensformaat"@nl,
+        "Type dataformat"@no,
+        "Formato dos dados"@pt,
+        "Format (Vrsta podatkov)"@sl,
+        "Format (Vrste podataka)"@sr,
+        "Typ av dataformat"@sv ;
+    owl:versionInfo "2.0.3" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/31a45a8>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/34e2d19>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/5311744>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/719d067>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/8732239>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/9dffbf6>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/b22f041>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/c9347b7>,
+        <http://rdf-vocabulary.ddialliance.org/cv/GeneralDataFormat/2.0.3/cec124a> ;
+    skos:notation "GeneralDataFormat"@en ;
+    skos:prefLabel "Art des Datenformats"@de,
+        "General Data Format"@en,
+        "Aineiston formaatti"@fi,
+        "Format général des données"@fr,
+        "Formato generale dei dati"@it,
+        "Algemeen gegevensformaat"@nl,
+        "Type dataformat"@no,
+        "Formato dos dados"@pt,
+        "Format (Vrsta podatkov)"@sl,
+        "Format (Vrste podataka)"@sr,
+        "Typ av dataformat"@sv .
+

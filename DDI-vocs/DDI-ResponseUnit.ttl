@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/1b778c7> a skos:Concept ;
+    skos:definition "Data are entered directly by the interviewer, as a result of his/her own observations, and not by eliciting answers to a question."@en,
+        "Data er direkte registrert av intervjueren som et resultat av hans eller hennes egne observasjoner, og ikke ved å fremkalle svar til et spørsmål."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/> ;
+    skos:notation "Interviewer"@en ;
+    skos:prefLabel "Interviewer"@en,
+        "Intervjuer"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/6311ae1> a skos:Concept ;
+    skos:definition "Use if the response unit is known, but not found in the list."@en,
+        ""@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en,
+        ""@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/85c2695> a skos:Concept ;
+    skos:definition "Unit of response is different than the unit of observation as part of the study design, and the identity of the response unit is also pre-determined by the study design. Such studies are actually called \"informant surveys\" and they involve, for instance, obtaining information about a community from certain select members who hold specific information, like church leaders, business owners or leaders, physicians, school teachers, civic leaders, etc. Or, if a business or organization is the unit of observation, information may be sought at different administrative/professional levels, etc."@en,
+        "Svarenheten er forskjellig fra observasjonsenheten i studiedesignet, og identiteten til svarenheten er også forhåndsbestemt av studiedesignet. Slike studer blir faktisk kalt \"informantundersøkelser\" og de involverer, for eksempel, innhenting av informasjon om et fellesskap fra visse utvalgte medlemmer som har spesifikk informasjon, som kirkeledere, bedriftseiere eller ledere, leger, lærere, samfunnsledere, etc. Eller, hvis en bedrift eller organisasjon er observasjonsenheten, kan informasjonen være ettertraktet på forskjellige administrative/faglige nivåer, etc."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/> ;
+    skos:notation "Informant"@en ;
+    skos:prefLabel "Informant"@en,
+        "Informant"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/ad6e765> a skos:Concept ;
+    skos:definition "Unit of response is same as unit of observation/analysis."@en,
+        "Svarenheten er den samme som observasjons-/analyseenheten."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/> ;
+    skos:notation "Self"@en ;
+    skos:prefLabel "Self"@en,
+        "Selv"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/f56ec2a> a skos:Concept ;
+    skos:definition "Unit of response is different than the unit of analysis because the sampled unit is unavailable/unable to participate. Proxies may be allowed by the study design, but their identity is not specifically designated (for example, anyone in the household can provide information about another household member, or any available student can provide information about another student, etc.)."@en,
+        "Svarenheten er forskjellig fra analyseenheten fordi utvalgsenheten er utilgjengelig/ikke har mulighet til å delta. Fullmektige kan være tillatt av studiedesignet, men deres identitet er ikke spesifikt utpekt (for eksempel, hvem som helst i husstanden kan gi informasjon om en annen husstandsmedlem, eller hvilken som helst tilgjengelig student kan gi informasjon om en annen student, etc.)."@no ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/> ;
+    skos:notation "Proxy"@en ;
+    skos:prefLabel "Proxy"@en,
+        "Fullmektig"@no .
+
+<http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/> a skos:ConceptScheme ;
+    dcterms:description "Indicates the entity that provided the information carried by the variable."@en,
+        "Indikerer enheten som har gitt informasjonen som er i variabelen."@no ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Response Unit"@en,
+        "Svarenhet"@no ;
+    owl:versionInfo "1.0.2" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/1b778c7>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/85c2695>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/ad6e765>,
+        <http://rdf-vocabulary.ddialliance.org/cv/ResponseUnit/1.0.2/f56ec2a> ;
+    skos:notation "ResponseUnit"@en ;
+    skos:prefLabel "Response Unit"@en,
+        "Svarenhet"@no .
+

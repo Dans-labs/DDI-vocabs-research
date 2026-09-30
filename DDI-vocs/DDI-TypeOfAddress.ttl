@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/6311ae1> a skos:Concept ;
+    skos:definition "Use if type of address is known, but not found in the list."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:notation "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/8ef080c> a skos:Concept ;
+    skos:definition "Address for directing physical/conventional mail to a person's residence, including institutional residence."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:notation "Mailing.Residential"@en ;
+    skos:prefLabel "Mailing address: Residential"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/a9a6096> a skos:Concept ;
+    skos:definition "Address used to identify a physical location (typically a building or a unit in a building) that may be accessed in person."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/af04d20>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/d7892ee> ;
+    skos:notation "Visiting"@en ;
+    skos:prefLabel "Visiting address"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/af04d20> a skos:Concept ;
+    skos:definition "Visiting address for a business, organization, or other type of association."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:notation "Visiting.Nonresidential"@en ;
+    skos:prefLabel "Visiting address: Nonresidential"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/c1ddd21> a skos:Concept ;
+    skos:definition "Address for directing physical/conventional mail to a business, organization, or other type of association."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:notation "Mailing.Nonresidential"@en ;
+    skos:prefLabel "Mailing address: Nonresidential"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/c8896d7> a skos:Concept ;
+    skos:definition "Includes both \"street\", and P.O. Box addresses used for sending and receiving physical/conventional mail through the postal system."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:narrower <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/8ef080c>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/c1ddd21> ;
+    skos:notation "Mailing"@en ;
+    skos:prefLabel "Mailing address"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/d7892ee> a skos:Concept ;
+    skos:definition "Visiting address for a person's residence, including institutional residence."@en ;
+    skos:inScheme <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> ;
+    skos:notation "Visiting.Residential"@en ;
+    skos:prefLabel "Visiting address: Residential"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/> a skos:ConceptScheme ;
+    dcterms:description """Identifies the type of address entered as contact information for an individual or an organization.
+"""@en ;
+    dcterms:isVersionOf <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights "Copyright ©DDI Alliance 2020" ;
+    dcterms:title "Type of Address"@en ;
+    owl:versionInfo "1.1.0" ;
+    skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/6311ae1>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/a9a6096>,
+        <http://rdf-vocabulary.ddialliance.org/cv/TypeOfAddress/1.1.0/c8896d7> ;
+    skos:notation "TypeOfAddress"@en ;
+    skos:prefLabel "Type of Address"@en .
+
