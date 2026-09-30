@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ddicv:   <http://rdf-vocabulary.ddialliance.org/cv/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/8321e79>
+        skos:prefLabel  "Maksimum"@no , "Maximum"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/66851a3>
+        skos:prefLabel  "Median"@no , "Median"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/e93f994>
+        skos:prefLabel  "Antall"@no , "Count"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/a0ec870>
+        skos:prefLabel  "Sum"@no , "Sum"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/7975ed0>
+        skos:prefLabel  "Aritmetisk gjennomsnitt"@no , "Arithmetic mean"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/>
+        rdf:type             skos:ConceptScheme ;
+        dcterms:description  "Identifies the type of aggregation used to combine related categories, usually within a common branch of a hierarchy, to provide information at a broader level than the level at which detailed observations are taken. (From: The OECD Glossary of Statistical Terms)"@en , "Identifiserer den type aggregering som brukes for å kombinere relaterte kategorier, vanligvis innenfor en felles\ngren av et hierarki, for å gi informasjon på et bredere nivå enn det detaljerte nivået hvor observasjonene er tatt\nfra. (Fra: OECD-ordlisten med statistiske begreper)"@no ;
+        dcterms:isVersionOf  <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/> ;
+        dcterms:license      <http://creativecommons.org/licenses/by/4.0/> ;
+        dcterms:rights       "Copyright ©DDI Alliance 2019" ;
+        dcterms:title        "Aggregeringsmetode"@no , "Aggregation Method"@en ;
+        owl:versionInfo      "1.1.2" ;
+        skos:hasTopConcept   <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/650be61> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/6311ae1> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/e93f994> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/7975ed0> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/8321e79> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/a0ec870> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/4dfc4f5> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/adaaee4> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/66851a3> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/a1d0ec6> , <http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/bdc1c84> ;
+        skos:notation        "AggregationMethod"@en ;
+        skos:prefLabel       "Aggregeringsmetode"@no , "Aggregation Method"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/650be61>
+        skos:prefLabel  "Modus"@no , "Mode"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/bdc1c84>
+        skos:prefLabel  "Persentil"@no , "Percentile rank"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/adaaee4>
+        skos:prefLabel  "Prosent"@no , "Percent"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/4dfc4f5>
+        skos:prefLabel  "Kumulativ prosent"@no , "Cumulative percent"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/6311ae1>
+        skos:prefLabel  "Annet"@no , "Other"@en .
+
+<http://rdf-vocabulary.ddialliance.org/cv/AggregationMethod/1.1.2/a1d0ec6>
+        skos:prefLabel  "Minimum"@no , "Minimum"@en .
