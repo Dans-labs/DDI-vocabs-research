@@ -1,0 +1,436 @@
+vocabulary,concept_scheme,top_concept
+DDI-ContributorRole,Contributor Role,Project/Study design
+DDI-ContributorRole,Contributor Role,Project/Study design: Sampling design
+DDI-ContributorRole,Contributor Role,Data management
+DDI-ContributorRole,Contributor Role,Ethics review
+DDI-ContributorRole,Contributor Role,Data collection
+DDI-ContributorRole,Contributor Role,Sample selection
+DDI-ContributorRole,Contributor Role,Data entry
+DDI-ContributorRole,Contributor Role,Data processing
+DDI-ContributorRole,Contributor Role,Data acquisition
+DDI-ContributorRole,Contributor Role,Metadata production
+DDI-ContributorRole,Contributor Role,Data distribution
+DDI-ContributorRole,Contributor Role,Data hosting
+DDI-ContributorRole,Contributor Role,Long-term preservation/archiving
+DDI-ContributorRole,Contributor Role,Consulting
+DDI-ContributorRole,Contributor Role,Contact
+DDI-ContributorRole,Contributor Role,Data analysis
+DDI-ContributorRole,Contributor Role,Editing
+DDI-ContributorRole,Contributor Role,Equipment development
+DDI-ContributorRole,Contributor Role,Evaluation
+DDI-ContributorRole,Contributor Role,Funding provision
+DDI-ContributorRole,Contributor Role,Funding/sponsorship acquisition
+DDI-ContributorRole,Contributor Role,Sponsorship
+DDI-ContributorRole,Contributor Role,Graphic design
+DDI-ContributorRole,Contributor Role,Project operations
+DDI-ContributorRole,Contributor Role,Promotion
+DDI-ContributorRole,Contributor Role,Registration authority
+DDI-ContributorRole,Contributor Role,Researcher
+DDI-ContributorRole,Contributor Role,Research group
+DDI-ContributorRole,Contributor Role,Rights holding
+DDI-ContributorRole,Contributor Role,Rights management
+DDI-ContributorRole,Contributor Role,Software development
+DDI-ContributorRole,Contributor Role,Supervision
+DDI-ContributorRole,Contributor Role,Training
+DDI-ContributorRole,Contributor Role,Translation
+DDI-ContributorRole,Contributor Role,User support
+DDI-ContributorRole,Contributor Role,Visualization
+DDI-ContributorRole,Contributor Role,Website development
+DDI-ContributorRole,Contributor Role,Other
+DDI-KindOfData,Kind of Data,Quantitative 
+DDI-KindOfData,Kind of Data,Qualitative
+DDI-KindOfData,Kind of Data,Mixed
+DDI-DataSourceType,Data Source Type,Registers/Records/Accounts
+DDI-DataSourceType,Data Source Type,Events/Interactions
+DDI-DataSourceType,Data Source Type,Processes
+DDI-DataSourceType,Data Source Type,Communications
+DDI-DataSourceType,Data Source Type,Research data
+DDI-DataSourceType,Data Source Type,Population group
+DDI-DataSourceType,Data Source Type,Geographic area
+DDI-DataSourceType,Data Source Type,Physical objects
+DDI-DataSourceType,Data Source Type,Biological samples
+DDI-DataSourceType,Data Source Type,Other
+DDI-TypeOfConceptGroup,Type of Concept Group,Administrative
+DDI-TypeOfConceptGroup,Type of Concept Group,Thematic
+DDI-TypeOfConceptGroup,Type of Concept Group,Other
+DDI-CommonalityType,Commonality Type,Identical
+DDI-CommonalityType,Commonality Type,Some
+DDI-CommonalityType,Commonality Type,None
+DDI-DateType,Date Type,DateTime
+DDI-DateType,Date Type,Time
+DDI-DateType,Date Type,Date
+DDI-DateType,Date Type,YearMonth
+DDI-DateType,Date Type,Year
+DDI-DateType,Date Type,MonthDay
+DDI-DateType,Date Type,Day
+DDI-DateType,Date Type,Month
+DDI-DateType,Date Type,Duration
+DDI-DateType,Date Type,Timespan
+DDI-DateType,Date Type,Other
+DDI-SummaryStatisticType,Summary Statistic Type,Arithmetic mean
+DDI-SummaryStatisticType,Summary Statistic Type,Geometric mean
+DDI-SummaryStatisticType,Summary Statistic Type,Harmonic mean
+DDI-SummaryStatisticType,Summary Statistic Type,Trimmed mean
+DDI-SummaryStatisticType,Summary Statistic Type,Standard error of the mean
+DDI-SummaryStatisticType,Summary Statistic Type,Mode
+DDI-SummaryStatisticType,Summary Statistic Type,Median
+DDI-SummaryStatisticType,Summary Statistic Type,Valid cases
+DDI-SummaryStatisticType,Summary Statistic Type,Invalid cases
+DDI-SummaryStatisticType,Summary Statistic Type,Minimum
+DDI-SummaryStatisticType,Summary Statistic Type,Maximum
+DDI-SummaryStatisticType,Summary Statistic Type,Range
+DDI-SummaryStatisticType,Summary Statistic Type,Sum
+DDI-SummaryStatisticType,Summary Statistic Type,Variance
+DDI-SummaryStatisticType,Summary Statistic Type,Standard deviation
+DDI-SummaryStatisticType,Summary Statistic Type,Coefficient of variation
+DDI-SummaryStatisticType,Summary Statistic Type,Average absolute deviation
+DDI-SummaryStatisticType,Summary Statistic Type,Median absolute deviation
+DDI-SummaryStatisticType,Summary Statistic Type,First quartile
+DDI-SummaryStatisticType,Summary Statistic Type,Second quartile
+DDI-SummaryStatisticType,Summary Statistic Type,Third quartile
+DDI-SummaryStatisticType,Summary Statistic Type,Interquartile range
+DDI-SummaryStatisticType,Summary Statistic Type,First quintile
+DDI-SummaryStatisticType,Summary Statistic Type,Second quintile
+DDI-SummaryStatisticType,Summary Statistic Type,Third quintile
+DDI-SummaryStatisticType,Summary Statistic Type,Fourth quintile
+DDI-SummaryStatisticType,Summary Statistic Type,Interquintile range
+DDI-SummaryStatisticType,Summary Statistic Type,First decile
+DDI-SummaryStatisticType,Summary Statistic Type,Second decile
+DDI-SummaryStatisticType,Summary Statistic Type,Third decile
+DDI-SummaryStatisticType,Summary Statistic Type,Fourth decile
+DDI-SummaryStatisticType,Summary Statistic Type,Fifth decile
+DDI-SummaryStatisticType,Summary Statistic Type,Sixth decile
+DDI-SummaryStatisticType,Summary Statistic Type,Seventh decile
+DDI-SummaryStatisticType,Summary Statistic Type,Eighth decile
+DDI-SummaryStatisticType,Summary Statistic Type,Ninth decile
+DDI-SummaryStatisticType,Summary Statistic Type,Interdecile range
+DDI-SummaryStatisticType,Summary Statistic Type,Other percentile
+DDI-SummaryStatisticType,Summary Statistic Type,Skewness
+DDI-SummaryStatisticType,Summary Statistic Type,Kurtosis
+DDI-SummaryStatisticType,Summary Statistic Type,Shapiro-Wilk
+DDI-SummaryStatisticType,Summary Statistic Type,Percentage of valid cases
+DDI-SummaryStatisticType,Summary Statistic Type,Percentage of invalid cases
+DDI-SummaryStatisticType,Summary Statistic Type,Other
+DDI-DataType,Data Type,String
+DDI-DataType,Data Type,Normalized string
+DDI-DataType,Data Type,Boolean
+DDI-DataType,Data Type,Decimal
+DDI-DataType,Data Type,Integer
+DDI-DataType,Data Type,Positive integer
+DDI-DataType,Data Type,Negative integer
+DDI-DataType,Data Type,Non-negative integer
+DDI-DataType,Data Type,Non-positive integer
+DDI-DataType,Data Type,Long
+DDI-DataType,Data Type,Int
+DDI-DataType,Data Type,Short
+DDI-DataType,Data Type,Byte
+DDI-DataType,Data Type,Unsigned long
+DDI-DataType,Data Type,Unsigned int
+DDI-DataType,Data Type,Unsigned short
+DDI-DataType,Data Type,Unsigned byte
+DDI-DataType,Data Type,Float
+DDI-DataType,Data Type,Double
+DDI-DataType,Data Type,DateTime
+DDI-DataType,Data Type,Time
+DDI-DataType,Data Type,Date
+DDI-DataType,Data Type,YearMonth
+DDI-DataType,Data Type,Year
+DDI-DataType,Data Type,MonthDay
+DDI-DataType,Data Type,Day
+DDI-DataType,Data Type,Month
+DDI-DataType,Data Type,Duration
+DDI-DataType,Data Type,hexBinary
+DDI-DataType,Data Type,base64Binary
+DDI-DataType,Data Type,anyURI
+DDI-DataType,Data Type,Other
+DDI-CharacterSet,Character Set,ASCII
+DDI-CharacterSet,Character Set,ISO-8859-1
+DDI-CharacterSet,Character Set,ISO-8859-2
+DDI-CharacterSet,Character Set,ISO-8859-3
+DDI-CharacterSet,Character Set,ISO-8859-4
+DDI-CharacterSet,Character Set,ISO-8859-5
+DDI-CharacterSet,Character Set,ISO-8859-6
+DDI-CharacterSet,Character Set,ISO-8859-7
+DDI-CharacterSet,Character Set,ISO-8859-8
+DDI-CharacterSet,Character Set,ISO-8859-9
+DDI-CharacterSet,Character Set,ISO-8859-10
+DDI-CharacterSet,Character Set,ISO-8859-11
+DDI-CharacterSet,Character Set,ISO-8859-13
+DDI-CharacterSet,Character Set,ISO-8859-14
+DDI-CharacterSet,Character Set,ISO-8859-15
+DDI-CharacterSet,Character Set,ISO-8859-16
+DDI-CharacterSet,Character Set,Mac OS Roman
+DDI-CharacterSet,Character Set,UTF-8
+DDI-CharacterSet,Character Set,UTF-16
+DDI-CharacterSet,Character Set,UTF-32
+DDI-CharacterSet,Character Set,Windows-1251
+DDI-CharacterSet,Character Set,Windows-1252
+DDI-CharacterSet,Character Set,Windows-1253
+DDI-CharacterSet,Character Set,Windows-1254
+DDI-CharacterSet,Character Set,Windows-1255
+DDI-CharacterSet,Character Set,Windows-1256
+DDI-CharacterSet,Character Set,Windows-1257
+DDI-CharacterSet,Character Set,Windows-1258
+DDI-CharacterSet,Character Set,Unspecified
+DDI-CharacterSet,Character Set,Other
+DDI-AnalysisUnit,Analysis Unit,Individual
+DDI-AnalysisUnit,Analysis Unit,Organization/Institution
+DDI-AnalysisUnit,Analysis Unit,Family
+DDI-AnalysisUnit,Analysis Unit,Household
+DDI-AnalysisUnit,Analysis Unit,Housing unit
+DDI-AnalysisUnit,Analysis Unit,Event/Process/Activity
+DDI-AnalysisUnit,Analysis Unit,Geographic unit
+DDI-AnalysisUnit,Analysis Unit,Political-administrative area
+DDI-AnalysisUnit,Analysis Unit,Time unit
+DDI-AnalysisUnit,Analysis Unit,Media unit
+DDI-AnalysisUnit,Analysis Unit,Group
+DDI-AnalysisUnit,Analysis Unit,Object
+DDI-AnalysisUnit,Analysis Unit,Other
+DDI-GeneralDataFormat,General Data Format,Numeric
+DDI-GeneralDataFormat,General Data Format,Text
+DDI-GeneralDataFormat,General Data Format,Still image
+DDI-GeneralDataFormat,General Data Format,Geospatial
+DDI-GeneralDataFormat,General Data Format,Audio
+DDI-GeneralDataFormat,General Data Format,Video
+DDI-GeneralDataFormat,General Data Format,Software
+DDI-GeneralDataFormat,General Data Format,Interactive resource
+DDI-GeneralDataFormat,General Data Format,3D
+DDI-GeneralDataFormat,General Data Format,Other
+DDI-TypeOfTelephone,Type of Telephone,Fixed telephone
+DDI-TypeOfTelephone,Type of Telephone,Mobile telephone
+DDI-TypeOfTelephone,Type of Telephone,Fax
+DDI-TypeOfTelephone,Type of Telephone,Other
+DDI-ResponseUnit,Response Unit,Self
+DDI-ResponseUnit,Response Unit,Informant
+DDI-ResponseUnit,Response Unit,Proxy
+DDI-ResponseUnit,Response Unit,Interviewer
+DDI-ResponseUnit,Response Unit,Other
+DDI-NumericType,Numeric Type,Integer
+DDI-NumericType,Numeric Type,Int 
+DDI-NumericType,Numeric Type,Long
+DDI-NumericType,Numeric Type,Short
+DDI-NumericType,Numeric Type,Decimal
+DDI-NumericType,Numeric Type,Float
+DDI-NumericType,Numeric Type,Double
+DDI-NumericType,Numeric Type,Count
+DDI-NumericType,Numeric Type,Incremental
+DDI-NumericType,Numeric Type,Other
+DDI-AggregationMethod,Aggregation Method,Sum
+DDI-AggregationMethod,Aggregation Method,Arithmetic mean
+DDI-AggregationMethod,Aggregation Method,Count
+DDI-AggregationMethod,Aggregation Method,Mode
+DDI-AggregationMethod,Aggregation Method,Median
+DDI-AggregationMethod,Aggregation Method,Maximum
+DDI-AggregationMethod,Aggregation Method,Minimum
+DDI-AggregationMethod,Aggregation Method,Percent
+DDI-AggregationMethod,Aggregation Method,Cumulative percent
+DDI-AggregationMethod,Aggregation Method,Percentile rank
+DDI-AggregationMethod,Aggregation Method,Other
+DDI-LifecycleEventType,Lifecycle Event Type,Study proposal
+DDI-LifecycleEventType,Lifecycle Event Type,Funding
+DDI-LifecycleEventType,Lifecycle Event Type,Study design
+DDI-LifecycleEventType,Lifecycle Event Type,Instrument design
+DDI-LifecycleEventType,Lifecycle Event Type,Questionnaire translation
+DDI-LifecycleEventType,Lifecycle Event Type,Questionnaire adaptation
+DDI-LifecycleEventType,Lifecycle Event Type,Interviewer training
+DDI-LifecycleEventType,Lifecycle Event Type,Ethics review
+DDI-LifecycleEventType,Lifecycle Event Type,Legal review
+DDI-LifecycleEventType,Lifecycle Event Type,Sampling
+DDI-LifecycleEventType,Lifecycle Event Type,Instrument pre-testing
+DDI-LifecycleEventType,Lifecycle Event Type,Pilot study
+DDI-LifecycleEventType,Lifecycle Event Type,Data collection
+DDI-LifecycleEventType,Lifecycle Event Type,Data collection reports
+DDI-LifecycleEventType,Lifecycle Event Type,Data processing
+DDI-LifecycleEventType,Lifecycle Event Type,Metadata production
+DDI-LifecycleEventType,Lifecycle Event Type,Metadata editing
+DDI-LifecycleEventType,Lifecycle Event Type,Metadata translation
+DDI-LifecycleEventType,Lifecycle Event Type,Final report
+DDI-LifecycleEventType,Lifecycle Event Type,Evaluation
+DDI-LifecycleEventType,Lifecycle Event Type,Original release
+DDI-LifecycleEventType,Lifecycle Event Type,Deposit
+DDI-LifecycleEventType,Lifecycle Event Type,Preservation package production
+DDI-LifecycleEventType,Lifecycle Event Type,Dissemination package production
+DDI-LifecycleEventType,Lifecycle Event Type,Dissemination package release
+DDI-LifecycleEventType,Lifecycle Event Type,Data analysis reports
+DDI-LifecycleEventType,Lifecycle Event Type,New version release
+DDI-LifecycleEventType,Lifecycle Event Type,Other
+DDI-TypeOfNote,Type of Note,Processing note
+DDI-TypeOfNote,Type of Note,Addendum
+DDI-TypeOfNote,Type of Note,System note
+DDI-TypeOfNote,Type of Note,Observation
+DDI-TypeOfNote,Type of Note,Comment
+DDI-TypeOfNote,Type of Note,Other
+DDI-LanguageProficiency,Language Proficiency,Native
+DDI-LanguageProficiency,Language Proficiency,Non-native
+DDI-LanguageProficiency,Language Proficiency,Unspecified native status
+DDI-LanguageProficiency,Language Proficiency,Other
+DDI-SoftwarePackage,Software Package,AcaStat
+DDI-SoftwarePackage,Software Package,ADaMSoft
+DDI-SoftwarePackage,Software Package,Analyse-it
+DDI-SoftwarePackage,Software Package,Auguri
+DDI-SoftwarePackage,Software Package,BioStat
+DDI-SoftwarePackage,Software Package,BMDP
+DDI-SoftwarePackage,Software Package,BrightStat
+DDI-SoftwarePackage,Software Package,Dataplot
+DDI-SoftwarePackage,Software Package,DBase
+DDI-SoftwarePackage,Software Package,DIF
+DDI-SoftwarePackage,Software Package,EasyReg
+DDI-SoftwarePackage,Software Package,Epi Info
+DDI-SoftwarePackage,Software Package,EViews
+DDI-SoftwarePackage,Software Package,GAUSS
+DDI-SoftwarePackage,Software Package,Golden Helix
+DDI-SoftwarePackage,Software Package,GraphPad Prism
+DDI-SoftwarePackage,Software Package,gretl
+DDI-SoftwarePackage,Software Package,JMP
+DDI-SoftwarePackage,Software Package,Limdep
+DDI-SoftwarePackage,Software Package,MacAnova
+DDI-SoftwarePackage,Software Package,Maple
+DDI-SoftwarePackage,Software Package,Mathematica
+DDI-SoftwarePackage,Software Package,MatLab
+DDI-SoftwarePackage,Software Package,MedCalc
+DDI-SoftwarePackage,Software Package,Minitab
+DDI-SoftwarePackage,Software Package,modelQED
+DDI-SoftwarePackage,Software Package,NCSS
+DDI-SoftwarePackage,Software Package,NSDStat
+DDI-SoftwarePackage,Software Package,OpenEpi
+DDI-SoftwarePackage,Software Package,Origin
+DDI-SoftwarePackage,Software Package,Partek
+DDI-SoftwarePackage,Software Package,Primer
+DDI-SoftwarePackage,Software Package,PSPP
+DDI-SoftwarePackage,Software Package,R Commander
+DDI-SoftwarePackage,Software Package,R
+DDI-SoftwarePackage,Software Package,RATS
+DDI-SoftwarePackage,Software Package,RKWard
+DDI-SoftwarePackage,Software Package,SalStat
+DDI-SoftwarePackage,Software Package,SAS
+DDI-SoftwarePackage,Software Package,Shazam
+DDI-SoftwarePackage,Software Package,SOCR
+DDI-SoftwarePackage,Software Package,SPlus
+DDI-SoftwarePackage,Software Package,SPSS
+DDI-SoftwarePackage,Software Package,Stata
+DDI-SoftwarePackage,Software Package,Statistica
+DDI-SoftwarePackage,Software Package,SUDAAN
+DDI-SoftwarePackage,Software Package,TSP
+DDI-SoftwarePackage,Software Package,Other
+DDI-TypeOfInstrument,Type of Instrument,Questionnaire
+DDI-TypeOfInstrument,Type of Instrument,Interview scheme and/or themes
+DDI-TypeOfInstrument,Type of Instrument,Data collection guidelines
+DDI-TypeOfInstrument,Type of Instrument,Participant tasks
+DDI-TypeOfInstrument,Type of Instrument,Technical instrument(s)
+DDI-TypeOfInstrument,Type of Instrument,Programming script
+DDI-TypeOfInstrument,Type of Instrument,Other
+DDI-SamplingProcedure,Sampling Procedure,Total universe/Complete enumeration
+DDI-SamplingProcedure,Sampling Procedure,Probability
+DDI-SamplingProcedure,Sampling Procedure,Theoretical Sampling
+DDI-SamplingProcedure,Sampling Procedure,Non-probability
+DDI-SamplingProcedure,Sampling Procedure,Mixed probability and non-probability
+DDI-SamplingProcedure,Sampling Procedure,Other
+DDI-ModeOfCollection,Mode Of Collection,Interview
+DDI-ModeOfCollection,Mode Of Collection,Self-administered questionnaire
+DDI-ModeOfCollection,Mode Of Collection,Focus group
+DDI-ModeOfCollection,Mode Of Collection,Self-administered writings and/or diaries
+DDI-ModeOfCollection,Mode Of Collection,Observation
+DDI-ModeOfCollection,Mode Of Collection,Experiment
+DDI-ModeOfCollection,Mode Of Collection,Recording
+DDI-ModeOfCollection,Mode Of Collection,Automated data extraction
+DDI-ModeOfCollection,Mode Of Collection,Content coding
+DDI-ModeOfCollection,Mode Of Collection,Transcription
+DDI-ModeOfCollection,Mode Of Collection,Compilation/Synthesis
+DDI-ModeOfCollection,Mode Of Collection,Summary
+DDI-ModeOfCollection,Mode Of Collection,Aggregation
+DDI-ModeOfCollection,Mode Of Collection,Simulation
+DDI-ModeOfCollection,Mode Of Collection,Measurements and tests
+DDI-ModeOfCollection,Mode Of Collection,Other
+DDI-TypeOfAddress,Type of Address,Mailing address
+DDI-TypeOfAddress,Type of Address,Visiting address
+DDI-TypeOfAddress,Type of Address,Other
+DDI-TimeMethod,Time Method,Longitudinal
+DDI-TimeMethod,Time Method,Time series
+DDI-TimeMethod,Time Method,Cross-section
+DDI-TimeMethod,Time Method,Cross-section ad-hoc follow-up
+DDI-TimeMethod,Time Method,Other
+DDI-TypeOfFrequency,Type of Frequency,Continuous
+DDI-TypeOfFrequency,Type of Frequency,Every minute
+DDI-TypeOfFrequency,Type of Frequency,Every hour
+DDI-TypeOfFrequency,Type of Frequency,Every two hours
+DDI-TypeOfFrequency,Type of Frequency,Every three hours
+DDI-TypeOfFrequency,Type of Frequency,Twice a day
+DDI-TypeOfFrequency,Type of Frequency,Every day
+DDI-TypeOfFrequency,Type of Frequency,Every business day
+DDI-TypeOfFrequency,Type of Frequency,Occasional daily
+DDI-TypeOfFrequency,Type of Frequency,Three times a week
+DDI-TypeOfFrequency,Type of Frequency,Twice a week
+DDI-TypeOfFrequency,Type of Frequency,Every week
+DDI-TypeOfFrequency,Type of Frequency,Occasional weekly
+DDI-TypeOfFrequency,Type of Frequency,Every ten days
+DDI-TypeOfFrequency,Type of Frequency,Three times a month
+DDI-TypeOfFrequency,Type of Frequency,Every two weeks
+DDI-TypeOfFrequency,Type of Frequency,Twice a month
+DDI-TypeOfFrequency,Type of Frequency,Every three weeks
+DDI-TypeOfFrequency,Type of Frequency,Every four weeks
+DDI-TypeOfFrequency,Type of Frequency,Every month
+DDI-TypeOfFrequency,Type of Frequency,Occasional monthly
+DDI-TypeOfFrequency,Type of Frequency,Every two months
+DDI-TypeOfFrequency,Type of Frequency,Every three months
+DDI-TypeOfFrequency,Type of Frequency,Three times a year
+DDI-TypeOfFrequency,Type of Frequency,Twice a year
+DDI-TypeOfFrequency,Type of Frequency,Every year
+DDI-TypeOfFrequency,Type of Frequency,Occasional annual
+DDI-TypeOfFrequency,Type of Frequency,Every two years
+DDI-TypeOfFrequency,Type of Frequency,Every three years
+DDI-TypeOfFrequency,Type of Frequency,Every four years
+DDI-TypeOfFrequency,Type of Frequency,Every five years
+DDI-TypeOfFrequency,Type of Frequency,Every ten years
+DDI-TypeOfFrequency,Type of Frequency,Every twenty years
+DDI-TypeOfFrequency,Type of Frequency,Every thirty years
+DDI-TypeOfFrequency,Type of Frequency,Irregular
+DDI-TypeOfFrequency,Type of Frequency,Other
+DDI-TypeOfFrequency,Type of Frequency,Unspecified
+DDI-TypeOfFrequency,Type of Frequency,Not applicable
+DDI-TypeOfTranslationMethod,Type of Translation Method,Single translation
+DDI-TypeOfTranslationMethod,Type of Translation Method,Split translation
+DDI-TypeOfTranslationMethod,Type of Translation Method,Parallel translations
+DDI-TypeOfTranslationMethod,Type of Translation Method,Same language adaptation
+DDI-TypeOfTranslationMethod,Type of Translation Method,Same language harmonization
+DDI-TypeOfTranslationMethod,Type of Translation Method,Translation method unspecified
+DDI-TypeOfTranslationMethod,Type of Translation Method,Other
+DDI-TimeZone,Time Zone,UTC- 12:00
+DDI-TimeZone,Time Zone,UTC- 11:00
+DDI-TimeZone,Time Zone,UTC- 10:00
+DDI-TimeZone,Time Zone,UTC- 09:30
+DDI-TimeZone,Time Zone,UTC- 09:00
+DDI-TimeZone,Time Zone,UTC- 08:00
+DDI-TimeZone,Time Zone,UTC- 07:00
+DDI-TimeZone,Time Zone,UTC- 06:00
+DDI-TimeZone,Time Zone,UTC- 05:00
+DDI-TimeZone,Time Zone,UTC- 04:30
+DDI-TimeZone,Time Zone,UTC- 04:00
+DDI-TimeZone,Time Zone,UTC- 03:30
+DDI-TimeZone,Time Zone,UTC- 03:00
+DDI-TimeZone,Time Zone,UTC- 02:00
+DDI-TimeZone,Time Zone,UTC- 01:00
+DDI-TimeZone,Time Zone,UTC
+DDI-TimeZone,Time Zone,UTC + 01:00
+DDI-TimeZone,Time Zone,UTC + 02:00
+DDI-TimeZone,Time Zone,UTC + 03:00
+DDI-TimeZone,Time Zone,UTC + 03:30
+DDI-TimeZone,Time Zone,UTC + 04:00
+DDI-TimeZone,Time Zone,UTC + 04:30
+DDI-TimeZone,Time Zone,UTC + 05:00
+DDI-TimeZone,Time Zone,UTC + 05:30
+DDI-TimeZone,Time Zone,UTC + 05:45
+DDI-TimeZone,Time Zone,UTC + 06:00
+DDI-TimeZone,Time Zone,UTC + 06:30
+DDI-TimeZone,Time Zone,UTC + 07:00
+DDI-TimeZone,Time Zone,UTC + 08:00
+DDI-TimeZone,Time Zone,UTC + 09:00
+DDI-TimeZone,Time Zone,UTC + 09:30
+DDI-TimeZone,Time Zone,UTC + 10:00
+DDI-TimeZone,Time Zone,UTC + 10:30
+DDI-TimeZone,Time Zone,UTC + 11:00
+DDI-TimeZone,Time Zone,UTC + 11:30
+DDI-TimeZone,Time Zone,UTC + 12:00
+DDI-TimeZone,Time Zone,UTC + 12:45
+DDI-TimeZone,Time Zone,UTC + 13:00
+DDI-TimeZone,Time Zone,UTC + 14:00
+DDI-TimeZone,Time Zone,Other
